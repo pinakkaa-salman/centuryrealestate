@@ -75,6 +75,119 @@
             .error {width:100%; text-align:left; height:10px; font-size:13px; color:darkred;}
             .project__enquiry .error {color:black !IMPORTANT;}
         </style>
+        <style>
+    
+            .hero-section {
+                background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                            url('https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600&h=600&fit=crop');
+                background-size: cover;
+                background-position: center;
+                background-attachment: fixed;
+                height: 400px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                padding: 20px;
+            }
+    
+            .hero-title {
+                color: #ffffff;
+                font-size: 2.4rem;
+                font-weight: 600;
+                max-width: 900px;
+                text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+            }
+    
+            .blog-content {
+                max-width: 900px;
+                margin: 0 auto;
+                padding: 60px 30px;
+            }
+    
+            .blog-section {
+                margin-bottom: 50px;
+            }
+    
+            .section-title {
+                font-size: 1.5rem;
+                font-weight: 600;
+                color: #000000;
+                margin-bottom: 20px;
+            }
+    
+            .section-text {
+                font-size: 0.9rem;
+                color: #333333;
+                margin-bottom: 20px;
+                line-height: 1.8;
+            }
+    
+            .bullet-list {
+                list-style: none;
+                margin: 20px 0;
+            }
+    
+            .bullet-list li {
+                font-size: 0.8rem;
+                color: #333333;
+                margin-bottom: 20px;
+                padding-left: 0;
+                line-height: 1.8;
+            }
+    
+            .bullet-list li strong {
+                color: #000000;
+                font-weight: 600;
+            }
+    
+            @media (max-width: 768px) {
+                .hero-section {
+                    height: 300px;
+                }
+    
+                .hero-title {
+                    font-size: 2rem;
+                }
+    
+                .blog-content {
+                    padding: 40px 20px;
+                }
+    
+                .section-title {
+                    font-size: 1.5rem;
+                }
+    
+                .section-text,
+                .bullet-list li {
+                    font-size: 1rem;
+                }
+            }
+    
+            @media (max-width: 480px) {
+                .hero-section {
+                    height: 250px;
+                    background-attachment: scroll;
+                }
+    
+                .hero-title {
+                    font-size: 1.6rem;
+                }
+    
+                .blog-content {
+                    padding: 30px 15px;
+                }
+    
+                .section-title {
+                    font-size: 1.3rem;
+                }
+    
+                .section-text,
+                .bullet-list li {
+                    font-size: 0.95rem;
+                }
+            }
+        </style>
     </head>
     <body cz-shortcut-listen="true" style="overflow-y: auto;" __processed_a93fa7f5-61a2-419f-a63f-09ec61f3beba__="true">
         <!-- Google Tag Manager (noscript) -->
@@ -164,238 +277,98 @@
         </header>
         <div class="scroller" data-scroll-container="" data-scroll-section-inview="" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -600, 0, 1); opacity: 1; pointer-events: all;">
             <main>
-    <div class="container-fluid banner p-0 inView" data-scroll-repeat="" data-scroll="" data-scroll-class="inView" style="background: #000 url(https://www.centuryrealestate.in/assets/images/banners/xjzM5wQ2ZQ9Emixzz5WFcXqYcBo2DW.jpg)no-repeat top center/cover;background:transparent;">
-        <video class="desktop" poster="https://www.centuryrealestate.in/assets/videos/banner-poster.jpg" playsinline="" autoplay="" muted="" loop="">
-            <!-- <source src="https://www.centuryrealestate.in/assets/videos/banner.webm" type="video/webm"> -->
-            <source src="https://www.centuryrealestate.in/assets/videos/desktop-project-banner.mp4" type="video/mp4">
-        </video>
-         <video class="mobile" poster="https://www.centuryrealestate.in/assets/videos/banner-poster.jpg" playsinline="" autoplay="" muted="" loop="">
-            <!-- <source src="https://www.centuryrealestate.in/assets/videos/banner.webm" type="video/webm"> -->
-            <source src="https://www.centuryrealestate.in/assets/videos/mobile-project-banner.mp4" type="video/mp4">
-        </video>
-        <div class="scrollTo m-auto">
-            <div class="scrollTo__scroll">
-                 Scroll Down
-                 <span></span>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid projects mt-5 pt-5" id="projectListing">
-        <div class="row custom-row">
-            <div class="col-12">
-                <h3 class="heading-primary is-inview" data-scroll="" data-scroll-speed="1" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 2.15, 0, 1);">Century Real Estate has the most fitting<br> options for your dream home.</h3>
-            </div>
-        </div>
-        <!-- <div class="row custom-row projects__tabs mt-5" id="filters">
-            <div class="col-12 col-sm-12 col-md-4 mb-5">
-                <h2 class="sub-title mb-3 mt-4 is-inview" data-scroll="" data-scroll-speed="1.2" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 21.705, 0, 1);">Type</h2>
-                <ul class="button-group project_type_filter is-inview" data-scroll="" data-scroll-speed="1.4" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 31.9025, 0, 1);">
-                                        <li data-filter="1" data-slug="luxury">Luxury</li>
-                                        <li data-filter="2" data-slug="premium">Premium</li>
-                                        <li data-filter="3" data-slug="plotted">Plotted</li>
-                                    </ul>
-            </div>
-            <input type="hidden" id="property_type" value="">
-            <input type="hidden" id="property_status" value="">
-            <div class="col-12 col-sm-12 col-md-8 mb-5">
-                <h2 class="sub-title mb-3 mt-4 is-inview" data-scroll="" data-scroll-speed="1.2" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 21.705, 0, 1);">Status</h2>
-                <ul class="button-group project_status_filter is-inview" data-scroll="" data-scroll-speed="1.4" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 31.9025, 0, 1);">
-                                        <li data-filter="1" data-slug="ongoing">Ongoing</li>
-                                        <li data-filter="2" data-slug="upcoming">Upcoming</li>
-                                        <li data-filter="3" data-slug="completed">Completed</li>
-                                        <li data-filter="4" data-slug="sold-out">Sold Out</li>
-                                    </ul>
-            </div>
-        </div> -->
-        <div class="projects__lists">
-            <div class="row custom-row grid projects__lists__section inView" data-scroll-speed=".2" data-scroll-offset="5%" data-scroll-repeat="" data-scroll="" data-scroll-class="inView" style="position: relative; height: 3376.69px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 39.6753, 0, 1);">
-		<div class="projects__lists__section__item" style="position: absolute; left: 132.719px; top: 0px;">
-	    <a href="./needs3.html" class="projects__lists__section__item__inner">
-	        <img loading="lazy" src="./project_files/Century Marathahalli-thumbnail.jpg" alt="Century Marathahalli" class="img-fluid" width="402" height="402">
-	        <div class="projects__lists__item__inner__caption" data-scroll="" data-scroll-repeat="" data-scroll-class="fadeInView" data-scroll-delay="2000">
-	            <h3 class="project-heading mb-2" data-scroll="" data-scroll-speed="1" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">NEEDS 3 PROJECT 168</h3>
-	            								<h4 data-scroll="" data-scroll-speed="1.2" class="mb-2" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"><span><i class="fa-solid fa-map-marker" aria-hidden="true"></i></span> Bengaluru</h4>
-									            <span class="link" data-scroll="" data-scroll-speed="1.3" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"> <span></span> Explore</span>
-	            	        </div>
-	    </a>
-	</div>
-		<!-- <div class="projects__lists__section__item" style="position: absolute; left: 695.5px; top: 0px; transition-property: opacity, transform; transition-duration: 800ms; transition-delay: 30ms; transform: translate3d(0.0004px, 0px, 0px);">
-	    <a href="https://www.centuryrealestate.in/residential/projects/century-liva" target="_blank" class="projects__lists__section__item__inner">
-	        <img loading="lazy" src="./project_files/iVIO9ssIIvfn64o0iZLl1Tw0sbsUsS.jpg" alt="Century Liva" class="img-fluid" width="402" height="402">
-	        <div class="projects__lists__item__inner__caption" data-scroll="" data-scroll-repeat="" data-scroll-class="fadeInView" data-scroll-delay="2000">
-	            <h3 class="project-heading mb-2" data-scroll="" data-scroll-speed="1" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">Century Liva</h3>
-	            				<h4 data-scroll="" data-scroll-speed="1.1" class="mb-3" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"><span><i class="fa-solid fa-building-o" aria-hidden="true"></i></span> 3 BED RESIDENCES</h4>
-												<h4 data-scroll="" data-scroll-speed="1.2" class="mb-2" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"><span><i class="fa-solid fa-map-marker" aria-hidden="true"></i></span> Yelahanka - Doddaballapura Road</h4>
-									            <span class="link" data-scroll="" data-scroll-speed="1.3" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"> <span></span> Explore</span>
-	            	        </div>
-	    </a>
-	</div> -->
-		<!-- <div class="projects__lists__section__item" style="position: absolute; left: 1258.28px; top: 0px; transition-property: opacity, transform; transition-duration: 800ms; transition-delay: 60ms; transform: translate3d(0.0018px, 0px, 0px);">
-	    <a href="https://www.centuryrealestate.in/residential/projects/century-regalia" target="_blank" class="projects__lists__section__item__inner">
-	        <img loading="lazy" src="./project_files/eQwqLuyilUBCwFHDCE9lp5zOwB9bZI.jpg" alt="Century Regalia" class="img-fluid" width="402" height="402">
-	        <div class="projects__lists__item__inner__caption" data-scroll="" data-scroll-repeat="" data-scroll-class="fadeInView" data-scroll-delay="2000">
-	            <h3 class="project-heading mb-2" data-scroll="" data-scroll-speed="1" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">Century Regalia</h3>
-	            				<h4 data-scroll="" data-scroll-speed="1.1" class="mb-3" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"><span><i class="fa-solid fa-building-o" aria-hidden="true"></i></span> 3 &amp; 4 BED RESIDENCES</h4>
-												<h4 data-scroll="" data-scroll-speed="1.2" class="mb-2" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"><span><i class="fa-solid fa-map-marker" aria-hidden="true"></i></span> Golf Avenue, Indiranagar</h4>
-									            <span class="link" data-scroll="" data-scroll-speed="1.3" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"> <span></span> Explore</span>
-	            	        </div>
-	    </a>
-	</div> -->
-		<!-- <div class="projects__lists__section__item" style="position: absolute; left: 132.719px; top: 562.781px; transition-property: opacity, transform; transition-duration: 800ms; transition-delay: 90ms; transform: translate3d(0px, 0.0004px, 0px);">
-	    <a href="https://www.centuryrealestate.in/residential/projects/century-trails" target="_blank" class="projects__lists__section__item__inner">
-	        <img loading="lazy" src="./project_files/D9TxfFr6vOjTSnqurKaHiiK1xfIo0F.jpg" alt="Century Trails" class="img-fluid" width="402" height="402">
-	        <div class="projects__lists__item__inner__caption" data-scroll="" data-scroll-repeat="" data-scroll-class="fadeInView" data-scroll-delay="2000">
-	            <h3 class="project-heading mb-2" data-scroll="" data-scroll-speed="1" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">Century Trails</h3>
-	            				<h4 data-scroll="" data-scroll-speed="1.1" class="mb-3" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"><span><i class="fa-solid fa-building-o" aria-hidden="true"></i></span> Adventure Themed Plots</h4>
-												<h4 data-scroll="" data-scroll-speed="1.2" class="mb-2" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"><span><i class="fa-solid fa-map-marker" aria-hidden="true"></i></span> Devanahalli (off STRR Main Road)</h4>
-									            <span class="link" data-scroll="" data-scroll-speed="1.3" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"> <span></span> Explore</span>
-	            	        </div>
-	    </a>
-	</div> -->
-		<!-- <div class="projects__lists__section__item" style="position: absolute; left: 695.5px; top: 562.781px; transition-property: opacity, transform; transition-duration: 800ms; transition-delay: 120ms; transform: translate3d(0.0004px, 0.0004px, 0px);">
-	    <a href="https://www.centuryrealestate.in/residential/projects/ferie-villas-at-century-wintersun" target="_blank" class="projects__lists__section__item__inner">
-	        <img loading="lazy" src="./project_files/eoyuk4cn5zA48YpbOCdhmy5o2qxVrr.jpg" alt="Ferié villas at Century Wintersun" class="img-fluid" width="402" height="402">
-	        <div class="projects__lists__item__inner__caption" data-scroll="" data-scroll-repeat="" data-scroll-class="fadeInView" data-scroll-delay="2000">
-	            <h3 class="project-heading mb-2" data-scroll="" data-scroll-speed="1" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">Ferié villas at Century Wintersun</h3>
-	            				<h4 data-scroll="" data-scroll-speed="1.1" class="mb-3" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"><span><i class="fa-solid fa-building-o" aria-hidden="true"></i></span> LUXURY 4 BED VILLAS</h4>
-												<h4 data-scroll="" data-scroll-speed="1.2" class="mb-2" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"><span><i class="fa-solid fa-map-marker" aria-hidden="true"></i></span> DODDABALLAPURA ROAD</h4>
-									            <span class="link" data-scroll="" data-scroll-speed="1.3" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"> <span></span> Explore</span>
-	            	        </div>
-	    </a>
-	</div> -->
-		<!-- <div class="projects__lists__section__item" style="position: absolute; left: 1258.28px; top: 562.781px; transition-property: opacity, transform; transition-duration: 800ms; transition-delay: 150ms; transform: translate3d(0.0018px, 0.0004px, 0px);">
-	    <a href="https://www.centuryrealestate.in/residential/projects/century-eden" target="_blank" class="projects__lists__section__item__inner">
-	        <img loading="lazy" src="./project_files/hhz8hzk9z9KlIEIbMj6defAIVlArY1.jpg" alt="Century Eden" class="img-fluid" width="402" height="402">
-	        <div class="projects__lists__item__inner__caption" data-scroll="" data-scroll-repeat="" data-scroll-class="fadeInView" data-scroll-delay="2000">
-	            <h3 class="project-heading mb-2" data-scroll="" data-scroll-speed="1" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">Century Eden</h3>
-	            				<h4 data-scroll="" data-scroll-speed="1.1" class="mb-3" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"><span><i class="fa-solid fa-building-o" aria-hidden="true"></i></span> LARGE MANSION PLOTS</h4>
-												<h4 data-scroll="" data-scroll-speed="1.2" class="mb-2" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"><span><i class="fa-solid fa-map-marker" aria-hidden="true"></i></span> Yelahanka - Doddaballapura Main Road</h4>
-									            <span class="link" data-scroll="" data-scroll-speed="1.3" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"> <span></span> Explore</span>
-	            	        </div>
-	    </a>
-	</div> -->
-		<!-- <div class="projects__lists__section__item" style="position: absolute; left: 132.719px; top: 1125.56px; transition-property: opacity, transform; transition-duration: 800ms; transition-delay: 180ms; transform: translate3d(0px, 0.0027999px, 0px);">
-	    <a href="https://www.centuryrealestate.in/residential/projects/century-novus" target="_blank" class="projects__lists__section__item__inner">
-	        <img loading="lazy" src="./project_files/mYBdTgaX8mko9jN7AQwVZ7rMLb8UFu.jpg" alt="Century Novus" class="img-fluid" width="402" height="402">
-	        <div class="projects__lists__item__inner__caption" data-scroll="" data-scroll-repeat="" data-scroll-class="fadeInView" data-scroll-delay="2000">
-	            <h3 class="project-heading mb-2" data-scroll="" data-scroll-speed="1" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">Century Novus</h3>
-	            				<h4 data-scroll="" data-scroll-speed="1.1" class="mb-3" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"><span><i class="fa-solid fa-building-o" aria-hidden="true"></i></span> 2|3|4 BED RESIDENCES</h4>
-												<h4 data-scroll="" data-scroll-speed="1.2" class="mb-2" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"><span><i class="fa-solid fa-map-marker" aria-hidden="true"></i></span> Jakkur</h4>
-									            <span class="link" data-scroll="" data-scroll-speed="1.3" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"> <span></span> Explore</span>
-	            	        </div>
-	    </a>
-	</div> -->
-		<!-- <div class="projects__lists__section__item" style="position: absolute; left: 695.5px; top: 1125.56px; transition-property: opacity, transform; transition-duration: 800ms; transition-delay: 210ms; transform: translate3d(0.0004px, 0.0027999px, 0px);">
-	    <a href="https://www.centuryrealestate.in/residential/projects/century-ethos" target="_blank" class="projects__lists__section__item__inner">
-	        <img loading="lazy" src="./project_files/UO9MCrV0sz7siz0cZO7ia0Lc4sHfbb.jpg" alt="Century Ethos" class="img-fluid" width="402" height="402">
-	        <div class="projects__lists__item__inner__caption" data-scroll="" data-scroll-repeat="" data-scroll-class="fadeInView" data-scroll-delay="2000">
-	            <h3 class="project-heading mb-2" data-scroll="" data-scroll-speed="1" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">Century Ethos</h3>
-	            				<h4 data-scroll="" data-scroll-speed="1.1" class="mb-3" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"><span><i class="fa-solid fa-building-o" aria-hidden="true"></i></span> UBER-SIZED 3 &amp; 4 BED RESIDENCES</h4>
-												<h4 data-scroll="" data-scroll-speed="1.2" class="mb-2" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"><span><i class="fa-solid fa-map-marker" aria-hidden="true"></i></span> HEBBAL</h4>
-									            <span class="link" data-scroll="" data-scroll-speed="1.3" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"> <span></span> Explore</span>
-	            	        </div>
-	    </a>
-	</div> -->
-		<!-- <div class="projects__lists__section__item" style="position: absolute; left: 1258.28px; top: 1125.56px; transition-property: opacity, transform; transition-duration: 800ms; transition-delay: 240ms; transform: translate3d(0.0018px, 0.0027999px, 0px);">
-	    <a href="https://www.centuryrealestate.in/residential/projects/century-renata" target="_blank" class="projects__lists__section__item__inner">
-	        <img loading="lazy" src="./project_files/3UHu7BOfMbWJdukhQryc6PzEvnEbxJ.jpg" alt="Century Renata" class="img-fluid" width="402" height="402">
-	        <div class="projects__lists__item__inner__caption" data-scroll="" data-scroll-repeat="" data-scroll-class="fadeInView" data-scroll-delay="2000">
-	            <h3 class="project-heading mb-2" data-scroll="" data-scroll-speed="1" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">Century Renata</h3>
-	            				<h4 data-scroll="" data-scroll-speed="1.1" class="mb-3" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"><span><i class="fa-solid fa-building-o" aria-hidden="true"></i></span> GRANDE 3 &amp; 4 BED RESIDENCES</h4>
-												<h4 data-scroll="" data-scroll-speed="1.2" class="mb-2" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"><span><i class="fa-solid fa-map-marker" aria-hidden="true"></i></span> RICHMOND ROAD</h4>
-									            <span class="link" data-scroll="" data-scroll-speed="1.3" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"> <span></span> Explore</span>
-	            	        </div>
-	    </a>
-	</div> -->
-		<!-- <div class="projects__lists__section__item" style="position: absolute; left: 132.719px; top: 1688.34px; transition-property: opacity, transform; transition-duration: 800ms; transition-delay: 270ms; transform: translate3d(0px, 0.0042px, 0px);">
-	    <a href="https://www.centuryrealestate.in/residential/projects/century-breeze" target="_blank" class="projects__lists__section__item__inner">
-	        <img loading="lazy" src="./project_files/gQNVVJgn52L5x5RpX7c4WaHJeNBfkD.jpg" alt="Century Breeze" class="img-fluid" width="402" height="402">
-	        <div class="projects__lists__item__inner__caption" data-scroll="" data-scroll-repeat="" data-scroll-class="fadeInView" data-scroll-delay="2000">
-	            <h3 class="project-heading mb-2" data-scroll="" data-scroll-speed="1" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">Century Breeze</h3>
-	            				<h4 data-scroll="" data-scroll-speed="1.1" class="mb-3" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"><span><i class="fa-solid fa-building-o" aria-hidden="true"></i></span> LARGE 2 BED RESIDENCES</h4>
-												<h4 data-scroll="" data-scroll-speed="1.2" class="mb-2" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"><span><i class="fa-solid fa-map-marker" aria-hidden="true"></i></span> JAKKUR</h4>
-									            <span class="link" data-scroll="" data-scroll-speed="1.3" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"> <span></span> Explore</span>
-	            	        </div>
-	    </a>
-	</div> -->
-		<!-- <div class="projects__lists__section__item" style="position: absolute; left: 695.5px; top: 1688.34px; transition-property: opacity, transform; transition-duration: 800ms; transition-delay: 300ms; transform: translate3d(0.0004px, 0.0042px, 0px);">
-	    <a href="https://www.centuryrealestate.in/residential/projects/century-horizon" target="_blank" class="projects__lists__section__item__inner">
-	        <img loading="lazy" src="./project_files/J5gJpg1CRdScNf3xvOoTz8lmOYQLV5.jpg" alt="Century Horizon" class="img-fluid" width="402" height="402">
-	        <div class="projects__lists__item__inner__caption" data-scroll="" data-scroll-repeat="" data-scroll-class="fadeInView" data-scroll-delay="2000">
-	            <h3 class="project-heading mb-2" data-scroll="" data-scroll-speed="1" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">Century Horizon</h3>
-	            				<h4 data-scroll="" data-scroll-speed="1.1" class="mb-3" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"><span><i class="fa-solid fa-building-o" aria-hidden="true"></i></span> 2 &amp; 3 BED RESIDENCES</h4>
-												<h4 data-scroll="" data-scroll-speed="1.2" class="mb-2" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"><span><i class="fa-solid fa-map-marker" aria-hidden="true"></i></span> HEBBAL</h4>
-									            <span class="link" data-scroll="" data-scroll-speed="1.3" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"> <span></span> Explore</span>
-	            	        </div>
-	    </a>
-	</div> -->
-		<!-- <div class="projects__lists__section__item" style="position: absolute; left: 1258.28px; top: 1688.34px; transition-property: opacity, transform; transition-duration: 800ms; transition-delay: 330ms; transform: translate3d(0.0018px, 0.0042px, 0px);">
-	    <a href="https://www.centuryrealestate.in/residential/projects/century-wintersun" target="_blank" class="projects__lists__section__item__inner">
-	        <img loading="lazy" src="./project_files/sIh9uWv4M0GMbKd6MXuoDLRuWlRGfa.jpg" alt="Century Wintersun" class="img-fluid" width="402" height="402">
-	        <div class="projects__lists__item__inner__caption" data-scroll="" data-scroll-repeat="" data-scroll-class="fadeInView" data-scroll-delay="2000">
-	            <h3 class="project-heading mb-2" data-scroll="" data-scroll-speed="1" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">Century Wintersun</h3>
-	            				<h4 data-scroll="" data-scroll-speed="1.1" class="mb-3" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"><span><i class="fa-solid fa-building-o" aria-hidden="true"></i></span> LUXURY 4 BED VILLAS</h4>
-												<h4 data-scroll="" data-scroll-speed="1.2" class="mb-2" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"><span><i class="fa-solid fa-map-marker" aria-hidden="true"></i></span> DODDABALLAPURA MAIN ROAD</h4>
-									            <span class="link" data-scroll="" data-scroll-speed="1.3" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"> <span></span> Explore</span>
-	            	        </div>
-	    </a>
-	</div> -->
-		<!-- <div class="projects__lists__section__item" style="position: absolute; left: 132.719px; top: 2251.13px; transition-property: opacity, transform; transition-duration: 800ms; transition-delay: 360ms; transform: translate3d(0px, -0.0044px, 0px);">
-	    <a href="https://www.centuryrealestate.in/residential/projects/century-linea" target="_blank" class="projects__lists__section__item__inner">
-	        <img loading="lazy" src="./project_files/jXV9T04nJPpyi3PSkbVPxKwwByYu8E.jpg" alt="Century Linea" class="img-fluid" width="402" height="402">
-	        <div class="projects__lists__item__inner__caption" data-scroll="" data-scroll-repeat="" data-scroll-class="fadeInView" data-scroll-delay="2000">
-	            <h3 class="project-heading mb-2" data-scroll="" data-scroll-speed="1" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">Century Linea</h3>
-	            				<h4 data-scroll="" data-scroll-speed="1.1" class="mb-3" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"><span><i class="fa-solid fa-building-o" aria-hidden="true"></i></span> 3 BED RESIDENCES</h4>
-												<h4 data-scroll="" data-scroll-speed="1.2" class="mb-2" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"><span><i class="fa-solid fa-map-marker" aria-hidden="true"></i></span> BELLARY ROAD</h4>
-									            <span class="link" data-scroll="" data-scroll-speed="1.3" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"> <span></span> Explore</span>
-	            	        </div>
-	    </a>
-	</div> -->
-		<!-- <div class="projects__lists__section__item" style="position: absolute; left: 695.5px; top: 2251.13px; transition-property: opacity, transform; transition-duration: 800ms; transition-delay: 390ms; transform: translate3d(0.0004px, -0.0044px, 0px);">
-	    <a href="https://www.centuryrealestate.in/residential/projects/century-seasons" target="_blank" class="projects__lists__section__item__inner">
-	        <img loading="lazy" src="./project_files/yBqUkjfY3foorPJvOrlJYNeI24DOfk.jpg" alt="Century Seasons" class="img-fluid" width="402" height="402">
-	        <div class="projects__lists__item__inner__caption" data-scroll="" data-scroll-repeat="" data-scroll-class="fadeInView" data-scroll-delay="2000">
-	            <h3 class="project-heading mb-2" data-scroll="" data-scroll-speed="1" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">Century Seasons</h3>
-	            				<h4 data-scroll="" data-scroll-speed="1.1" class="mb-3" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"><span><i class="fa-solid fa-building-o" aria-hidden="true"></i></span> PREMIUM SEASON-THEMED PLOTS</h4>
-												<h4 data-scroll="" data-scroll-speed="1.2" class="mb-2" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"><span><i class="fa-solid fa-map-marker" aria-hidden="true"></i></span> DEVANAHALLI MAIN RD. (ON PROPOSED STRR)</h4>
-									            <span class="link" data-scroll="" data-scroll-speed="1.3" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"> <span></span> Explore</span>
-	            	        </div>
-	    </a>
-	</div> -->
-		<!-- <div class="projects__lists__section__item" style="position: absolute; left: 1258.28px; top: 2251.13px; transition-property: opacity, transform; transition-duration: 800ms; transition-delay: 420ms; transform: translate3d(0.0018px, -0.0044px, 0px);">
-	    <a href="https://www.centuryrealestate.in/residential/projects/century-greens" target="_blank" class="projects__lists__section__item__inner">
-	        <img loading="lazy" src="./project_files/NBIzRyhjXVtnr9TIklHQrHKv9yQv7n.jpg" alt="Century Greens" class="img-fluid" width="402" height="402">
-	        <div class="projects__lists__item__inner__caption" data-scroll="" data-scroll-repeat="" data-scroll-class="fadeInView" data-scroll-delay="2000">
-	            <h3 class="project-heading mb-2" data-scroll="" data-scroll-speed="1" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">Century Greens</h3>
-	            				<h4 data-scroll="" data-scroll-speed="1.1" class="mb-3" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"><span><i class="fa-solid fa-building-o" aria-hidden="true"></i></span> PREMIUM NATURE-THEMED PLOTS</h4>
-												<h4 data-scroll="" data-scroll-speed="1.2" class="mb-2" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"><span><i class="fa-solid fa-map-marker" aria-hidden="true"></i></span> IVC ROAD, NORTH BENGALURU</h4>
-									            <span class="link" data-scroll="" data-scroll-speed="1.3" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"> <span></span> Explore</span>
-	            	        </div>
-	    </a>
-	</div> -->
-		<!-- <div class="projects__lists__section__item" style="position: absolute; left: 132.719px; top: 2813.91px; transition-property: opacity, transform; transition-duration: 800ms; transition-delay: 450ms; transform: translate3d(0px, -0.003px, 0px);">
-	    <a href="https://www.centuryrealestate.in/residential/projects/century-sports-village" target="_blank" class="projects__lists__section__item__inner">
-	        <img loading="lazy" src="./project_files/6GuYJbh2no3JDM1wNoD7Ym3Ka5LiqB.jpg" alt="Century Sports Village" class="img-fluid" width="402" height="402">
-	        <div class="projects__lists__item__inner__caption" data-scroll="" data-scroll-repeat="" data-scroll-class="fadeInView" data-scroll-delay="2000">
-	            <h3 class="project-heading mb-2" data-scroll="" data-scroll-speed="1" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">Century Sports Village</h3>
-	            				<h4 data-scroll="" data-scroll-speed="1.1" class="mb-3" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"><span><i class="fa-solid fa-building-o" aria-hidden="true"></i></span> SPORTS-THEMED PLOTTED DEVELOPMENT</h4>
-												<h4 data-scroll="" data-scroll-speed="1.2" class="mb-2" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"><span><i class="fa-solid fa-map-marker" aria-hidden="true"></i></span> On IVC Road, Devanahalli</h4>
-									            <span class="link" data-scroll="" data-scroll-speed="1.3" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"> <span></span> Explore</span>
-	            	        </div>
-	    </a>
-	</div> -->
-		<!-- <div class="projects__lists__section__item" style="position: absolute; left: 695.5px; top: 2813.91px; transition-property: opacity, transform; transition-duration: 800ms; transition-delay: 480ms; transform: translate3d(0.0004px, -0.003px, 0px);">
-	    <a href="https://www.centuryrealestate.in/residential/projects/century-yelahanka" target="_blank" class="projects__lists__section__item__inner">
-	        <img loading="lazy" src="./project_files/Century Yelahanka-thumbnail.webp" alt="Century Yelahanka" class="img-fluid" width="402" height="402">
-	        <div class="projects__lists__item__inner__caption" data-scroll="" data-scroll-repeat="" data-scroll-class="fadeInView" data-scroll-delay="2000">
-	            <h3 class="project-heading mb-2" data-scroll="" data-scroll-speed="1" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">Century Yelahanka</h3>
-	            								<h4 data-scroll="" data-scroll-speed="1.2" class="mb-2" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"><span><i class="fa-solid fa-map-marker" aria-hidden="true"></i></span> Yelahanka</h4>
-									            <span class="link" data-scroll="" data-scroll-speed="1.3" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"> <span></span> Explore</span>
-	            	        </div>
-	    </a>
-	</div> -->
-	</div>        </div>
-    </div>
+    
+
+
+
+                <div class="hero-section">
+                    <h1 class="hero-title">Why Invest in an Apartment in Horamavu?</h1>
+                </div>
+            
+                <div class="blog-content">
+                    <div class="blog-section">
+                        <h2 class="section-title">1. Strategic Connectivity and Accessibility</h2>
+                        <p class="section-text">
+                            Horamavu's location offers a rare blend of residential tranquility with high-level access to the city's commercial and transit hubs.
+                        </p>
+                        <ul class="bullet-list">
+                            <li>
+                                <strong>Outer Ring Road (ORR) Proximity:</strong> The proximity to the ORR is Horamavu's biggest asset. This provides seamless connectivity to key corridors like Whitefield, KR Puram, Marathahalli, and Central Bengaluru.
+                            </li>
+                            <li>
+                                <strong>Easy Airport Access:</strong> While not as close as Devanahalli, Horamavu offers manageable travel times to the Kempegowda International Airport (KIA) via the ORR and NH-44, making it attractive for frequent travelers.
+                            </li>
+                            <li>
+                                <strong>Upcoming Metro Benefits:</strong> The area is poised to benefit significantly from the expansion of the Namma Metro Phase 2A (Blue Line), particularly the stations near KR Puram and the ORR stretch, which will dramatically cut commute times and boost land value.
+                            </li>
+                        </ul>
+                    </div>
+            
+                    <div class="blog-section">
+                        <h2 class="section-title">2. Employment Hub Proximity</h2>
+                        <p class="section-text">
+                            The demand for apartments in Horamavu is driven by its excellent connectivity to major tech and business parks:
+                        </p>
+                        <ul class="bullet-list">
+                            <li>
+                                <strong>Manyata Embassy Business Park (MEBP):</strong> This is a primary growth driver. Horamavu offers some of the most viable and short commute options to MEBP, which houses tens of thousands of working professionals.
+                            </li>
+                            <li>
+                                <strong>Other Tech Corridors:</strong> It provides good access to other significant employment zones along the ORR towards Whitefield and the burgeoning business parks in North Bangalore (like those in Hebbal).
+                            </li>
+                        </ul>
+                    </div>
+            
+                    <div class="blog-section">
+                        <h2 class="section-title">3. Attractive Affordability and High Growth Potential</h2>
+                        <p class="section-text">
+                            Compared to established, premium residential zones like Whitefield or Indiranagar, Horamavu still offers a better entry point for mid-segment and upper-mid segment housing.
+                        </p>
+                        <ul class="bullet-list">
+                            <li>
+                                <strong>Value Proposition:</strong> Investors can acquire larger units or properties with better amenities here for the same price they would pay for smaller, older units in more saturated areas.
+                            </li>
+                            <li>
+                                <strong>Rental Demand:</strong> The high influx of professionals working in nearby tech parks (especially Manyata) ensures strong, consistent rental demand and healthy rental yields, making it attractive for buy-to-let investors.
+                            </li>
+                            <li>
+                                <strong>Price Appreciation:</strong> As surrounding areas become saturated and traffic increases, Horamavu's infrastructure and residential development will continue to mature, leading to sustained capital appreciation over the medium to long term.
+                            </li>
+                        </ul>
+                    </div>
+            
+                    <div class="blog-section">
+                        <h2 class="section-title">4. Established Social and Physical Infrastructure</h2>
+                        <p class="section-text">
+                            Horamavu has transitioned from a developing area to a self-sufficient locality:
+                        </p>
+                        <ul class="bullet-list">
+                            <li>
+                                <strong>Retail and Entertainment:</strong> The area is close to major malls (like Elements Mall and Phoenix Mall of Asia) and has a robust local retail ecosystem, ensuring all daily needs are met.
+                            </li>
+                            <li>
+                                <strong>Education and Healthcare:</strong> A wide selection of reputed international and local schools (VIBGYOR, Ryan, etc.) and access to specialized hospitals (Manipal, Aster CMI, etc.) nearby make it highly desirable for families.
+                            </li>
+                            <li>
+                                <strong>Residential Environment:</strong> Despite its growth, parts of Horamavu retain a quieter, more residential feel compared to the dense commercial zones of the city.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <div class="enquiry p-0" data-scroll-offset="5%" data-scroll-repeat="" data-scroll="" data-scroll-class="inView">
         <div class="row custom-row pr-0">
             <div class="col-12 col-sm-12 col-md-6">

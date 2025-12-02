@@ -1,0 +1,2941 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MX6VW9QG');</script>
+<!-- End Google Tag Manager -->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>DNR Arista new</title>
+    <link rel="icon" href="images/fav/Favicon.jpg" type="image/jpg" sizes="16x16">
+    <meta name="description" content=" " />
+    <!-- <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Philosopher" /> -->
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/hover.css" rel="stylesheet">
+
+    <!--    <link href="lightbox/light-box.css" rel='stylesheet' type='text/css'>-->
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="css/form.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+    <!-- Include Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+
+    <style>
+    .her {
+        text-align: center;
+        vertical-align: middle !important;
+        width: 1%;
+    }
+
+    @media screen and (max-width:767px) {
+        .mobile-view-num {
+            display: none;
+        }
+    }
+
+    .fa-phone {
+        margin-right: 0.5em;
+    }
+    </style>
+
+
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MX6VW9QG"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    
+    <!--test-->
+
+    <header class="normal-header">
+        <div class="container-fluid relative">
+            <div class="col-md-1">
+                <div class="pull-left logo-wrapper">
+                    <a href="javascript:void (0);" rel="home" class="pull-left">
+                        <img data-event-category="header" data-event-action="click" data-event-name="logo"
+                            src="images/logo/logo2.png" class=" logo-color" />
+                    </a>
+                    <!-- <img data-event-category="header" data-event-action="click" data-event-name="logo" class="hidden-xs"
+                        src="images/logo/dev.png"
+                        style="background: #fff;width: 166px;/* margin-left: 45px; */position: relative;left: 20px;top: 4px;"> -->
+                </div>
+            </div>`
+
+            <div class="col-md-10">
+                <div class="text-right nav-wrapper">
+                    <nav class="nav-links">
+
+                        <a rel="overview" data-event-category="header" data-event-action="click"
+                            data-event-name="menu-Overview">Overview</a>
+                        <a rel="configuration" data-event-category="header" data-event-action="click"
+                            data-event-name="menu-Configuration">Configuration</a>
+                        <!--<a rel="specifications" data-event-category="header" data-event-action="click"
+                    data-event-name="menu-about-specifications">specifications</a>-->
+
+                        <a rel="gallery" data-event-category="header" data-event-action="click"
+                            data-event-name="menu-location">Gallery</a>
+                        <a rel="location-new" data-event-category="header" data-event-action="click"
+                            data-event-name="menu-location">Location</a>
+                        <a rel="contact" data-event-category="header" data-event-action="click"
+                            data-event-name="tact">Contact Us
+                        </a>
+
+                        <!-- <button class="degform">
+                            <p>360&deg;</p>
+                        </button> -->
+                        <!-- <a data-fancybox="view360" data-type="iframe" data-src="https://view.pixeldo.com/PiramalAranya/"
+                            href="javascript:void (0);">360&deg;</a> -->
+                        <a href="tel:+917829669990" class="mobile-view-num"> <i class="fa fa-phone"></i>+91 7829669990</a>
+
+                    </nav>
+                </div>
+            </div>
+            <div class="col-md-1">
+                <img data-event-category="header" data-event-action="click" data-event-name="logo"
+                    src="images/logo/dev.png" class=" logo-color">
+            </div>
+            <div class="burger-menu hide-in-desktop">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="relative" id="home">
+
+        <div id="carousel-example-generic" class="carousel slide">
+
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img class="d-banner" src="images/slider/w1.jpg" alt="banner"
+                        style="width: 100%; margin-top:-11px !important;">
+                    <img class="m-banner" src="images/slider/m1.jpg" alt="banner" style="width: 100%">
+                </div>
+                <div class="item">
+                    <img class="d-banner" src="images/slider/w2.jpg" alt="banner"
+                        style="width: 100%; margin-top:-11px !important;">
+                    <img class="m-banner" src="images/slider/m2.jpg" alt="banner" style="width: 100%">
+                </div>
+                <div class="item">
+                    <img class="d-banner" src="images/slider/w3.jpg" alt="banner"
+                        style="width: 100%; margin-top:-11px !important;">
+                    <img class="m-banner" src="images/slider/m3.jpg" alt="banner" style="width: 100%">
+                </div>
+                <div class="item">
+                    <img class="d-banner" src="images/slider/w4.jpg" alt="banner"
+                        style="width: 100%; margin-top:-11px !important;">
+                    <img class="m-banner" src="images/slider/m4.jpg" alt="banner" style="width: 100%">
+                </div>
+                <div class="item">
+                    <img class="d-banner" src="images/slider/w5.jpg" alt="banner"
+                        style="width: 100%; margin-top:-11px !important;">
+                    <img class="m-banner" src="images/slider/m5.jpg" alt="banner" style="width: 100%">
+                </div>
+                <div class="item">
+                    <img class="d-banner" src="images/slider/w6.jpg" alt="banner"
+                        style="width: 100%; margin-top:-11px !important;">
+                    <img class="m-banner" src="images/slider/m6.jpg" alt="banner" style="width: 100%">
+                </div>
+                <div class="item">
+                    <img class="d-banner" src="images/slider/w7.jpg" alt="banner"
+                        style="width: 100%; margin-top:-11px !important;">
+                    <img class="m-banner" src="images/slider/m7.jpg" alt="banner" style="width: 100%">
+                </div>
+
+            </div>
+
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"><img src="images/left.png"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"><img src="images/right.png"></span>
+            </a>
+        </div>
+    </section>
+
+    <!-- overview start -->
+
+
+
+
+    <section class="glob-sec" style="text-align: center;" id="overview">
+        <div class="container pd-0">
+            <!-- <div class="col-md-12 wrap1">
+                <div class="col-md-12">
+                 
+                    <div class="section-subtitle relative">
+                        <img src="images/logo/Logo.png" class="img-responsive div">
+                    </div>
+
+                </div>
+            </div> -->
+            <!-- <img class="head-icon wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s" src="images/head-icon.webp"> -->
+
+
+
+            <div class="over-form col-12">
+                <div class="col-md-8 ">
+
+                    <h1 class="head-center text-title wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <span>Nestled amidst nature, yet close to everything</span>
+                    </h1>
+
+                    <!-- <h5 class="head-center head-sec-title wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <span> 2 & 3 Bed Sunlit Homes from ₹83 Lacs (All
+                            Incl)</span>
+                    </h5> -->
+                    <div class="section-subtitle12">
+                        DNR Arista, strategically located at Marathahalli-Sarjapur Outer Ring Road, Banglore is defined
+                        by distinct "Green Architecture" that works in harmony with the natural features and resources
+                        to maximize the efficiency of the building.
+
+                        Besides the unique features, DNR Arista also promises a host of other facilities which add to
+                        the hybrid experience.
+                    </div>
+
+                </div>
+
+
+                <div class="col-md-4" id="register-body">
+                    <div class="modal-body">
+                        <div class="row ">
+
+                            <div class="col-lg-12">
+                                <p class="text4 txtWhite hidden-xs"><b>Contact Us!</b>
+                                </p>
+                                <h4 class="modal-title tits visible-xs" id="register-desk"><b>Contact Us!</b>
+                                </h4>
+                                <form class="row form-wrap-brch" action="thank-you.php" method="POST" id="float-form"
+                                    name="float-form">
+                                    <div class="col-xl-12">
+                                        <div class="frm-gro">
+                                            <div class="form-group wow fadeInUp"
+                                                style="visibility: visible; animation-name: fadeInUp;">
+                                                <input onkeyup="send_otp('float-form')" type="text" class="form-control"
+                                                    name="fname" placeholder="First Name*">
+                                                <input type="hidden" name="source" value="Top Enquiry Form">
+                                            </div>
+
+                                            <label for="fname" class="error"></label>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-12">
+                                        <div class="frm-gro">
+                                            <div class="form-group wow fadeInUp "
+                                                style="visibility: visible; animation-name: fadeInUp;">
+                                                <input onkeyup="send_otp('float-form')" type="text" class="form-control"
+                                                    id="email" name="email" placeholder="Email ID*">
+                                            </div>
+                                            <label for="email" class="error"></label>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-12">
+                                        <div class="frm-gro">
+                                            <div class="form-group wow fadeInUp"
+                                                style=" visibility: visible; animation-name: fadeInUp;">
+                                                <!-- <div class="ccDropDown" id="country_code"></div> -->
+                                                <!-- <input type="text" class="form-control  otp-num" id=" phone"
+                                                    name="mobile" placeholder="Phone*" onkeyup="send_otp('float-form')"> -->
+
+                                                <input onkeyup="send_otp('float-form')" type="number" id="mob-input"
+                                                    class="form-control custom-input mob-input number-only"
+                                                    maxlength="10" name="mobile" placeholder="Mobile*">
+                                                <p id="float-form-mobdigits" style="color: #000"></p>
+
+                                            </div>
+                                            <label for="mobile" class="error"></label>
+                                        </div>
+
+                                    </div>
+
+
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="all-overview">
+        <div class="container">
+            <div class="sec-title">
+
+                <div class="section-title">
+                    Project Overview
+                </div>
+
+            </div>
+            <div class="col-md-12 overv-p">
+                <ul class="quick-overview-list list-unstyled">
+                    <li>
+                        <figure><img width="30" src="images/over/icon1.png" alt=""
+                                sizes="(max-width: 50px) 100vw, 50px">
+                        </figure>
+                        <h5>SUPERIOR
+                            COMMUNITY LIVING</h5>
+
+
+                    </li>
+                    <li>
+                        <figure><img width="40" src="images/over/icon2.png" alt=""
+                                sizes="(max-width: 70px) 100vw, 70px">
+                        </figure>
+                        <h5>HEART OF
+                            IT CORRIDOR</h5>
+                    </li>
+                    <li>
+                        <figure><img width="40" src="images/over/icon3.png" alt=""
+                                sizes="(max-width: 70px) 100vw, 70px">
+                        </figure>
+                        <h5>ACTIVE/
+                            HEALTHIER LIFESTYLE</h5>
+                    </li>
+                    <li>
+                        <figure><img width="40" src="images/over/icon4.png" alt=""
+                                sizes="(max-width: 70px) 100vw, 70px">
+                        </figure>
+                        <h5>WORLD CLASS
+                            AMENITIES</h5>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- highlight start -->
+    <section class="" id="masterplan-2" style="display:none;">
+        <div class="container">
+
+            <div class="sec-title">
+                <h2 class="sec-head head-center wow fadeInUp hidden-xs" data-wow-duration="1s" data-wow-delay="0.5s">
+                    Project Highlights
+                </h2>
+                <h2 class="sec-head head-center wow fadeInUp visible-xs" data-wow-duration="1s" data-wow-delay="0.5s">
+                    Project Highlights
+                </h2>
+            </div>
+
+            <div style="width: 100%;height: 20px;"></div>
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-12">
+                    <div class="content-wrapper1 text-center">
+                        <div class="list-items">
+                            <p>Nature-enveloped Homes</p>
+                            <p>2.5-acre Central Park</p>
+                            <p>Excellent Connectivity</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-12">
+                    <div class="content-wrapper1 text-center">
+                        <div class="list-items">
+
+                            <p>Unique Nature-centric Amenities</p>
+                            <p>Tranquil Location</p>
+                            <p>Green Surroundings</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- highlight ends -->
+
+
+
+
+
+    <!-- overview ends -->
+
+
+
+    <section class="" id="configuration">
+        <div class="conf-back">
+            <div class="container">
+
+                <h1 class="section-header  section-title foo" style="color: #fff;">Floor Plans
+                </h1>
+                <div class="section-subtitle relative" style="color: #fff;">
+                    <img src="" class="img-responsive div">
+                </div>
+
+                <div style="text-align: center;" class="">
+                    <table class="table foo tbl" style="text-align: center; margin: auto; width: 100%;" border="0">
+                        <thead
+                            style="background-image: url(./images/config/3d-rendering-beautiful-luxury-bedroom-suite-hotel-with-tv.jpg)!important;">
+                            <tr>
+                                <th class="her">
+                                    <h3>Unit Type</h3>
+                                </th>
+                                <th class="her">
+                                    <h3>Super Built-up Area</h3>
+                                </th>
+                                <th class="her">
+                                    <h3>Price</h3>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <!--<tr>-->
+                            <!--    <td scope="row" class="her1">2 BHK</td>-->
+                            <!--    <td class="her1">1260 sq.ft<br>-->
+                 
+                            <!--    </td>-->
+                            <!--    <td class="her1 cursor click_here">-->
+                            <!--        <a href="javascript:void(0)" class="price-click">-->
+                            <!--            Click Here-->
+                            <!--        </a>-->
+                            <!--    </td>-->
+                            <!--</tr>-->
+
+                            <tr>
+                                <td scope="row" class="her1">3 BHK</td>
+                                <td class="her1">1665 - 1685 sq.ft<br>
+                                    <!-- <span style="color: #72aab7;">(58.99 Sq. Mtr - 101.54 Sq. Mtr)</span> -->
+                                </td>
+                                <td class="her1 cursor click_here">
+                                    <a href="javascript:void(0)" class="price-click">
+                                        Click Here
+                                    </a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td scope="row" class="her1">4 BHK</td>
+                                <td class="her1">2025 sq.ft<br>
+                                    <!-- <span style="color: #72aab7;">(58.99 Sq. Mtr - 101.54 Sq. Mtr)</span> -->
+                                </td>
+                                <td class="her1 cursor click_here">
+                                    <a href="javascript:void(0)" class="price-click">
+                                        Click Here
+                                    </a>
+                                </td>
+                            </tr>
+
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="padding4 grey">
+        <div class="container">
+            <div class="col-md-12">
+                <div class="section-title" style="padding: 1rem 0;">
+                    Amenities
+                </div>
+            </div>
+            <div class="col-md-12 mx-auto hidden-xs">
+                <div class="ame_contain text-center">
+                    <div class="ame_grp col-md-2">
+                        <div class="ame_icon aos-init aos-animate" data-aos="fade-left" data-aos-duration="1500"
+                            data-aos-delay="100">
+                            <div class="icons-wrap">
+                                <img src="images/ame/1.png" alt=" ">
+                            </div>
+                            <div class="ame_head">30,000 sqft Clubhouse</div>
+                        </div>
+                    </div>
+                    <div class="ame_grp col-md-2">
+                        <div class="ame_icon aos-init aos-animate" data-aos="fade-left" data-aos-duration="1500"
+                            data-aos-delay="200">
+                            <div class="icons-wrap">
+                                <img src="images/ame/2.png" alt=" ">
+                            </div>
+                            <div class="ame_head">Badminton Court</div>
+                        </div>
+                    </div>
+                    <div class="ame_grp col-md-2">
+                        <div class="ame_icon aos-init aos-animate" data-aos="fade-left" data-aos-duration="1500"
+                            data-aos-delay="300">
+                            <div class="icons-wrap">
+                                <img src="images/ame/3.png" alt=" ">
+                            </div>
+                            <div class="ame_head">Squash Court</div>
+                        </div>
+                    </div>
+                    <div class="ame_grp col-md-2 aos-init aos-animate" data-aos="fade-left" data-aos-duration="1500"
+                        data-aos-delay="400">
+                        <div class="ame_icon">
+                            <div class="icons-wrap">
+                                <img src="images/ame/4.png" alt=" ">
+                            </div>
+                            <div class="ame_head">Jogging Track</div>
+                        </div>
+                    </div>
+                    <div class="ame_grp col-md-2 aos-init aos-animate" data-aos="fade-left" data-aos-duration="1500"
+                        data-aos-delay="400">
+                        <div class="ame_icon">
+                            <div class="icons-wrap">
+                                <img src="images/ame/4.png" alt=" ">
+                            </div>
+                            <div class="ame_head">Swimming Pool</div>
+                        </div>
+                    </div>
+                    <div class="ame_grp col-md-2">
+                        <div class="ame_icon aos-init aos-animate" data-aos="fade-left" data-aos-duration="1500"
+                            data-aos-delay="100">
+                            <div class="icons-wrap">
+                                <img src="images/ame/6.png" alt=" ">
+                            </div>
+                            <div class="ame_head">Meditation Center</div>
+                        </div>
+                    </div>
+                    <div class="ame_grp col-md-2">
+                        <div class="ame_icon aos-init aos-animate" data-aos="fade-left" data-aos-duration="1500"
+                            data-aos-delay="200">
+                            <div class="icons-wrap">
+                                <img src="images/ame/7.png" alt=" ">
+                            </div>
+                            <div class="ame_head">Toddler's Activity Area</div>
+                        </div>
+                    </div>
+                    <div class="ame_grp col-md-2">
+                        <div class="ame_icon aos-init aos-animate" data-aos="fade-left" data-aos-duration="1500"
+                            data-aos-delay="300">
+                            <div class="icons-wrap">
+                                <img src="images/ame/8.png" alt=" ">
+                            </div>
+                            <div class="ame_head">Squash Court</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-12 visible-xs mt-5 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1500">
+                <div class="owl-carousel owl-theme ame_carousel owl-loaded owl-drag">
+                    <div class="owl-stage-outer">
+                        <div class="owl-stage"
+                            style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s;">
+                            <div class="owl-item">
+                                <div class="item">
+                                    <div class="ame_grp col-md-2">
+                                        <div class="ame_icon">
+                                            <img style="width:50px;" src="images/amenities/001-location.png" alt=" ">
+                                        </div>
+                                        <div class="ame_head">Located in Prime Yelahanka</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="item">
+                                    <div class="ame_grp col-md-2">
+                                        <div class="ame_icon">
+                                            <img style="width:50px;" src="images/amenities/002-bedroom.png" alt=" ">
+                                        </div>
+                                        <div class="ame_head">Next level 3 bed homes with multiple balconies
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="item">
+                                    <div class="ame_grp col-md-2">
+                                        <div class="ame_icon">
+                                            <img style="width:50px;" src="images/amenities/003-amenities.png" alt=" ">
+                                        </div>
+                                        <div class="ame_head">40+ amenities that cater to everyone</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="item">
+                                    <div class="ame_grp col-md-2">
+                                        <div class="ame_icon">
+                                            <img style="width:50px;" src="images/amenities/004-park.png" alt=" ">
+                                        </div>
+                                        <div class="ame_head">70% Open Space</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section> -->
+
+
+    <section class="padding4 grey" id="amenities">
+        <div class="container-fluid">
+            <div class="col-md-12">
+                <div class="col-md-12">
+                    <div class="section-title" style="padding: 1rem 0">
+                        Amenities
+                    </div>
+                    <!-- <div class="section-subtitle relative">
+                        <img src="images/div.png" class="img-responsive div">
+                    </div> -->
+
+                </div>
+
+            </div>
+
+            <div class="dflex lifestyle anista">
+                <div class="col-md-4 col-xs-12 pd-0 block">
+                    <div class="fullami-wrap">
+                        <div class="flex-wrap">
+                            <img class="ame-img" src="./images/3.png" alt="">
+                            <!-- <h2 class="ame-head">Entrance</h2> -->
+                            <ul class="ame-list">
+                                <li>Badminton Court</li>
+                                <li>Squash Court</li>
+                                <li>Library / Smart Classroom</li>
+                                <li>Fitness Center / Gym</li>
+                                <li>Meditation Center</li>
+                                <li>Entertainment Hall</li>
+                                <li>Billiards</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- </div> -->
+                <div class="col-md-8 col-sm-8 col-xs-12 pd-0 ">
+                    <!-- <div class="artist-wrap">
+                        <img class="ameimg" src="images/ame/1.webp" alt="banner">
+                        <p>Artist’s Impression</p>
+                    </div> -->
+                    <div id="carousel-example-generic-ame1" class="carousel slide" data-ride="carousel">
+
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img class="d-banner" src="images/ame/1.jpg" alt="banner"
+                                    style="width: 100%; margin-top:-11px !important;">
+                                <img class="m-banner" src="images/ame/1.jpg" alt="banner" style="width: 100%">
+                            </div>
+
+                            <div class="item">
+                                <img class="d-banner" src="images/ame/2.jpg" alt="banner"
+                                    style="width: 100%; margin-top:-11px !important;">
+                                <img class="m-banner" src="images/ame/2.jpg" alt="banner" style="width: 100%">
+                            </div>
+                        </div>
+
+                        <a class="left carousel-control" href="#carousel-example-generic-ame1" role="button"
+                            data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"><img
+                                    src="images/left.png"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic-ame1" role="button"
+                            data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"><img
+                                    src="images/right.png"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+
+            <div class="dflex fitness">
+                <div class="col-md-8 col-sm-8 col-xs-12 pd-0 fit-img1 hidden-xs">
+                    <!-- <div class="artist-wrap">
+                        <img class="ameimg" src="images/ame/2.webp" alt="banner">
+                        <p>Artist’s Impression</p>
+                    </div> -->
+                    <div id="carousel-example-generic-ame2" class="carousel slide" data-ride="carousel">
+
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img class="d-banner" src="images/ame/3.jpg" alt="banner"
+                                    style="width: 100%; margin-top:-11px !important;">
+
+                            </div>
+
+                            <div class="item">
+                                <img class="d-banner" src="images/ame/4.jpg" alt="banner"
+                                    style="width: 100%; margin-top:-11px !important;">
+
+                            </div>
+                        </div>
+
+                        <a class="left carousel-control" href="#carousel-example-generic-ame2" role="button"
+                            data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"><img
+                                    src="images/left.png"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic-ame2" role="button"
+                            data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"><img
+                                    src="images/right.png"></span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-4 col-xs-12 pd-0 fit-list">
+                    <div class="fullami-wrap">
+                        <div class="flex-wrap">
+                            <img class="ame-img" src="images/2.png" alt="">
+                            <!-- <h2 class="ame-head">Central Open Space</h2> -->
+                            <ul class="ame-list">
+                                <li>Table Tennis</li>
+                                <li>Basketball Practice Court</li>
+                                <li>Terrace Lounge</li>
+                                <li>Amphitheatre</li>
+                                <li>Reflexology Path</li>
+                                <li>Chess</li>
+                                <li>Banquet Hall</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-8 col-sm-8 col-xs-12 pd-0 fit-img1 visible-xs">
+                    <!-- <div class="artist-wrap">
+                        <img class="ameimg" src="images/ame/2.webp" alt="banner">
+                        <p>Artist’s Impression</p>
+                    </div> -->
+                    <div id="carousel-example-generic-ame3" class="carousel slide" data-ride="carousel">
+
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img class="m-banner" src="images/ame/3.jpg" alt="banner" style="width: 100%">
+                            </div>
+
+                            <div class="item">
+                                <img class="m-banner" src="images/ame/4.jpg" alt="banner" style="width: 100%">
+                            </div>
+
+
+
+                        </div>
+
+                        <a class="left carousel-control" href="#carousel-example-generic-ame3" role="button"
+                            data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"><img
+                                    src="images/left.png"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic-ame3" role="button"
+                            data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"><img
+                                    src="images/right.png"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+
+
+            <div class="dflex lifestyle">
+                <div class="col-md-4 col-sm-4 col-xs-12 pd-0 block ">
+                    <div class="fullami-wrap">
+                        <div class="flex-wrap">
+                            <img class="ame-img" src="./images/3.png" alt="">
+                            <!-- <h2 class="ame-head">Clubhouse 1</h2> -->
+                            <ul class="ame-list">
+                                <li>Toddlers’ Activity Area</li>
+                                <li>Swimming Pool</li>
+                                <li>Children’s Play Area</li>
+                                <li>Jogging Track</li>
+                                <li>Cricket Pitch</li>
+                                <li>Elder’s Park</li>
+                                <li>Pet Park</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 col-sm-8 col-xs-12 pd-0 ">
+                    <!-- <div class="artist-wrap">
+                        <img class="ameimg" src="images/ame/6.webp" alt="banner">
+                        <p>Artist’s Impression</p>
+                    </div> -->
+                    <div id="carousel-example-generic-ame4" class="carousel slide">
+
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img class="d-banner" src="images/ame/swimmng.jpeg" alt="banner"
+                                    style="width: 100%; margin-top:-11px !important;">
+                                <img class="m-banner" src="images/ame/swimmng.jpeg" alt="banner" style="width: 100%">
+                            </div>
+
+                            <div class="item">
+                                <img class="d-banner" src="images/ame/6.jpg" alt="banner"
+                                    style="width: 100%; margin-top:-11px !important;">
+                                <img class="m-banner" src="images/ame/6.jpg" alt="banner" style="width: 100%">
+                            </div>
+
+
+
+                        </div>
+
+                        <a class="left carousel-control" href="#carousel-example-generic-ame4" role="button"
+                            data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"><img
+                                    src="images/left.png"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic-ame4" role="button"
+                            data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"><img
+                                    src="images/right.png"></span>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- gallery start -->
+
+    <section id="gallery" class="sppb-section  resort-title-heading wow">
+        <div class="container">
+            <div class="sppb-section-title sppb-text-center">
+                <div class="col-md-12">
+                    <div class="col-md-12">
+                        <div class="section-title" style="color: #353736; padding: 1rem 0">
+                            PROJECT GALLERY
+                        </div>
+                        <!-- <div class="section-subtitle relative">
+                            <img src="images/div.png" class="img-responsive div">
+                        </div> -->
+                    </div>
+                </div>
+                <div class="sppb-row">
+                    <div class="sppb-col-sm-12">
+                        <div id="column-id-1507611942" class="sppb-column">
+                            <div class="sppb-column-addons">
+                                <div id="sppb-addon-1507611943" class="clearfix">
+                                    <div class="sppb-addon sppb-addon-latest-posts ">
+                                        <div class="sppb-addon-content">
+                                            <div class="latest-posts clearfix">
+                                                <div class="sppb-row">
+                                                    <ul class="nav nav-tabs mytab" role="tablist">
+                                                        <li role="presentation" class="active">
+                                                            <a href="#3dplan" aria-controls="settings" role="tab"
+                                                                data-toggle="tab" aria-expanded="false">Exterior
+                                                            </a>
+                                                        </li>
+
+                                                        <li role="presentation" class="">
+                                                            <a href="#floorplan" aria-controls="profile" role="tab"
+                                                                data-toggle="tab" aria-expanded="true">Floor Plan
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="tab-content delay-09s animated wow fadeInDown animated"
+                                                        style="visibility: visible; animation-name: fadeInDown;">
+                                                        <div role="tabpanel" class="tab-pane fade active in"
+                                                            id="3dplan">
+                                                            <div class="owl-carousel owl-theme gallery-carousel">
+                                                                <div class="latest-post item">
+                                                                    <div class="latest-post"
+                                                                        style="background-image: url(images/exterior/1.webp);">
+                                                                        <div class="latest-post-inner match-height">
+                                                                            <span class="link-icon">
+                                                                                <a data-fancybox="general"
+                                                                                    href="images/exterior/1.webp">
+                                                                                    <i class="fa fa-chain"></i>
+                                                                                </a>
+                                                                            </span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="latest-post item">
+                                                                    <div class="latest-post"
+                                                                        style="background-image: url(images/exterior/2.webp);">
+                                                                        <div class="latest-post-inner match-height">
+                                                                            <span class="link-icon">
+                                                                                <a data-fancybox="general"
+                                                                                    href="images/exterior/2.webp">
+                                                                                    <i class="fa fa-chain"></i>
+                                                                                </a>
+                                                                            </span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="latest-post item">
+                                                                    <div class="latest-post"
+                                                                        style="background-image: url(images/exterior/3.webp);">
+                                                                        <div class="latest-post-inner match-height">
+                                                                            <span class="link-icon">
+                                                                                <a data-fancybox="general"
+                                                                                    href="images/exterior/3.webp">
+                                                                                    <i class="fa fa-chain"></i>
+                                                                                </a>
+                                                                            </span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="latest-post item">
+                                                                    <div class="latest-post"
+                                                                        style="background-image: url(images/exterior/4.webp);">
+                                                                        <div class="latest-post-inner match-height">
+                                                                            <span class="link-icon">
+                                                                                <a data-fancybox="general"
+                                                                                    href="images/exterior/4.webp">
+                                                                                    <i class="fa fa-chain"></i>
+                                                                                </a>
+                                                                            </span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="latest-post item">
+                                                                    <div class="latest-post"
+                                                                        style="background-image: url(images/exterior/5.webp);">
+                                                                        <div class="latest-post-inner match-height">
+                                                                            <span class="link-icon">
+                                                                                <a data-fancybox="general"
+                                                                                    href="images/exterior/5.webp">
+                                                                                    <i class="fa fa-chain"></i>
+                                                                                </a>
+                                                                            </span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="latest-post item">
+                                                                    <div class="latest-post"
+                                                                        style="background-image: url(images/exterior/6.webp);">
+                                                                        <div class="latest-post-inner match-height">
+                                                                            <span class="link-icon">
+                                                                                <a data-fancybox="general"
+                                                                                    href="images/exterior/6.webp">
+                                                                                    <i class="fa fa-chain"></i>
+                                                                                </a>
+                                                                            </span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="latest-post item">
+                                                                    <div class="latest-post"
+                                                                        style="background-image: url(images/exterior/7.webp);">
+                                                                        <div class="latest-post-inner match-height">
+                                                                            <span class="link-icon">
+                                                                                <a data-fancybox="general"
+                                                                                    href="images/exterior/7.webp">
+                                                                                    <i class="fa fa-chain"></i>
+                                                                                </a>
+                                                                            </span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+
+                                                        <div role="tabpanel" class="tab-pane fade " id="floorplan">
+                                                            <div class="owl-carousel owl-theme gallery-carousel">
+                                                                <div class="latest-post new-thing">
+                                                                    <div class="latest-post"
+                                                                        style="background-image: url(images/floorplan/1.webp);">
+                                                                        <div class="latest-post-inner match-height">
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="latest-post new-thing">
+                                                                    <div class="latest-post"
+                                                                        style="background-image: url(images/floorplan/2.webp);">
+                                                                        <div class="latest-post-inner match-height">
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="latest-post new-thing">
+                                                                    <div class="latest-post"
+                                                                        style="background-image: url(images/floorplan/3.webp);">
+                                                                        <div class="latest-post-inner match-height">
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="latest-post new-thing">
+                                                                    <div class="latest-post"
+                                                                        style="background-image: url(images/floorplan/4.webp);">
+                                                                        <div class="latest-post-inner match-height">
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="latest-post new-thing">
+                                                                    <div class="latest-post"
+                                                                        style="background-image: url(images/floorplan/5.webp);">
+                                                                        <div class="latest-post-inner match-height">
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="latest-post new-thing">
+                                                                    <div class="latest-post"
+                                                                        style="background-image: url(images/floorplan/6.webp);">
+                                                                        <div class="latest-post-inner match-height">
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="latest-post new-thing">
+                                                                    <div class="latest-post"
+                                                                        style="background-image: url(images/floorplan/7.webp);">
+                                                                        <div class="latest-post-inner match-height">
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="latest-post new-thing">
+                                                                    <div class="latest-post"
+                                                                        style="background-image: url(images/floorplan/8.webp);">
+                                                                        <div class="latest-post-inner match-height">
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="latest-post new-thing">
+                                                                    <div class="latest-post"
+                                                                        style="background-image: url(images/floorplan/9.webp);">
+                                                                        <div class="latest-post-inner match-height">
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="latest-post new-thing">
+                                                                    <div class="latest-post"
+                                                                        style="background-image: url(images/floorplan/10.webp);">
+                                                                        <div class="latest-post-inner match-height">
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="latest-post new-thing">
+                                                                    <div class="latest-post"
+                                                                        style="background-image: url(images/floorplan/11.webp);">
+                                                                        <div class="latest-post-inner match-height">
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="latest-post new-thing">
+                                                                    <div class="latest-post"
+                                                                        style="background-image: url(images/floorplan/12.webp);">
+                                                                        <div class="latest-post-inner match-height">
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="latest-post new-thing">
+                                                                    <div class="latest-post"
+                                                                        style="background-image: url(images/floorplan/13.webp);">
+                                                                        <div class="latest-post-inner match-height">
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="latest-post new-thing">
+                                                                    <div class="latest-post"
+                                                                        style="background-image: url(images/floorplan/14.webp);">
+                                                                        <div class="latest-post-inner match-height">
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+
+
+
+    <!--galler ends -->
+
+    <!-- connectivity and conveience start -->
+
+    <section class="overlay2 location-background" id="location-new">
+        <div class="" style="width: 85%;margin: 0px auto;">
+            <div class="col-md-12 wrap1">
+                <div class="col-12 col-left float-none block ">
+
+                    <h2 class="head-center section-title" style="text-align:center;" data-aos="flip-up"
+                        data-aos-duration="800" data-aos-delay="0">
+                        Connectivity &amp; Convenience
+                    </h2>
+                </div>
+            </div>
+
+            <div class="">
+
+                <div class="row flex-box ">
+                    <div class="col-md-6">
+                        <div class="border-map">
+                            <a href="./images/map/map.jpg" data-fancybox="location-map">
+                                <img src="./images/map/map.jpg" width="100%" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6" id="cust-accor">
+                        <div id="accordion" class="panel-group" data-aos="flip-up" data-aos-duration="800"
+                            data-aos-delay="200">
+                            <div class="panel">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a href="#panelBodyOne" class="accordion-toggle collapsed"
+                                            data-toggle="collapse" data-parent="#accordion"
+                                            aria-expanded="false">HOSPITALS</a>
+                                    </h4>
+                                </div>
+                                <div id="panelBodyOne" class="panel-collapse collapse" aria-expanded="false"
+                                    style="height: 0px;">
+                                    <div class="panel-body">
+                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp; Sakra World
+                                            Hospitals - 2.1 KMS</p>
+                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp; Manipal Hospitals
+                                            - 2 KMS</p>
+                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;Motherhood - 1.2
+                                            LMS</p>
+                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp; Rainbow Children
+                                            Hospitals - 1.2 KMS</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="panel">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a href="#panelBodyTwo" class="accordion-toggle collapsed"
+                                            data-toggle="collapse" data-parent="#accordion" aria-expanded="false">TECH
+                                            PARKS</a>
+                                    </h4>
+                                </div>
+                                <div id="panelBodyTwo" class="panel-collapse collapse" aria-expanded="false"
+                                    style="height: 0px;">
+                                    <div class="panel-body">
+                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp; Eco-Space - 1.2
+                                            KMS</p>
+                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp; Eco-World - 2.6
+                                            KMS</p>
+                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;Vaishnavi Tech Park
+                                            - 1.3 KMS
+                                        </p>
+                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;Microsoft - 1 KMS
+                                        </p>
+                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;Salarpuria Soft
+                                            Zone - 1.5 KMS
+                                        </p>
+                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;Embassy Tech
+                                            Village - 3 KMS
+
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="panel">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a href="#panelBodyThree" class="accordion-toggle collapsed"
+                                            data-toggle="collapse" data-parent="#accordion"
+                                            aria-expanded="false">HOTELS</a>
+                                    </h4>
+                                </div>
+                                <div id="panelBodyThree" class="panel-collapse collapse" aria-expanded="false"
+                                    style="height: 0px;">
+                                    <div class="panel-body">
+                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp; Ibis Hotel Outer
+                                            Ring Road - 1.5 km
+                                        </p>
+                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;Novotel Outer Ring
+                                            Road - 1.5 km
+                                        </p>
+                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp; Courtyard by
+                                            Marriott - 1.9 km
+
+                                        </p>
+                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;DoubleTree Suites
+                                            by Hilton Hotel - 2.4 km
+                                        </p>
+                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp; Aloft Outer Ring
+                                            Road - 3.4 km</p>
+
+                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;Radisson Blu - 4.5
+                                            km</p>
+
+                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;Twenty Four Hotel -
+                                            4.7 km</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="panel">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a href="#panelBodyfour" class="accordion-toggle collapsed"
+                                            data-toggle="collapse" data-parent="#accordion"
+                                            aria-expanded="false">INSTITUTIONS
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="panelBodyfour" class="panel-collapse collapse" aria-expanded="false"
+                                    style="height: 0px;">
+                                    <div class="panel-body">
+                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;Orchids School -
+                                            1.8 km
+                                        </p>
+                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;Asia Pacific World
+                                            School - 2.0 km
+                                        </p>
+                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;New Horizon College
+                                            of Engineering - 2.4 km
+                                        </p>
+                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;National Public
+                                            School - 4.5 km
+                                        </p>
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a href="#panelBodyfive" class="accordion-toggle collapsed"
+                                            data-toggle="collapse" data-parent="#accordion"
+                                            aria-expanded="false">RESTAURANTS
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="panelBodyfive" class="panel-collapse collapse" aria-expanded="false"
+                                    style="height: 0px;">
+                                    <div class="panel-body">
+                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;Roxie - 2.6 km
+                                        </p>
+                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;Byg Brewski -
+                                            2.7 km
+                                        </p>
+                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;Nasi &amp; Mee -
+                                            3.1 km
+                                        </p>
+                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;Big Pitcher -
+                                            3.3 km
+                                        </p>
+                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;Sarjapur Social
+                                            - 3.3 km
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a href="#panelBodysix" class="accordion-toggle collapsed"
+                                            data-toggle="collapse" data-parent="#accordion"
+                                            aria-expanded="false">SHOPPING MALLS
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="panelBodysix" class="panel-collapse collapse" aria-expanded="false"
+                                    style="height: 0px;">
+                                    <div class="panel-body">
+                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;Market Square
+                                            Mall - 1.6 km
+                                        </p>
+                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;Soul Space
+                                            Spirit Centro Mall - 2.5 km
+                                        </p>
+                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;Mango
+                                            Hypermarket - 3.6 km
+                                        </p>
+                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;Phoenix
+                                            Marketcity- 11.2 km
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+
+            </div>
+    </section>
+
+
+    <!-- end of connectivity and convenience -->
+
+
+    <!-- about us start -->
+
+
+
+
+
+
+    <!-- about us ends -->
+
+    <section class="contact-map">
+        <div class="">
+            <div class="col-md-6 pd0">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31110.224270504474!2d77.67450700000002!3d12.921983!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae13e7ace3b2ff%3A0xc675d3a7a60870f8!2sDNR%20Arista!5e0!3m2!1sen!2sin!4v1737441030747!5m2!1sen!2sin"
+                    width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col-md-6 pd0" id="contact">
+                <div class="back">
+                    <div style="width: 100%;height: 7%;"></div>
+                    <h1 class="section-header section-title foo" style="color:#fff;">Contact Us</h1>
+                    <!-- <img src="images/divw.png" class="img-responsive div"> -->
+                    <p class="form-p" style="color:#fff;">Please enter details below and we shall get in touch with
+                        you
+                        shortly.</p>
+
+                    <form id="contact-form" action="thank-you.php" name="contact-form" method="POST">
+                        <div class="form-group col-md-12 pd">
+                            <div class="input-group">
+                                <div class="input-group-addon"><i class="fa fa-user form-ico" aria-hidden="true"></i>
+                                </div>
+                                <input onkeyup="send_otp('contact-form')" type="text" class="form-control" name="fname"
+                                    placeholder="Full Name*">
+                                <input type="hidden" name="source" value="Enquiry Form" id="source">
+                            </div>
+                            <label for="fname" generated="true" class="error"></label>
+                        </div>
+                        <div class="form-group col-md-12">
+                            <div class="input-group">
+                                <div class="input-group-addon"><i class="fa fa-envelope" aria-hidden="true"></i>
+                                </div>
+                                <input onkeyup="send_otp('contact-form')" type="email" class="form-control" name="email"
+                                    placeholder="Email Address*">
+                                <!-- <input type="hidden" name="country_code" value="" id="calling_code"> -->
+                            </div>
+                            <label for="email" generated="true" class="error"></label>
+                        </div>
+                        <div class="form-group col-md-12 ">
+                            <div class="input-group">
+                                <div class="input-group-addon"><i class="fa fa-mobile form-ico" aria-hidden="true"></i>
+                                </div>
+
+                                <input onkeyup="send_otp('contact-form')" type="number" id="mob-input"
+                                    class="form-control custom-input mob-input number-only" maxlength="10" name="mobile"
+                                    placeholder="Mobile*">
+                                <p id="contact-form-mobdigits" style="color: #000"></p>
+                            </div>
+
+                            <label for="mobile" generated="true" class="error"></label>
+                        </div>
+                    </form>
+
+
+
+                    <p class="footer-call"><i class="fa fa-phone"></i>
+                        <a href="tel:+917829669990">+91 7829669990</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br clear="all" />
+
+    <footer class="section-padding" id="contact-us">
+        <div class="container">
+            <h2 class="section-title-new mb-5">Let's Connect!</h2>
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <div class="content-wrapper d-flex">
+                        <i class="fa-solid fa-location-pin"></i>
+                        <address class="d-flex">
+                            <p><span class="d-block">Site Address</span>DNR Arista, Bellandur Main Road, Marathahalli -
+                                Sarjapur Outer Ring Rd, Bengaluru, Karnataka 560103</p>
+                        </address>
+                    </div>
+                </div>
+                <!-- <div class="col-md-4 col-sm-12">
+                    <div class="">
+                        <address class="d-flex">
+                            <i class="fa-solid fa-map-pin"></i>
+                            <p><span class="d-block">Corporate Address</span>DNR Corporation Pvt. Ltd. 304, 'A' Wing,
+                                Queen's Corner # 3, Queens Rd, Bengaluru 560001 Phone: +91 80 222 68786 Phone: +91 80
+                                222 65647 Email: info@dnrgroup.in www.dnrgroup.in</p>
+                        </address>
+                    </div>
+                </div> -->
+                <div class="col-md-4 col-sm-12">
+                    <div class="content-wrapper">
+                        <img src="./images/logo/logo.webp">
+                        <img src="./images/logo/CREDAI-LOGO.png" class="dev_logo">
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="content-wrapper">
+                        <ul class="contact-list list-unstyled">
+                            <li class="new">
+                                <i class="fa-solid fa-phone"></i>
+                                <a href="+917829669990">+91 7829669990</a>
+                            </li>
+                            <li class="new">
+                                <i class="fa-regular fa-envelope"></i>
+                                <a href="mailto:Tapti@dnrgroup.in">Tapti@dnrgroup.in |
+
+                                </a>
+                                <a href="mailto:Shivakumar@dnrgroup.in">
+                                    Shivakumar@dnrgroup.in
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- <div class="col-md-6 col-sm-12">
+                    <div class="content-wrapper">
+                        <img src="./images/logo/logo.webp">
+                       
+                    </div>
+                </div> -->
+                <div class="col-sm-12">
+                    <div class="qr-code-wrapper d-flex">
+                        <!-- <img width="35" height="34" class="lazy" src="./images/small.webp"> -->
+                        <div class="qr-content">
+                            RERA No.: PRM/KA/RERA/1251/446/PR/240306/006662
+                            <!-- <span class="d-block"> Available at:
+                                <a class="d-block"
+                                    href="https://maharera.mahaonline.gov.in">https://maharera.mahaonline.gov.in</a>
+                            </span> -->
+                        </div>
+                        <!-- <figure class="mb-0">
+                            <img width="100" height="100" class="lazy" loading="lazy" src="./images/qr.jpg" alt="">
+                        </figure> -->
+                    </div>
+                </div>
+
+            </div>
+            <hr>
+
+
+            <div class="disclaimer-wrapper mt-4">
+                <p><b class="priv-btn">Privacy Policy</b> | <b class="disclaimer-btn">Disclaimer</b></p>
+
+            </div>
+
+            <!-- <div class="disclaimer-wrapper mt-4">
+                <p class="disclaimer-btn"><b>Disclaimer</b></p>
+
+            </div> -->
+
+        </div>
+
+        </div>
+    </footer>
+
+    <!--<div class="col-lg-12 col-sm-12 col-xs-12 fixed-footer-cust hidden-md hidden-lg hidden-sm">-->
+    <!--    <div class="container">-->
+    <!--        <div class="col-lg-6 col-sm-6 col-xs-6 div-line pd0">-->
+    <!--            <a href="tel:+917829669990" class="fix-link callme">-->
+    <!--                <i class="fa fa-phone f-icon" aria-hidden="true"></i> CALL NOW-->
+    <!--            </a>-->
+    <!--        </div>-->
+    <!--        <div class="col-lg-6 col-sm-6 col-xs-6 pd0">-->
+    <!--            <button class="btn interested fix-link i-am"><i class="fa fa-envelope"></i> ENQUIRE NOW</button>-->
+    <!--        </div>-->
+    <!--        <div class="col-lg-12 col-sm-12 col-xs-12 pd0">-->
+        
+    <!--            <button class="btn interested fix-link dbrochure db"><i class="fa fa-download"></i> Download-->
+    <!--                Brochure</button>-->
+    <!--        </div>-->
+    <!--    </div>-->
+    <!--</div>-->
+    
+    
+        <div class="menu-body">
+        <div class="navigationo">
+            <ul>
+
+                <li class="list down-broch-class"> <a href="#" id="whatsapp"> <span class="icon" data-bs-toggle="modal" data-bs-target="#brochure"><i class="fas fa-download" style="color:#fff; font-size:20px;"></i></span>
+                        <span class="text">Download Brochure</span> </a> </li>
+                <li class="list active register-interest-class"> <a href="#" data-bs-toggle="modal" data-bs-target="#interested"> <span class="icon"><i class="fas fa-pencil-alt" style="color:#fff; font-size:20px;"></i></span> <span class="text"> Register Interest</span> </a>
+                </li>
+                <li class="list view-plan-class"> <a href="#" data-bs-toggle="modal" data-bs-target="#price"> <span class="icon nowinquire"><i class="fas fa-eye" style="color:#fff; font-size:20px;"></i></span> <span class="text">View
+                            Plan</span> </a> </li>
+
+                <div class="indicatora"></div>
+            </ul>
+        </div>
+    </div>
+
+
+    <div id="pageloader">
+        <img src="images/loader.gif" alt="processing..." />
+    </div>
+
+    <!-- ================ main popup ==================== -->
+
+
+    <div class="modal fade in" tabindex="-1" role="dialog" id="main-pop" data-backdrop="static" data-keyboard="false"
+        style="opacity: 1;">
+        <div class="modal-backdrop fade in"></div>
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+                <div class="modal-body">
+                    <div class="row ">
+                        <div class="col-lg-12">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                    aria-hidden="true" style=" font-size: 26px">X</span></button>
+                            <h4 class="modal-title tits"><b>Contact
+                                    Us!</b></h4>
+                            <!-- <p class="text14 mrg-btm1">200+ families call it home—schedule your visit!
+                            </p> -->
+                            <form class="row form-wrap-brch" action="thank-you.php" method="POST" id="main-popup"
+                                name="main-popup">
+                                <div class="col-xl-12">
+                                    <div class="frm-gro">
+                                        <div class="form-group wow fadeInUp"
+                                            style="visibility: visible; animation-name: fadeInUp;">
+                                            <input onkeyup="send_otp('main-popup')" type="text" class="form-control"
+                                                name="fname" placeholder="First Name*">
+                                            <input type="hidden" name="source" value="Main Popup">
+                                        </div>
+
+                                        <label for="fname" class="error"></label>
+                                    </div>
+                                </div>
+                                <div class="col-xl-12">
+                                    <div class="frm-gro">
+                                        <div class="form-group wow fadeInUp "
+                                            style="visibility: visible; animation-name: fadeInUp;">
+                                            <input onkeyup="send_otp('main-popup')" type="text" class="form-control"
+                                                id="email" name="email" placeholder="Email ID*">
+                                        </div>
+                                        <label for="email" class="error"></label>
+                                    </div>
+                                </div>
+                                <div class="col-xl-12">
+                                    <div class="frm-gro">
+                                        <div class="form-group wow fadeInUp"
+                                            style=" visibility: visible; animation-name: fadeInUp;">
+
+
+                                            <input onkeyup="send_otp('main-popup')" type="number" id="mob-input"
+                                                class="form-control custom-input mob-input number-only" maxlength="10"
+                                                name="mobile" placeholder="Mobile*">
+                                            <p id="main-popup-mobdigits" style="color: #000"></p>
+
+                                        </div>
+                                        <label for="mobile" class="error"></label>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div>
+
+    <!-- ================ price popup ==================== -->
+
+
+    <div class="modal fade in" tabindex="-1" role="dialog" id="price-model" data-backdrop="static"
+        data-keyboard="false">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <!-- <div class="modal-header">
+                    <h4 class="modal-title">Price</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">X</span></button>
+                </div> -->
+                <div class="modal-body">
+                    <div class="row ">
+
+                        <div class="col-lg-12">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                    aria-hidden="true" style=" font-size: 26px">X</span></button>
+                            <!-- <p class="text4 txtWhite">Express Your Interest</p> -->
+                            <h4 class="modal-title tits"><b>Contact
+                                    Us!</b></h4>
+
+
+                            <!-- <p class="text14 mrg-btm1">200+ families call it home schedule your visit!
+                            </p> -->
+                            <form class="row form-wrap-brch" action="thank-you.php" method="POST" id="price-popup"
+                                name="price-popup">
+                                <div class="col-xl-12">
+                                    <div class="frm-gro">
+                                        <div class="form-group wow fadeInUp"
+                                            style="visibility: visible; animation-name: fadeInUp;">
+                                            <input onkeyup="send_otp('price-popup')" type="text" class="form-control"
+                                                name="fname" placeholder="First Name*">
+                                            <input type="hidden" name="source" value="Price Popup">
+                                        </div>
+
+                                        <label for="fname" class="error"></label>
+                                    </div>
+                                </div>
+                                <div class="col-xl-12">
+                                    <div class="frm-gro">
+                                        <div class="form-group wow fadeInUp "
+                                            style="visibility: visible; animation-name: fadeInUp;">
+                                            <input onkeyup="send_otp('price-popup')" type="text" class="form-control"
+                                                id="email" name="email" placeholder="Email ID*">
+                                        </div>
+                                        <label for="email" class="error"></label>
+                                    </div>
+                                </div>
+                                <div class="col-xl-12">
+                                    <div class="frm-gro">
+                                        <div class="form-group wow fadeInUp"
+                                            style=" visibility: visible; animation-name: fadeInUp;">
+
+
+                                            <input onkeyup="send_otp('price-popup')" type="number" id="mob-input"
+                                                class="form-control custom-input mob-input number-only" maxlength="10"
+                                                name="mobile" placeholder="Mobile*">
+                                            <p id="price-popup-mobdigits" style="color: #000"></p>
+
+                                        </div>
+                                        <label for="mobile" class="error"></label>
+                                    </div>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div>
+
+
+    <!-- ================ i am  ==================== -->
+    <div class="modal fade in" tabindex="-1" role="dialog" id="iam-model" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+                <!--new form  start -->
+                <div class="modal-body">
+                    <div class="row ">
+
+                        <div class="col-lg-12">
+                            <button type="button" class="close close-iam" onclick="$('#iam-model').modal('hide');"
+                                data-dismiss="modal" aria-label="Close"><span aria-hidden="true"
+                                    style=" font-size: 26px">X</span></button>
+                            <!-- <p class="text4 txtWhite">Express Your Interest</p> -->
+                            <h4 class="modal-title tits"><b>Contact
+                                    Us!</b></h4>
+
+
+                            <!-- <p class="text14 mrg-btm1">200+ families call it home—schedule your visit!</p> -->
+                            <form class="row form-wrap-brch" action="thank-you.php" method="POST" id="iam-model"
+                                name="float-form">
+                                <div class="col-xl-12">
+                                    <div class="frm-gro">
+                                        <div class="form-group wow fadeInUp"
+                                            style="visibility: visible; animation-name: fadeInUp;">
+                                            <input onkeyup="send_otp('iam-model')" type="text" class="form-control"
+                                                name="fname" placeholder="First Name*">
+                                            <input type="hidden" name="source" value="I am Interested">
+                                        </div>
+                                        <!-- <div class="form-group wow fadeInUp">
+                                <input type="text" class="form-control" id="lname" name="lname" placeholder="Last Name*">
+                            </div> -->
+                                        <label for="fname" class="error"></label>
+                                    </div>
+                                </div>
+                                <div class="col-xl-12">
+                                    <div class="frm-gro">
+                                        <div class="form-group wow fadeInUp "
+                                            style="visibility: visible; animation-name: fadeInUp;">
+                                            <input onkeyup="send_otp('iam-model')" type="text" class="form-control"
+                                                id="email" name="email" placeholder="Email ID*">
+                                        </div>
+                                        <label for="email" class="error"></label>
+                                    </div>
+                                </div>
+                                <div class="col-xl-12">
+                                    <div class="frm-gro">
+                                        <div class="form-group wow fadeInUp"
+                                            style=" visibility: visible; animation-name: fadeInUp;">
+                                            <!-- <div class="ccDropDown" id="country_code"></div> -->
+                                            <!-- <input type="text" class="form-control  otp-num" id=" phone"
+                                                    name="mobile" placeholder="Phone*" onkeyup="send_otp('float-form')"> -->
+
+                                            <input onkeyup="send_otp('iam-model')" type="number" id="mob-input"
+                                                class="form-control custom-input mob-input number-only" maxlength="10"
+                                                name="mobile" placeholder="Mobile*">
+                                            <p id="iam-model-mobdigits" style="color: #000"></p>
+
+                                        </div>
+                                        <label for="mobile" class="error"></label>
+                                    </div>
+                                </div>
+
+                                <!-- <div class="col-md-12 pd0">
+                                    <div id="iam-model-otpbox" class="otp_box">
+
+                                        
+                                        <div class="col-lg-12 ">
+
+                                            <div class="check">
+                                                <input type="checkbox" checked>
+                                                <p class="text9 txtWhite mrg-btm1 wow fadeInUp"
+                                                    style="visibility: visible; animation-name: fadeInUp;" id="i-ag">I
+                                                    Agree to
+                                                    the <a href="" target="_blank" class="link3">Terms and
+                                                        Conditions</a></p>
+                                            </div>
+
+
+                                            <button type="submit" class="btn btn-submit wow fadeInUp"
+                                                style="visibility: visible; animation-name: fadeInUp;">
+                                                <span>Submit</span></button>
+                                        </div>
+                                    </div>
+                                </div> -->
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- new form ends -->
+
+
+
+
+
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div>
+
+    <!-- ================ 360 degree  ==================== -->
+    <div class="modal fade in" tabindex="-1" role="dialog" id="form-deg" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Experience 360 Degree View </h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">X</span></button>
+                </div>
+                <div class="modal-body">
+                    <p>Please enter the below details to experience 360 degree view.</p>
+
+                    <form id="form-360" action="thank-you.php" name="form-360" method="POST">
+                        <div class="form-group col-md-12 pd">
+                            <div class="input-group">
+                                <div class="input-group-addon"><i class="fa fa-user form-ico" aria-hidden="true"></i>
+                                </div>
+                                <input type="text" onkeyup="send_otp('form-360')" class="form-control" name="fname"
+                                    placeholder="Full Name">
+                                <input type="hidden" name="source" value="360 form" id="source">
+                            </div>
+                            <label for="fname" generated="true" class="error"></label>
+                        </div>
+                        <div class="col-xl-12">
+                            <div class="frm-gro">
+                                <div class="form-group wow fadeInUp "
+                                    style="visibility: visible; animation-name: fadeInUp;">
+                                    <input onkeyup="send_otp('form-360')" type="text" class="form-control" id="email"
+                                        name="email" placeholder="Email ID*">
+                                </div>
+                                <label for="email" class="error"></label>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-12">
+                            <div class="frm-gro">
+                                <div class="form-group wow fadeInUp"
+                                    style=" visibility: visible; animation-name: fadeInUp;">
+                                    <!-- <div class="ccDropDown" id="country_code"></div> -->
+                                    <!-- <input type="text" class="form-control  otp-num" id=" phone"
+                                                    name="mobile" placeholder="Phone*" onkeyup="send_otp('float-form')"> -->
+
+                                    <input onkeyup="send_otp('form-360')" type="number" id="mob-input"
+                                        class="form-control custom-input mob-input number-only" maxlength="10"
+                                        name="mobile" placeholder="Mobile*">
+                                    <p id="form-360-mobdigits" style="color: #000"></p>
+
+                                </div>
+                                <label for="mobile" class="error"></label>
+                            </div>
+                        </div>
+
+                        <!-- <div class="col-md-12 pd0">
+                            <div id="form-360-otpbox" class="otp_box">
+
+                                
+                                <div class="col-lg-12 ">
+
+                                    <p class="text9 txtWhite mrg-btm1 wow fadeInUp"
+                                        style="visibility: visible; animation-name: fadeInUp;" id="i-ag">I
+                                        Agree to
+                                        the <a href="" target="_blank" class="link3">Terms and
+                                            Conditions</a></p>
+                                    <button type="submit" class="btn btn-submit wow fadeInUp"
+                                        style="visibility: visible; animation-name: fadeInUp;">
+                                        <span>Submit</span></button>
+                                </div>
+                            </div>
+                        </div> -->
+
+                    </form>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div>
+
+
+    <!-- ================ I'm interested ==================== -->
+
+
+    <button class="btn btn-danger interested i-am hidden-xs">I'm interested</button>
+
+    <!-- <div class="modal fade in" tabindex="-1" role="dialog" id="roadblock" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content" style="background: #b18c6d;">
+                <div class="modal-header" style="background: #fff;padding-top: 30px;">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"
+                        style="color: #000!important;">
+                        <span aria-hidden="true" style="font-size: 30px;">×</span>
+                    </button>
+                    <img src="images/realty.png" alt="" style="width: 140px;margin: 15px auto;display: block;">
+                    <h4 class="modal-title hidden-xs"
+                        style="text-align: center;font-size: 19px;font-weight: 700;color: #000;">Welcome
+                        to the Official Site of Novo-Gardenia</h4>
+                    <h4 class="modal-title visible-xs"
+                        style="text-align: center;font-size: 19px;font-weight: 700;color: #000;">Welcome
+                        to the Official Site of <br>Novo-Gardenia</h4>
+                    <div class="head-line white3"></div>
+                </div>
+                <div class="modal-body" style="background: #b18c6d;">
+                    <ul class="roadpoint">
+                        <li>Novo-Gardenia has aimed to enrich lives by setting gold standards for
+                            customer-centricity, architectural design, quality and safety.
+                        </li>
+                        <li> Our empathetic engagement with customers guarantees that their needs are continuously met
+                            and
+                            exceeded,
+                            making Novo-Gardenia developments, places that offer opportunities to thrive.
+                        </li>
+                    </ul>
+
+                </div>
+                <button class="btn road roadblock2">Know More</button>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- floor form start -->
+
+    <div class="modal fade in" tabindex="-1" role="dialog" id="floor-modal" data-backdrop="static"
+        data-keyboard="false">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <!-- <div class="modal-header">
+                    <h4 class="modal-title">Express Your Interest</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">X</span></button>
+                </div> -->
+                <!--new form  start -->
+                <div class="modal-body">
+                    <div class="row ">
+                        <div class="col-lg-12">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                    aria-hidden="true" style=" font-size: 35px">X</span></button>
+                            <h4 class="modal-title tits">Express Your Interest</h4>
+                            <p class="text14 mrg-btm1">Please select your name and enter your phone number and we
+                                will
+                                call you back.</p>
+                            <form class="row form-wrap-brch" action="thank-you.php" method="POST" id="floor-form"
+                                name="floor-form">
+                                <div class="col-xl-12">
+                                    <div class="frm-gro">
+                                        <div class="form-group wow fadeInUp"
+                                            style="visibility: visible; animation-name: fadeInUp;">
+                                            <input onkeyup="send_otp('floor-form')" type="text" class="form-control"
+                                                name="fname" placeholder="First Name*">
+                                            <input type="hidden" name="source" value="Floor Plan">
+                                        </div>
+
+                                        <label for="fname" class="error"></label>
+                                    </div>
+                                </div>
+                                <div class="col-xl-12">
+                                    <div class="frm-gro">
+                                        <div class="form-group wow fadeInUp "
+                                            style="visibility: visible; animation-name: fadeInUp;">
+                                            <input onkeyup="send_otp('floor-form')" type="text" class="form-control"
+                                                id="email" name="email" placeholder="Email ID*">
+                                        </div>
+                                        <label for="email" class="error"></label>
+                                    </div>
+                                </div>
+                                <div class="col-xl-12">
+                                    <div class="frm-gro">
+                                        <div class="form-group wow fadeInUp"
+                                            style=" visibility: visible; animation-name: fadeInUp;">
+                                            <!-- <div class="ccDropDown" id="country_code"></div> -->
+                                            <!-- <input type="text" class="form-control  otp-num" id=" phone"
+                                                    name="mobile" placeholder="Phone*" onkeyup="send_otp('float-form')"> -->
+
+                                            <input onkeyup="send_otp('floor-form')" type="number" id="mob-input"
+                                                class="form-control custom-input mob-input number-only" maxlength="10"
+                                                name="mobile" placeholder="Mobile*">
+                                            <p id="floor-form-mobdigits" style="color: #000"></p>
+
+                                        </div>
+                                        <label for="mobile" class="error"></label>
+                                    </div>
+                                </div>
+
+                                <!-- <div class="col-md-12 pd0">
+                                    <div id="floor-form-otpbox" class="otp_box">
+
+                                        
+                                        <div class="col-lg-12 ">
+
+                                            <p class="text9 txtWhite mrg-btm1 wow fadeInUp"
+                                                style="visibility: visible; animation-name: fadeInUp;" id="i-ag">I
+                                                Agree to
+                                                the <a href="" target="_blank" class="link3">Terms and
+                                                    Conditions</a></p>
+                                            <button type="submit" class="btn btn-submit wow fadeInUp"
+                                                style="visibility: visible; animation-name: fadeInUp;">
+                                                <span>Submit</span></button>
+                                        </div>
+                                    </div>
+                                </div> -->
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- new form ends -->
+
+
+
+
+
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div>
+
+
+
+    <!-- floor form ends -->
+
+    <!-- ---privacy popup form starts--------- -->
+    <div class="modal fade in" tabindex="-1" role="dialog" id="priv-model" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <!-- Modal Body -->
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <button type="button" class="close close-iam" onclick="$('#priv-model').modal('hide');"
+                                data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true" style="font-size: 26px;">X</span>
+                            </button>
+                            <h4 class="modal-title priv-title"><b>Privacy & Policy</b></h4>
+                            <p class="priv-text">At DNR Corporation, we collect
+                                and use your personal
+                                and non-personal
+                                information to improve our services, personalize your experience, and communicate
+                                updates. We
+                                protect your data with appropriate measures and do not sell or trade your information.
+                                By using our
+                                site, you consent to this policy. Contact us at info@dnrgroup.in for queries.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---privacy popup form ends--------- -->
+
+
+    <!-- ---discmalimer popup form starts--------- -->
+    <div class="modal fade in" tabindex="-1" role="dialog" id="disc-model" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <!-- Modal Body -->
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <button type="button" class="close close-iam" onclick="$('#disc-model').modal('hide');"
+                                data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true" style="font-size: 26px;">X</span>
+                            </button>
+                            <h4 class="modal-title priv-title"><b>Disclaimer</b></h4>
+                            <p class="priv-text"></b> By using this website, visitors agree to DNR
+                                Corporation’s terms.
+                                Information is general, subject to change, and DNR is not liable for inaccuracies or
+                                damages. Plans and visuals are indicative, not binding. Shared visitor data may be used
+                                as needed. Materials are copyright-protected; reproduction requires permission. Linked
+                                sites are accessed at the visitor's risk. Terms may change without notice.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---discmalimer popup form ends--------- -->
+
+
+
+    <!-- ================ I'm interested ==================== -->
+    <a href="images/Arista_Digi_Brochure.pdf" download id="broucher1"></a>
+
+    <a href="images/floorplan.pdf" download id="floor1"></a>
+
+    <button class="btn btn-danger dbrochure broucher1 hidden-xs">Download Brochure</button>
+
+    <div class="modal fade in" tabindex="-1" role="dialog" id="brochure" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <!-- <div class="modal-header">
+                    <h4 class="modal-title">Download Brochure</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">X</span></button>
+                </div> -->
+                <div class="modal-body">
+                    <div class="row ">
+                        <div class="col-lg-12">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                    aria-hidden="true" style=" font-size: 26px">X</span></button>
+                            <h4 class="modal-title tits">Contact
+                                Us!</b></h4>
+
+                            <form class="row form-wrap-brch" action="thank-you.php" method="POST" id="broucher-form"
+                                name="broucher-form">
+                                <div class="col-xl-12">
+                                    <div class="frm-gro">
+                                        <div class="form-group wow fadeInUp"
+                                            style="visibility: visible; animation-name: fadeInUp;">
+                                            <input type="text" onkeyup="send_otp('broucher-form')" class="form-control"
+                                                name="fname" placeholder="First Name*">
+                                            <input type="hidden" name="source" value="Download Brochure">
+                                        </div>
+                                        <label for="fname" class="error"></label>
+                                    </div>
+                                </div>
+                                <div class="col-xl-12">
+                                    <div class="frm-gro">
+                                        <div class="form-group wow fadeInUp "
+                                            style="visibility: visible; animation-name: fadeInUp;">
+                                            <input type="text" onkeyup="send_otp('broucher-form')" class="form-control"
+                                                id="email" name="email" placeholder="Email ID*">
+                                        </div>
+                                        <label for="email" class="error"></label>
+                                    </div>
+                                </div>
+                                <div class="col-xl-12">
+                                    <div class="frm-gro">
+                                        <div class="form-group wow fadeInUp"
+                                            style=" visibility: visible; animation-name: fadeInUp;">
+                                            <!-- <div class="ccDropDown" id="country_code"></div> -->
+                                            <!-- <input type="text" class="form-control  otp-num" id=" phone"
+                                                    name="mobile" placeholder="Phone*" onkeyup="send_otp('float-form')"> -->
+
+                                            <input onkeyup="send_otp('broucher-form')" type="number" id="mob-input"
+                                                class="form-control custom-input mob-input number-only" maxlength="10"
+                                                name="mobile" placeholder="Mobile*">
+                                            <p id="broucher-form-mobdigits" style="color: #000"></p>
+                                        </div>
+                                        <label for="mobile" class="error"></label>
+                                    </div>
+                                </div>
+
+                                <!-- <div class="col-md-12 pd0">
+                                    <div id="broucher-form-otpbox" class="otp_box">
+
+                                        
+                                        <div class="col-lg-12 ">
+
+                                            <div class="check">
+                                                <input type="checkbox" checked>
+
+                                                <p class="text9 txtWhite mrg-btm1 wow fadeInUp"
+                                                    style="visibility: visible; animation-name: fadeInUp;" id="i-ag">I
+                                                    Agree to
+                                                    the <a href="" target="_blank" class="link3">Terms and
+                                                        Conditions</a></p>
+                                            </div>
+
+
+
+                                            <button type="submit" class="btn btn-submit wow fadeInUp"
+                                                style="visibility: visible; animation-name: fadeInUp;">
+                                                <span>Submit</span></button>
+                                        </div>
+                                    </div>
+                                </div> -->
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div>
+    
+    
+    
+    
+    <!--------------------------------------------------------Register Interest----------------------------------------------->
+     <div class="modal fade in" tabindex="-1" role="dialog" id="register-model" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <!-- <div class="modal-header">
+                    <h4 class="modal-title">Download Brochure</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">X</span></button>
+                </div> -->
+                <div class="modal-body">
+                    <div class="row ">
+                        <div class="col-lg-12">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                    aria-hidden="true" style=" font-size: 26px">X</span></button>
+                            <h4 class="modal-title tits">Register Interest</b></h4>
+
+                            <form class="row form-wrap-brch" action="thank-you.php" method="POST" id="registerr-form"
+                                name="registerr-form">
+                                <div class="col-xl-12">
+                                    <div class="frm-gro">
+                                        <div class="form-group wow fadeInUp"
+                                            style="visibility: visible; animation-name: fadeInUp;">
+                                            <input type="text" onkeyup="send_otp('registerr-form')" class="form-control"
+                                                name="fname" placeholder="First Name*">
+                                            <input type="hidden" name="source" value="Register Interest">
+                                        </div>
+                                        <label for="fname" class="error"></label>
+                                    </div>
+                                </div>
+                                <div class="col-xl-12">
+                                    <div class="frm-gro">
+                                        <div class="form-group wow fadeInUp "
+                                            style="visibility: visible; animation-name: fadeInUp;">
+                                            <input type="text" onkeyup="send_otp('registerr-form')" class="form-control"
+                                                id="email" name="email" placeholder="Email ID*">
+                                        </div>
+                                        <label for="email" class="error"></label>
+                                    </div>
+                                </div>
+                                <div class="col-xl-12">
+                                    <div class="frm-gro">
+                                        <div class="form-group wow fadeInUp"
+                                            style=" visibility: visible; animation-name: fadeInUp;">
+                                            <!-- <div class="ccDropDown" id="country_code"></div> -->
+                                            <!-- <input type="text" class="form-control  otp-num" id=" phone"
+                                                    name="mobile" placeholder="Phone*" onkeyup="send_otp('float-form')"> -->
+
+                                            <input onkeyup="send_otp('registerr-form')" type="number" id="mob-input"
+                                                class="form-control custom-input mob-input number-only" maxlength="10"
+                                                name="mobile" placeholder="Mobile*">
+                                            <p id="registerr-form-mobdigits" style="color: #000"></p>
+                                        </div>
+                                        <label for="mobile" class="error"></label>
+                                    </div>
+                                </div>
+
+                                <!-- <div class="col-md-12 pd0">
+                                    <div id="broucher-form-otpbox" class="otp_box">
+
+                                        
+                                        <div class="col-lg-12 ">
+
+                                            <div class="check">
+                                                <input type="checkbox" checked>
+
+                                                <p class="text9 txtWhite mrg-btm1 wow fadeInUp"
+                                                    style="visibility: visible; animation-name: fadeInUp;" id="i-ag">I
+                                                    Agree to
+                                                    the <a href="" target="_blank" class="link3">Terms and
+                                                        Conditions</a></p>
+                                            </div>
+
+
+
+                                            <button type="submit" class="btn btn-submit wow fadeInUp"
+                                                style="visibility: visible; animation-name: fadeInUp;">
+                                                <span>Submit</span></button>
+                                        </div>
+                                    </div>
+                                </div> -->
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div>
+    
+    
+        <!--------------------------------------------------------View Plan----------------------------------------------->
+     <div class="modal fade in" tabindex="-1" role="dialog" id="view-plan-model" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <!-- <div class="modal-header">
+                    <h4 class="modal-title">Download Brochure</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">X</span></button>
+                </div> -->
+                <div class="modal-body">
+                    <div class="row ">
+                        <div class="col-lg-12">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                    aria-hidden="true" style=" font-size: 26px">X</span></button>
+                            <h4 class="modal-title tits">View Plan</b></h4>
+
+                            <form class="row form-wrap-brch" action="thank-you.php" method="POST" id="view-plan-form"
+                                name="view-plan-form">
+                                <div class="col-xl-12">
+                                    <div class="frm-gro">
+                                        <div class="form-group wow fadeInUp"
+                                            style="visibility: visible; animation-name: fadeInUp;">
+                                            <input type="text" onkeyup="send_otp('view-plan-form')" class="form-control"
+                                                name="fname" placeholder="First Name*">
+                                            <input type="hidden" name="source" value="View Plan">
+                                        </div>
+                                        <label for="fname" class="error"></label>
+                                    </div>
+                                </div>
+                                <div class="col-xl-12">
+                                    <div class="frm-gro">
+                                        <div class="form-group wow fadeInUp "
+                                            style="visibility: visible; animation-name: fadeInUp;">
+                                            <input type="text" onkeyup="send_otp('view-plan-form')" class="form-control"
+                                                id="email" name="email" placeholder="Email ID*">
+                                        </div>
+                                        <label for="email" class="error"></label>
+                                    </div>
+                                </div>
+                                <div class="col-xl-12">
+                                    <div class="frm-gro">
+                                        <div class="form-group wow fadeInUp"
+                                            style=" visibility: visible; animation-name: fadeInUp;">
+                                            <!-- <div class="ccDropDown" id="country_code"></div> -->
+                                            <!-- <input type="text" class="form-control  otp-num" id=" phone"
+                                                    name="mobile" placeholder="Phone*" onkeyup="send_otp('float-form')"> -->
+
+                                            <input onkeyup="send_otp('view-plan-form')" type="number" id="mob-input"
+                                                class="form-control custom-input mob-input number-only" maxlength="10"
+                                                name="mobile" placeholder="Mobile*">
+                                            <p id="view-plan-form-mobdigits" style="color: #000"></p>
+                                        </div>
+                                        <label for="mobile" class="error"></label>
+                                    </div>
+                                </div>
+
+                                <!-- <div class="col-md-12 pd0">
+                                    <div id="broucher-form-otpbox" class="otp_box">
+
+                                        
+                                        <div class="col-lg-12 ">
+
+                                            <div class="check">
+                                                <input type="checkbox" checked>
+
+                                                <p class="text9 txtWhite mrg-btm1 wow fadeInUp"
+                                                    style="visibility: visible; animation-name: fadeInUp;" id="i-ag">I
+                                                    Agree to
+                                                    the <a href="" target="_blank" class="link3">Terms and
+                                                        Conditions</a></p>
+                                            </div>
+
+
+
+                                            <button type="submit" class="btn btn-submit wow fadeInUp"
+                                                style="visibility: visible; animation-name: fadeInUp;">
+                                                <span>Submit</span></button>
+                                        </div>
+                                    </div>
+                                </div> -->
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div>
+
+
+
+    <script src="js/jquery.min.3.2.1.js"></script>
+    <script src="https://use.fontawesome.com/9513ddc8db.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script src="js/customOnePageScroll.js"></script>
+    <!--<script type="text/javascript" src="js/number.js"></script>-->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/jquery.validate.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/cookie.js"></script>
+    <script src="js/url-tracking.js"></script>
+    <script src="js/facebook-conversion.js"></script>
+    <script src="js/mobilevalidate.js"></script>
+    <!--<script type="text/javascript" src="lightbox/light-box.js"></script>-->
+    <!--<script src="js/vai.js"></script>-->
+
+    <!--    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>-->
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js">
+    </script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- <script src="js/popout.js"></script> -->
+
+
+    <script type="text/javascript" src="lightbox/light-box.js"></script>
+
+    <script>
+    $('#carousel-example-generic').carousel({
+        interval: false // Disables auto-slide
+    });
+    </script>
+
+
+    <script>
+    // $(document).ready(function() {
+    //     $("input:text:visible:first").focus();
+
+    // });
+
+
+    $(document).ready(function() {
+        $("#testimonial-slider").owlCarousel({
+            items: 2,
+            itemsDesktop: [1000, 3],
+            itemsDesktopSmall: [979, 3],
+            itemsTablet: [768, 1],
+            pagination: false,
+            navigation: true,
+            navigationText: ["", ""],
+            autoPlay: true
+        });
+        $(".qr-carousel").owlCarousel({
+            items: 3,
+            itemsDesktop: [1000, 3],
+            itemsDesktopSmall: [979, 3],
+            itemsTablet: [768, 1],
+            pagination: false,
+            navigation: true,
+            navigationText: ["", ""],
+            autoPlay: true
+        });
+        // $(".gallery-carousel").owlCarousel({
+        //     items: 3,
+        //     margin: 30,
+        //     itemsDesktop: [1000, 3],
+        //     itemsDesktopSmall: [979, 3],
+        //     itemsTablet: [768, 1],
+        //     dots: false,
+        //     autoPlay: true,
+        //     nav: true,
+        //     navText: ["<i class='fa-solid fa-circle-arrow-left'></i>",
+        //         "<i class='fa-solid fa-circle-arrow-right'></i>"
+        //     ],
+        // });
+    });
+    </script>
+
+
+
+    <script>
+    $(document).ready(function() {
+
+        jQuery('.gallery-carousel').owlCarousel({
+            items: 2,
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            smartSpeed: 1500,
+            autoplayTimeout: 6000,
+            autoplayHoverPause: true,
+            dots: false,
+            nav: true,
+            navText: ["<i class='fa-solid fa-circle-arrow-left'></i>",
+                "<i class='fa-solid fa-circle-arrow-right'></i>"
+            ],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                768: {
+                    items: 3
+                }
+            }
+        });
+
+    });
+    </script>
+
+
+    <script>
+    jQuery(document).ready(function($) {
+
+        jQuery('.otp-num').keyup(function() {
+
+
+            $(mobileno).on('input', function() {
+
+                //console.log(mval.length);
+                document.getElementById("mobdigits").innerHTML = 10 - mobileno.length +
+                    " digit(s) remaining";
+
+                const input = $(this).val();
+                if (input.length === 10 && /^\d{10}$/.test(input)) {
+                    $(elm).submit();
+                }
+            });
+
+
+
+        })
+
+
+
+    });
+    </script>
+
+
+    <script>
+    jQuery(document).ready(function($) {
+        //var $gallery = $('.l-box a').simpleLightbox();
+        //$('.l-box4 a').simpleLightbox();
+
+        $('[data-fancybox="general"]').fancybox({
+            //slide effect- zoom-in-out
+            transitionEffect: "slide",
+            loop: true,
+
+            buttons: [
+                //'slideShow',
+                //'share',
+                'zoom',
+                'fullScreen',
+                'close'
+                //'download'
+            ],
+            thumbs: {
+                autoStart: false
+            }
+        });
+        $('[data-fancybox="map"]').fancybox({
+            //slide effect- zoom-in-out
+            transitionEffect: "slide",
+            loop: true,
+
+            buttons: [
+                //'slideShow',
+                //'share',
+                'zoom',
+                'fullScreen',
+                'close'
+                //'download'
+            ],
+            thumbs: {
+                autoStart: false
+            }
+        });
+        $('[data-fancybox="view360"]').fancybox({
+            //slide effect- zoom-in-out
+            transitionEffect: "slide",
+            loop: true,
+
+            buttons: [
+                //'slideShow',
+                //'share',
+                'zoom',
+                'fullScreen',
+                'close'
+                //'download'
+            ],
+            thumbs: {
+                autoStart: false
+            }
+        });
+
+
+    });
+    </script>
+    <!-- <script>
+    jQuery(document).ready(function($) {
+        if (!Get_Cookie('popout')) {
+            setTimeout(function() {
+                $('#main-pop').modal('show');
+            }, 3000);
+        }
+        $('.modal .close').click(function() {
+            Set_Cookie('popout', 'it works', '', '/', '', '');
+        });
+    });
+
+    jQuery(document).ready(function($) {
+        if (!Get_Cookie('popout')) {
+            setTimeout(function() {
+                $('#roadblock').modal('show');
+            }, 500);
+        }
+        $('.modal .close').click(function() {
+            Set_Cookie('popout', 'it works', '', '/', '', '');
+            $('.popupDiv').fadeOut(1000);
+            $('.overlay').fadeOut(1000);
+        });
+    });
+    </script> -->
+
+
+
+    <script type="text/javascript">
+    jQuery(document).ready(function($) {
+        Delete_Cookie('formfilled');
+
+        // ---------------for model only-----
+        $(".price-click").click(function() {
+            $("input:text:visible:first").focus();
+
+            $('#price-model').modal('show');
+
+        });
+        $(".i-am").click(function() {
+            // $('#iam-model').modal('show');
+            // $("input:text:visible:first").focus();
+
+
+            document.getElementById("register-body").scrollIntoView({
+                behavior: 'smooth',
+
+            })
+
+
+        });
+        $(".priv-btn").click(function() {
+            $('#priv-model').modal('show');
+        });
+        $(".disclaimer-btn").click(function() {
+            $('#disc-model').modal('show');
+        });
+        $(".dbrochure").click(function() {
+            $('#brochure').modal('show');
+            $("input:text:visible:first").focus();
+
+        });
+        $(".degform").click(function() {
+            $('#form-deg').modal('show');
+            $("input:text:visible:first").focus();
+
+        });
+        $(".roadblock2").click(function() {
+            $('#roadblock').modal('hide');
+            $('#main-pop').modal('show');
+        });
+        $(".new-thing").click(function() {
+            $('#floor-modal').modal('show');
+            $("input:text:visible:first").focus();
+
+        });
+        
+        
+          $(".down-broch-class").click(function() {
+            $('#brochure').modal('show');
+            $("input:text:visible:first").focus();
+
+        });
+        
+          $(".register-interest-class").click(function() {
+            $('#register-model').modal('show');
+            $("input:text:visible:first").focus();
+
+        });
+        
+          $(".view-plan-class").click(function() {
+            $('#view-plan-model').modal('show');
+            $("input:text:visible:first").focus();
+
+        });
+
+        // ---------------for model only-----
+    });
+    </script>
+
+
+    <script>
+    function send_otp(elm) {
+
+        //var input_dialCode = '#' + elm + ' input[name="dialCode"]';
+        var input_name = '#' + elm + ' input[name="fname"]';
+        var input_emailid = '#' + elm + ' input[name="email"]';
+        var input_mobileno = '#' + elm + ' input[name="mobile"]';
+        var input_source = '#' + elm + ' input[name="source"]';
+        var input_submit = '#' + elm + ' button[type="submit"]';
+
+
+        //var dialCode = jQuery(input_dialCode).val();
+        var name = jQuery(input_name).val();
+        var emailid = jQuery(input_emailid).val();
+        var mobileno = jQuery(input_mobileno).val();
+        var source = jQuery(input_source).val();
+
+        // validate_data(elm);
+
+
+        console.log(name, mobileno, emailid);
+        console.log('"' + elm + '-mobdigits"');
+
+        var mobileDigit = document.getElementById(elm + '-mobdigits');
+        // var otploader = document.getElementById(elm + '-otploader');
+        // var otpbox = document.getElementById(elm + '-otpbox');
+
+        mobileDigit.innerHTML = 10 - mobileno.length + " digit(s) remaining";
+
+        mobileno = mobileno.replace(/[^0-9]/g, '');
+        if (mobileno.length != 10) {
+            //alert("Please Enter 10 Digit Mobile Number");
+            return false;
+        }
+
+
+        if (mobileno.length == 10) {
+            // jQuery('#' + elm + ' input[name="otpverify"]').val('Not Verify');
+            mobileDigit.innerHTML = '';
+            // otploader.style.display = "flex";
+            // jQuery(input_name).prop('readonly', true);
+            // jQuery(input_emailid).prop('readonly', true);
+            jQuery(input_mobileno).prop('readonly', true);
+
+            setTimeout(function() {
+                jQuery(input_mobileno).prop('readonly', false);
+
+            }, 3000);
+
+
+            if (name == "") {
+                //alert("Name");
+                return false;
+            }
+
+
+
+            var atpos = emailid.indexOf("@");
+            var dotpos = emailid.lastIndexOf(".");
+            if (atpos < 1 || dotpos < atpos + 2 || dotpos + 2 >= emailid.length) {
+                return false;
+            }
+
+            if (name != "" && mobileno != "" && emailid != "") {
+
+                setTimeout(function() {
+
+                    $("#pageloader").fadeIn();
+
+                    $('#' + elm).submit();
+
+                    if (elm == 'broucher-form') {
+                        document.getElementById('broucher1').click();
+
+                    }
+
+                    if (elm == 'floor-form') {
+                        document.getElementById('floor1').click();
+
+                    }
+
+                    return true;
+                }, 2000);
+
+            } else {
+                return false;
+            }
+        }
+    }
+    </script>
+
+
+    <!-- 
+        <script>
+        function send_otp(elm) {
+
+            //var input_dialCode = '#' + elm + ' input[name="dialCode"]';
+            var input_name = '#' + elm + ' input[name="fname"]';
+            var input_emailid = '#' + elm + ' input[name="email"]';
+            var input_mobileno = '#' + elm + ' input[name="mobile"]';
+            var input_source = '#' + elm + ' input[name="source"]';
+            var input_submit = '#' + elm + ' button[type="submit"]';
+
+
+            //var dialCode = jQuery(input_dialCode).val();
+            var name = jQuery(input_name).val();
+            var emailid = jQuery(input_emailid).val();
+            var mobileno = jQuery(input_mobileno).val();
+            var source = jQuery(input_source).val();
+
+            // validate_data(elm);
+
+
+            console.log(name, mobileno, emailid);
+            console.log('"' + elm + '-mobdigits"');
+
+            var mobileDigit = document.getElementById(elm + '-mobdigits');
+            // var otploader = document.getElementById(elm + '-otploader');
+            var otpbox = document.getElementById(elm + '-otpbox');
+
+            mobileDigit.innerHTML = 10 - mobileno.length + " digit(s) remaining";
+
+
+            if (mobileno.length == 10) {
+                // jQuery('#' + elm + ' input[name="otpverify"]').val('Not Verify');
+                mobileDigit.innerHTML = '';
+                // otploader.style.display = "flex";
+                jQuery(input_name).prop('readonly', true);
+                // jQuery(input_emailid).prop('readonly', true);
+                jQuery(input_mobileno).prop('readonly', true);
+
+                var url_string = window.location.href;
+                var url = new URL(url_string);
+                var cstm_ppc_campaign = url.searchParams.get("cstm_ppc_campaign");
+                var cstm_ppc_channel = url.searchParams.get("cstm_ppc_channel");
+                var cstm_ppc_placement = url.searchParams.get("cstm_ppc_placement");
+                var cstm_ppc_device = url.searchParams.get("cstm_ppc_device");
+                var cstm_ppc_keyword = url.searchParams.get("cstm_ppc_keyword");
+                var cstm_ppc_medium = url.searchParams.get("cstm_ppc_medium");
+                var gclid = url.searchParams.get("gclid");
+
+
+                if (name != "" && mobileno != "") {
+                    $("#pageloader").fadeIn();
+
+                    var formdata = {
+                        "url": "sendotp.php",
+                        "method": "POST",
+                        "timeout": 0,
+                        "headers": {
+                            "Content-Type": "application/json"
+                        },
+                        data: JSON.stringify({
+                            "fname": name,
+                            "email": emailid,
+                            "mobile": mobileno,
+                            "source": source,
+                            "cstm_ppc_campaign": cstm_ppc_campaign,
+                            "cstm_ppc_channel": cstm_ppc_channel,
+                            "cstm_ppc_placement": cstm_ppc_placement,
+                            "cstm_ppc_device": cstm_ppc_device,
+                            "cstm_ppc_keyword": cstm_ppc_keyword,
+                            "gclid": gclid,
+                            "cstm_ppc_medium": cstm_ppc_medium
+                        })
+                    };
+
+                    $.ajax(formdata).done(function(formdataResponse) {
+
+                        if (formdataResponse['status']['statusCode'] == 200) {
+                            console.log(formdataResponse);
+
+                            $("#pageloader").fadeIn(3000);
+
+                            setTimeout(function() {
+                                window.location.href = 'thank-you.php';
+                            }, 4000);
+
+
+                            if (elm == 'broucher-form') {
+                                document.getElementById('broucher1').click();
+                            }
+
+
+                            // otploader.style.display = "none";
+                            // otpbox.style.display = "block";
+
+                            jQuery(input_submit).prop('disabled', false);
+
+                        } else {
+                            // otploader.style.display = "none";
+                            jQuery(input_name).prop('readonly', false);
+                            jQuery(input_emailid).prop('readonly', false);
+                            jQuery(input_mobileno).prop('readonly', false);
+
+                        }            if (bud == "") {
+                //alert("Please Enter Your Name");
+                return false;
+            }
+
+                    });
+                }
+            }
+        }
+
+
+        function validate_data(elm) {
+            var input_name = '#' + elm + ' input[name="fname"]';
+            var input_emailid = '#' + elm + ' input[name="email"]';
+            var input_mobileno = '#' + elm + ' input[name="mobile"]';
+            var input_formsource = '#' + elm + ' input[name="source"]';
+
+
+            var name = jQuery(input_name).val();
+            var emailid = jQuery(input_emailid).val();
+            var mobileno = jQuery(input_mobileno).val();
+
+            if (name == "") {
+                //alert("Please Enter Your Name");
+                jQuery(input_mobileno).prop('readonly', true);
+                return false;
+            }
+
+
+            var atpos = emailid.indexOf("@");
+            var dotpos = emailid.lastIndexOf(".");
+            if (atpos < 1 || dotpos < atpos + 2 || dotpos + 2 >= emailid.length) {
+                jQuery(input_mobileno).prop('readonly', true);
+                return false;
+            }
+
+            if (name != "" && emailid != "") {
+                jQuery(input_mobileno).prop('readonly', false);
+            }
+        }
+        </script> -->
+
+
+
+    <!-- <script type="text/javascript">
+    function save_landing_pageinfo(elm) {
+        jQuery('#' + elm + ' input[type=submit], #' + elm + ' button').prop('disabled', true);
+        setTimeout(function() {
+            jQuery('#' + elm + ' input[type=submit], #' + elm + ' button').prop('disabled', false);
+        }, 5000);
+        var name = jQuery('#' + elm + ' input[name="name"]').val();
+        var mobileno = jQuery('#' + elm + ' input[name="mobile"]').val();
+        var cc = jQuery('#' + elm + ' select[name="cc"]').val();
+        var emailid = jQuery('#' + elm + ' input[name="email"]').val();
+        var conf = jQuery('#' + elm + ' select[name="conf"]').val();
+        var message = jQuery('#' + elm + ' textarea[name="message"]').val();
+        var fsource = jQuery('#' + elm + ' input[name="source"]').val();
+        var current_url = location.hostname;
+        var cstm_ppc_channel = Get_Cookie('cstm_ppc_channel');
+
+        if (name == "") {
+            //alert("Name");
+            return false;
+        }
+
+
+        mobileno = mobileno.replace(/[^0-9]/g, '');
+        if (mobileno.length != 10) {
+            //alert("Please Enter 10 Digit Mobile Number");
+            return false;
+        }
+
+        //if (elm == 'price-popup') {
+        //    emailid = "";
+        //} else if (elm == 'main-popup') {
+        //    emailid = "";
+        //} else {
+        var atpos = emailid.indexOf("@");
+        var dotpos = emailid.lastIndexOf(".");
+        if (atpos < 1 || dotpos < atpos + 2 || dotpos + 2 >= emailid.length) {
+            return false;
+        }
+        //}
+
+        // if (message == undefined) {
+        //     message = "";
+        // }
+
+        if (elm == 'broucher-form') {
+            document.getElementById('broucher1').click();
+        }
+
+
+
+
+    }
+    </script> -->
+    
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const listItems = document.querySelectorAll(".menu-body .list");
+
+        listItems.forEach(item => {
+            item.addEventListener("click", function () {
+                // Remove 'active' from all list items
+                listItems.forEach(el => el.classList.remove("active"));
+                // Add 'active' to the clicked item
+                this.classList.add("active");
+            });
+        });
+    });
+</script>
+
+
+
+</body>
+
+</html>

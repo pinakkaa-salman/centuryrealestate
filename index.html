@@ -74,6 +74,447 @@
             .error span {display:none;}
             .error {width:100%; text-align:left; height:10px; font-size:13px; color:darkred;}
             .project__enquiry .error {color:black !IMPORTANT;}
+
+
+
+
+            .about__left__title .heading-primary{
+                font-size: 2rem;
+            }
+            .paragraph{
+                font-size: 1rem;
+            }
+        </style>
+        <style>
+            .why-choose-us {
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 60px 20px;
+            }
+    
+            .section-title {
+                text-align: center;
+                margin-bottom: 50px;
+            }
+    
+            .section-title h2 {
+                font-size: 2.5rem;
+                color: #2c3e50;
+                margin-bottom: 10px;
+                font-weight: 500;
+            }
+    
+            .section-title .underline {
+                width: 80px;
+                height: 4px;
+                /* background: linear-gradient(90deg, #3498db, #2ecc71); */
+                margin: 0 auto;
+                border-radius: 2px;
+            }
+    
+            .features-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+                gap: 30px;
+                margin-top: 40px;
+            }
+    
+            .feature-card {
+                background: white;
+                padding: 35px 25px;
+                border-radius: 12px;
+                box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+                text-align: center;
+            }
+    
+            .feature-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 5px 25px rgba(0, 0, 0, 0.12);
+            }
+    
+            .icon-wrapper {
+                width: 70px;
+                height: 70px;
+                margin: 0 auto 20px;
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: transform 0.3s ease;
+            }
+    
+            .feature-card:nth-child(2) .icon-wrapper {
+                background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            }
+    
+            .feature-card:nth-child(3) .icon-wrapper {
+                background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            }
+    
+            .feature-card:nth-child(4) .icon-wrapper {
+                background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+            }
+    
+            .feature-card:hover .icon-wrapper {
+                transform: scale(1.1);
+            }
+    
+            .icon-wrapper svg {
+                width: 35px;
+                height: 35px;
+                fill: white;
+            }
+    
+            .feature-card h3 {
+                font-size: 1.1rem;
+                color: #2c3e50;
+                margin-bottom: 15px;
+                font-weight: 500;
+            }
+    
+            .feature-card p {
+                font-size: 0.85rem;
+                color: #5a6c7d;
+                line-height: 1.7;
+                font-weight: 400;
+            }
+    
+            @media (max-width: 768px) {
+                .section-title h2 {
+                    font-size: 2rem;
+                }
+    
+                .features-grid {
+                    grid-template-columns: 1fr;
+                    gap: 25px;
+                }
+    
+                .feature-card {
+                    padding: 30px 20px;
+                }
+    
+                .why-choose-us {
+                    padding: 40px 15px;
+                }
+            }
+    
+            @media (max-width: 480px) {
+                .section-title h2 {
+                    font-size: 1.75rem;
+                }
+    
+                .feature-card h3 {
+                    font-size: 1.15rem;
+                }
+    
+                .feature-card p {
+                    font-size: 0.9rem;
+                }
+            }
+        </style>
+        <style>
+    
+            .testimonials-section {
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 60px 20px;
+            }
+    
+            .section-title {
+                text-align: center;
+                margin-bottom: 60px;
+            }
+    
+            /* .section-title h2 {
+                font-size: 2.5rem;
+                color: #3d3d3d;
+                font-weight: 600;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+            } */
+    
+            .testimonials-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+                gap: 30px;
+            }
+    
+            .testimonial-card {
+                background: white;
+                padding: 40px 30px;
+                border-radius: 8px;
+                box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+                position: relative;
+            }
+    
+            .testimonial-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 5px 25px rgba(0, 0, 0, 0.12);
+            }
+    
+            .stars {
+                display: flex;
+                gap: 5px;
+                margin-bottom: 20px;
+            }
+    
+            .star {
+                color: #4c5fd5;
+                font-size: 1.2rem;
+            }
+    
+            .testimonial-text {
+                font-style: italic;
+                color: #6b6b6b;
+                line-height: 1.6;
+                font-size: 0.85rem;
+                margin-bottom: 25px;
+            }
+    
+            .testimonial-author {
+                border-top: 1px solid #e8e8e8;
+                padding-top: 20px;
+            }
+    
+            .author-name {
+                font-weight: 600;
+                color: #3d3d3d;
+                font-size: 1.05rem;
+                margin-bottom: 5px;
+            }
+    
+            .author-title {
+                color: #888;
+                font-size: 0.9rem;
+            }
+    
+            @media (max-width: 968px) {
+                .testimonials-grid {
+                    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+                }
+            }
+    
+            @media (max-width: 768px) {
+                .section-title h2 {
+                    font-size: 2rem;
+                }
+    
+                .testimonials-grid {
+                    grid-template-columns: 1fr;
+                    gap: 25px;
+                }
+    
+                .testimonial-card {
+                    padding: 35px 25px;
+                }
+    
+                .testimonials-section {
+                    padding: 40px 15px;
+                }
+            }
+    
+            @media (max-width: 480px) {
+                .section-title h2 {
+                    font-size: 1.75rem;
+                    letter-spacing: 1px;
+                }
+    
+                .testimonial-card {
+                    padding: 30px 20px;
+                }
+    
+                .testimonial-text {
+                    font-size: 0.9rem;
+                }
+    
+                .star {
+                    font-size: 1rem;
+                }
+            }
+        </style>
+        <style>
+    
+            .blogs-section {
+                max-width: 1300px;
+                margin: 0 auto;
+                padding: 60px 20px;
+            }
+    
+            .section-title {
+                text-align: center;
+                margin-bottom: 60px;
+            }
+    
+            .section-title h2 {
+                font-size: 2.5rem;
+                color: #2c3e50;
+                font-weight: 700;
+                letter-spacing: 3px;
+                text-transform: uppercase;
+            }
+    
+            .blogs-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+                gap: 30px;
+                margin-bottom: 50px;
+            }
+    
+            .blog-card {
+                background: white;
+                border-radius: 12px;
+                overflow: hidden;
+                box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+    
+            .blog-card:hover {
+                transform: translateY(-8px);
+                box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+            }
+    
+            .blog-image {
+                width: 100%;
+                height: 220px;
+                object-fit: cover;
+                display: block;
+            }
+    
+            .blog-content {
+                padding: 30px;
+            }
+    
+            .blog-date {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                color: #6b7280;
+                font-size: 0.9rem;
+                margin-bottom: 15px;
+            }
+    
+            .calendar-icon {
+                width: 16px;
+                height: 16px;
+                color: #5b8def;
+            }
+    
+            .blog-title {
+                font-size: 1.15rem;
+                color: #2c3e50;
+                font-weight: 500;
+                margin-bottom: 15px;
+                line-height: 1.4;
+            }
+    
+            .blog-excerpt {
+                color: #5a6c7d;
+                font-size: 0.85rem;
+                line-height: 1.5;
+                margin-bottom: 25px;
+                font-weight: 400;
+            }
+    
+            .read-more-btn {
+                display: inline-block;
+                padding: 8px 18px;
+                background: transparent;
+                color: #9F1635;
+                border: 2px solid #9F1635;
+                border-radius: 6px;
+                text-decoration: none;
+                font-weight: 500;
+                font-size: 0.85rem;
+                transition: all 0.3s ease;
+            }
+    
+            .read-more-btn:hover {
+                background: #9F1635;
+                color: white;
+            }
+    
+            .view-all-container {
+                text-align: center;
+                margin-top: 50px;
+            }
+    
+            .view-all-btn {
+                display: inline-block;
+                padding: 15px 40px;
+                background: #7cb342;
+                color: white;
+                border: none;
+                border-radius: 8px;
+                font-size: 1rem;
+                font-weight: 600;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                box-shadow: 0 4px 15px rgba(124, 179, 66, 0.3);
+            }
+    
+            .view-all-btn:hover {
+                background: #689f38;
+                transform: translateY(-2px);
+                box-shadow: 0 6px 20px rgba(124, 179, 66, 0.4);
+            }
+    
+            @media (max-width: 1100px) {
+                .blogs-grid {
+                    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                }
+            }
+    
+            @media (max-width: 768px) {
+                .section-title h2 {
+                    font-size: 2rem;
+                    letter-spacing: 2px;
+                }
+    
+                .blogs-grid {
+                    grid-template-columns: 1fr;
+                    gap: 25px;
+                }
+    
+                .blog-content {
+                    padding: 25px;
+                }
+    
+                .blogs-section {
+                    padding: 40px 15px;
+                }
+            }
+    
+            @media (max-width: 480px) {
+                .section-title h2 {
+                    font-size: 1.75rem;
+                    letter-spacing: 1px;
+                }
+    
+                .blog-title {
+                    font-size: 1.2rem;
+                }
+    
+                .blog-excerpt {
+                    font-size: 0.9rem;
+                }
+    
+                .blog-content {
+                    padding: 20px;
+                }
+    
+                .read-more-btn {
+                    padding: 10px 24px;
+                    font-size: 0.9rem;
+                }
+    
+                .view-all-btn {
+                    padding: 12px 35px;
+                    font-size: 0.95rem;
+                }
+            }
         </style>
     </head>
     <body style="overflow-y: auto;" __processed_42fdcd1c-1e9c-4b07-980d-db9f524bd6cc__="true" cz-shortcut-listen="true">
@@ -93,13 +534,16 @@
                 <nav class="col-6 col-md-10 col-lg-10 nav">
                     <ul>
                         <li>
+                            <a href="./index.html">Home</a>
+                        </li>
+                        <li>
                             <a href="./about.html">About Us</a>
                         </li>
                         <li>
                             <a href="./project.html">Residential</a>
                         </li>
                         <li>
-                            <a href="https://commercial.centuryrealestate.in/" target="_blank">Commercial</a>
+                            <!-- <a href="https://commercial.centuryrealestate.in/" target="_blank">Commercial</a> -->
                         </li>
                         
                         <li>
@@ -122,9 +566,10 @@
                     </div>
                     <div class="sidemenu__top">
                         <ul>
+                            <li class="mobile"><a href="./index.html">Home</a></li>
                             <li class="mobile"><a href="./about.html">About Us</a></li>
                             <li class="mobile"><a href="./project.html">Residential</a></li>
-                            <li class="mobile"><a href="https://commercial.centuryrealestate.in/" target="_blank">Commercial</a></li>
+                            <!-- <li class="mobile"><a href="https://commercial.centuryrealestate.in/" target="_blank">Commercial</a></li> -->
                             
                             <li><a href="https://www.centuryrealestate.in/why-us">Why Us</a></li>
                             
@@ -175,12 +620,12 @@
             <div class="col-12 col-md-6 order-1 order-md-0">
                 <div class="about__left" data-scroll-offset="10%">
                     <div class="about__left__title">
-                        <h2 class="sub-title mb-5 mt-4 is-inview" data-scroll="" data-scroll-speed="1" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">About Us</h2>
-                        <h1 class="heading-primary mb-1 is-inview" data-scroll="" data-scroll-speed="1.2" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">Century Real Estate, established in 1973, is one of Bengaluru’s leading professional real estate companies with five decades of industry leadership.</h1>
+                        <h2 class="sub-title is-inview" data-scroll="" data-scroll-speed="1" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">About Us</h2>
+                        <h1 class="heading-primary mb-1 is-inview" data-scroll="" data-scroll-speed="1.2" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">Our Story & Legacy</h1>
                         <div class="about__left__title__content">
-                            <p class="paragraph is-inview" data-scroll="" data-scroll-speed="1.4" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"></p><p class="paragraph">Based in Bengaluru, the company is one of the pioneers of residential real estate development in the city and among the best builders and developers in Bangalore, India.</p>
-<p class="paragraph">Century Real Estate has come to be recognized in the industry, as one of the oldest, most trusted, and reliable brands for partners, investors, and homeowners alike.</p>
-<p class="paragraph">The company has played an instrumental role in building Bengaluru’s skyline having developed properties across Banerghatta Road, Indiranagar, MG Road, and the Central Business Development area and now focusing on developing properties across North Bengaluru.</p><p class="paragraph"></p>
+                            <p class="paragraph is-inview" data-scroll="" data-scroll-speed="1.4" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"></p><p class="paragraph">At DS & JAKS DEVELOPERS, our foundation is built on a simple yet powerful commitment: Trust, Quality, and Timely Delivery. With a rich legacy in the dynamic Bangalore real estate market, we have consistently focused on transforming vacant land into vibrant, sustainable, and high-quality residential communities.</p>
+<p class="paragraph">We recognized the need for spaces that not only meet the functional requirements of modern living but also offer true value and appreciation potential for our residents. This vision drives every project we undertake, from mid-segment apartments to premium residential layouts.</p>
+<!-- <p class="paragraph">The company has played an instrumental role in building Bengaluru’s skyline having developed properties across Banerghatta Road, Indiranagar, MG Road, and the Central Business Development area and now focusing on developing properties across North Bengaluru.</p><p class="paragraph"></p> -->
                             <a class="link mb-3 is-inview" href="./about.html" data-scroll="" data-scroll-speed="1.6" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"><span></span> More About Us</a>
                         </div>
                     </div>
@@ -188,7 +633,7 @@
             </div>
             <div class="col-12  col-md-6 order-0 order-md-1 p-0">
                 <div class="about__right">
-                    <img loading="lazy" src="./centuryrealestate_files/tpLyq4syHLIFAc0PiEV2DjrhhPrkDf.jpg" data-scroll-offset="10%" data-scroll-repeat="" data-scroll="" data-scroll-class="inView" alt="About Century" class="img-fluid" width="960" height="950">
+                    <img loading="lazy" src="./centuryrealestate_files/tpLyq4syHLIFAc0PiEV2DjrhhPrkDf.jpg" style="height: 450px;" data-scroll-offset="10%" data-scroll-repeat="" data-scroll="" data-scroll-class="inView" alt="About Century" class="img-fluid" width="960" height="950">
                 </div>
             </div>
         </div>
@@ -196,11 +641,11 @@
     <div class="container-fluid projects">
         <div class="row custom-row">
             <div class="col-12">
-                <h2 class="sub-title mb-5 mt-4 is-inview" data-scroll="" data-scroll-speed="1" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">CENTURY REAL ESTATES’S PROJECTS</h2>
+                <h2 class="sub-title mb-5 mt-4 is-inview" data-scroll="" data-scroll-speed="1" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">ONGOING PROJECT</h2>
                 <h3 class="heading-primary is-inview" data-scroll="" data-scroll-speed="1.2" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">Explore 2/3/4 BHK apartments, villas, and plotted developments </h3>
             </div>
         </div>
-        <div class="row custom-row projects__tabs mb-5 mt-5 is-inview" id="filters" data-scroll="" data-scroll-speed="1.3" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">
+        <!-- <div class="row custom-row projects__tabs mb-5 mt-5 is-inview" id="filters" data-scroll="" data-scroll-speed="1.3" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">
             <div class="col-12 col-sm-12 col-md-6">
                 <ul class="button-group project_type_filter">
                                         <li data-filter="1">Luxury</li>
@@ -212,21 +657,21 @@
             <div class="col-12 col-sm-12 col-md-6 projects__tabs__link">
                 <a class="link" href="https://www.centuryrealestate.in/projects"> <span></span>View All Projects</a>
             </div>
-        </div>
+        </div> -->
 
         <div class="projects__lists">
             <div class="row custom-row grid projects__lists__section inView" data-scroll-speed=".2" data-scroll-offset="5%" data-scroll-repeat="" data-scroll="" data-scroll-class="inView" style="position: relative; height: 1688.34px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -18.6764, 0, 1);">
 		<div class="projects__lists__section__item" style="position: absolute; left: 132.719px; top: 0px;">
-	    <a href="https://www.centuryrealestate.in/residential/projects/century-marathahalli" target="_blank" class="projects__lists__section__item__inner">
+	    <a href="./needs3.html"  class="projects__lists__section__item__inner">
 	        <img loading="lazy" src="./centuryrealestate_files/Century Marathahalli-thumbnail.jpg" alt="Century Marathahalli" class="img-fluid" width="402" height="402">
 	        <div class="projects__lists__item__inner__caption" data-scroll="" data-scroll-repeat="" data-scroll-class="fadeInView" data-scroll-delay="2000">
-	            <h3 class="project-heading mb-2 is-inview" data-scroll="" data-scroll-speed="1" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">Century Marathahalli</h3>
-	            								<h4 data-scroll="" data-scroll-speed="1.2" class="mb-2 is-inview" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"><span><i class="fa-solid fa-map-marker" aria-hidden="true"></i></span> Marathahalli</h4>
+	            <h3 class="project-heading mb-2 is-inview" data-scroll="" data-scroll-speed="1" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">NEEDS 3 PROJECT 168</h3>
+	            								<h4 data-scroll="" data-scroll-speed="1.2" class="mb-2 is-inview" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"><span><i class="fa-solid fa-map-marker" aria-hidden="true"></i></span> Bengaluru</h4>
 									            <span class="link is-inview" data-scroll="" data-scroll-speed="1.3" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"> <span></span> Explore</span>
 	            	        </div>
 	    </a>
 	</div>
-		<div class="projects__lists__section__item" style="position: absolute; left: 695.5px; top: 0px; transition-property: opacity, transform; transition-duration: 800ms; transition-delay: 30ms; transform: translate3d(0.0004px, 0px, 0px);">
+		<!-- <div class="projects__lists__section__item" style="position: absolute; left: 695.5px; top: 0px; transition-property: opacity, transform; transition-duration: 800ms; transition-delay: 30ms; transform: translate3d(0.0004px, 0px, 0px);">
 	    <a href="https://www.centuryrealestate.in/residential/projects/century-liva" target="_blank" class="projects__lists__section__item__inner">
 	        <img loading="lazy" src="./centuryrealestate_files/iVIO9ssIIvfn64o0iZLl1Tw0sbsUsS.jpg" alt="Century Liva" class="img-fluid" width="402" height="402">
 	        <div class="projects__lists__item__inner__caption" data-scroll="" data-scroll-repeat="" data-scroll-class="fadeInView" data-scroll-delay="2000">
@@ -236,8 +681,8 @@
 									            <span class="link is-inview" data-scroll="" data-scroll-speed="1.3" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"> <span></span> Explore</span>
 	            	        </div>
 	    </a>
-	</div>
-		<div class="projects__lists__section__item" style="position: absolute; left: 1258.28px; top: 0px; transition-property: opacity, transform; transition-duration: 800ms; transition-delay: 60ms; transform: translate3d(0.0018px, 0px, 0px);">
+	</div> -->
+		<!-- <div class="projects__lists__section__item" style="position: absolute; left: 1258.28px; top: 0px; transition-property: opacity, transform; transition-duration: 800ms; transition-delay: 60ms; transform: translate3d(0.0018px, 0px, 0px);">
 	    <a href="https://www.centuryrealestate.in/residential/projects/century-regalia" target="_blank" class="projects__lists__section__item__inner">
 	        <img loading="lazy" src="./centuryrealestate_files/eQwqLuyilUBCwFHDCE9lp5zOwB9bZI.jpg" alt="Century Regalia" class="img-fluid" width="402" height="402">
 	        <div class="projects__lists__item__inner__caption" data-scroll="" data-scroll-repeat="" data-scroll-class="fadeInView" data-scroll-delay="2000">
@@ -247,8 +692,8 @@
 									            <span class="link is-inview" data-scroll="" data-scroll-speed="1.3" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"> <span></span> Explore</span>
 	            	        </div>
 	    </a>
-	</div>
-		<div class="projects__lists__section__item" style="position: absolute; left: 132.719px; top: 562.781px; transition-property: opacity, transform; transition-duration: 800ms; transition-delay: 90ms; transform: translate3d(0px, 0.0004px, 0px);">
+	</div> -->
+		<!-- <div class="projects__lists__section__item" style="position: absolute; left: 132.719px; top: 562.781px; transition-property: opacity, transform; transition-duration: 800ms; transition-delay: 90ms; transform: translate3d(0px, 0.0004px, 0px);">
 	    <a href="https://www.centuryrealestate.in/residential/projects/century-trails" target="_blank" class="projects__lists__section__item__inner">
 	        <img loading="lazy" src="./centuryrealestate_files/D9TxfFr6vOjTSnqurKaHiiK1xfIo0F.jpg" alt="Century Trails" class="img-fluid" width="402" height="402">
 	        <div class="projects__lists__item__inner__caption" data-scroll="" data-scroll-repeat="" data-scroll-class="fadeInView" data-scroll-delay="2000">
@@ -258,8 +703,8 @@
 									            <span class="link is-inview" data-scroll="" data-scroll-speed="1.3" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"> <span></span> Explore</span>
 	            	        </div>
 	    </a>
-	</div>
-		<div class="projects__lists__section__item" style="position: absolute; left: 695.5px; top: 562.781px; transition-property: opacity, transform; transition-duration: 800ms; transition-delay: 120ms; transform: translate3d(0.0004px, 0.0004px, 0px);">
+	</div> -->
+		<!-- <div class="projects__lists__section__item" style="position: absolute; left: 695.5px; top: 562.781px; transition-property: opacity, transform; transition-duration: 800ms; transition-delay: 120ms; transform: translate3d(0.0004px, 0.0004px, 0px);">
 	    <a href="https://www.centuryrealestate.in/residential/projects/ferie-villas-at-century-wintersun" target="_blank" class="projects__lists__section__item__inner">
 	        <img loading="lazy" src="./centuryrealestate_files/eoyuk4cn5zA48YpbOCdhmy5o2qxVrr.jpg" alt="Ferié villas at Century Wintersun" class="img-fluid" width="402" height="402">
 	        <div class="projects__lists__item__inner__caption" data-scroll="" data-scroll-repeat="" data-scroll-class="fadeInView" data-scroll-delay="2000">
@@ -269,8 +714,8 @@
 									            <span class="link is-inview" data-scroll="" data-scroll-speed="1.3" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"> <span></span> Explore</span>
 	            	        </div>
 	    </a>
-	</div>
-		<div class="projects__lists__section__item" style="position: absolute; left: 1258.28px; top: 562.781px; transition-property: opacity, transform; transition-duration: 800ms; transition-delay: 150ms; transform: translate3d(0.0018px, 0.0004px, 0px);">
+	</div> -->
+		<!-- <div class="projects__lists__section__item" style="position: absolute; left: 1258.28px; top: 562.781px; transition-property: opacity, transform; transition-duration: 800ms; transition-delay: 150ms; transform: translate3d(0.0018px, 0.0004px, 0px);">
 	    <a href="https://www.centuryrealestate.in/residential/projects/century-eden" target="_blank" class="projects__lists__section__item__inner">
 	        <img loading="lazy" src="./centuryrealestate_files/hhz8hzk9z9KlIEIbMj6defAIVlArY1.jpg" alt="Century Eden" class="img-fluid" width="402" height="402">
 	        <div class="projects__lists__item__inner__caption" data-scroll="" data-scroll-repeat="" data-scroll-class="fadeInView" data-scroll-delay="2000">
@@ -280,8 +725,8 @@
 									            <span class="link is-inview" data-scroll="" data-scroll-speed="1.3" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"> <span></span> Explore</span>
 	            	        </div>
 	    </a>
-	</div>
-		<div class="projects__lists__section__item" style="position: absolute; left: 132.719px; top: 1125.56px; transition-property: opacity, transform; transition-duration: 800ms; transition-delay: 180ms; transform: translate3d(0px, 0.0027999px, 0px);">
+	</div> -->
+		<!-- <div class="projects__lists__section__item" style="position: absolute; left: 132.719px; top: 1125.56px; transition-property: opacity, transform; transition-duration: 800ms; transition-delay: 180ms; transform: translate3d(0px, 0.0027999px, 0px);">
 	    <a href="https://www.centuryrealestate.in/residential/projects/century-novus" target="_blank" class="projects__lists__section__item__inner">
 	        <img loading="lazy" src="./centuryrealestate_files/mYBdTgaX8mko9jN7AQwVZ7rMLb8UFu.jpg" alt="Century Novus" class="img-fluid" width="402" height="402">
 	        <div class="projects__lists__item__inner__caption fadeInView" data-scroll="" data-scroll-repeat="" data-scroll-class="fadeInView" data-scroll-delay="2000">
@@ -291,8 +736,8 @@
 									            <span class="link is-inview" data-scroll="" data-scroll-speed="1.3" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -26.83, 0, 1);"> <span></span> Explore</span>
 	            	        </div>
 	    </a>
-	</div>
-		<div class="projects__lists__section__item" style="position: absolute; left: 695.5px; top: 1125.56px; transition-property: opacity, transform; transition-duration: 800ms; transition-delay: 210ms; transform: translate3d(0.0004px, 0.0027999px, 0px);">
+	</div> -->
+		<!-- <div class="projects__lists__section__item" style="position: absolute; left: 695.5px; top: 1125.56px; transition-property: opacity, transform; transition-duration: 800ms; transition-delay: 210ms; transform: translate3d(0.0004px, 0.0027999px, 0px);">
 	    <a href="https://www.centuryrealestate.in/residential/projects/century-ethos" target="_blank" class="projects__lists__section__item__inner">
 	        <img loading="lazy" src="./centuryrealestate_files/UO9MCrV0sz7siz0cZO7ia0Lc4sHfbb.jpg" alt="Century Ethos" class="img-fluid" width="402" height="402">
 	        <div class="projects__lists__item__inner__caption fadeInView" data-scroll="" data-scroll-repeat="" data-scroll-class="fadeInView" data-scroll-delay="2000">
@@ -302,8 +747,8 @@
 									            <span class="link is-inview" data-scroll="" data-scroll-speed="1.3" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -26.83, 0, 1);"> <span></span> Explore</span>
 	            	        </div>
 	    </a>
-	</div>
-		<div class="projects__lists__section__item" style="position: absolute; left: 1258.28px; top: 1125.56px; transition-property: opacity, transform; transition-duration: 800ms; transition-delay: 240ms; transform: translate3d(0.0018px, 0.0027999px, 0px);">
+	</div> -->
+		<!-- <div class="projects__lists__section__item" style="position: absolute; left: 1258.28px; top: 1125.56px; transition-property: opacity, transform; transition-duration: 800ms; transition-delay: 240ms; transform: translate3d(0.0018px, 0.0027999px, 0px);">
 	    <a href="https://www.centuryrealestate.in/residential/projects/century-renata" target="_blank" class="projects__lists__section__item__inner">
 	        <img loading="lazy" src="./centuryrealestate_files/3UHu7BOfMbWJdukhQryc6PzEvnEbxJ.jpg" alt="Century Renata" class="img-fluid" width="402" height="402">
 	        <div class="projects__lists__item__inner__caption fadeInView" data-scroll="" data-scroll-repeat="" data-scroll-class="fadeInView" data-scroll-delay="2000">
@@ -313,7 +758,7 @@
 									            <span class="link is-inview" data-scroll="" data-scroll-speed="1.3" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -26.83, 0, 1);"> <span></span> Explore</span>
 	            	        </div>
 	    </a>
-	</div>
+	</div> -->
 	</div>        </div>
     </div>
     
@@ -363,12 +808,12 @@
         </div>
     </div>
         <div class="container-fluid testimonials">
-        <div class="row custom-row">
+        <!-- <div class="row custom-row">
             <div class="col-12">
                 <h2 class="sub-title mb-5 mt-4 is-inview" data-scroll="" data-scroll-speed="1" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -5.34785, 0, 1);">Video Wall</h2>
             </div>
-        </div>
-        <div class="row custom-row">
+        </div> -->
+        <!-- <div class="row custom-row">
                         <div class="col-12 col-md-4 testimonials__block play__icon" data-youtube-id="WEzavsNQMfE" style="margin-bottom: 10px;">
                 <div class="testimonials__block__inner">
                     <img loading="lazy" src="./centuryrealestate_files/NjS0jOn6FFruiL8nC8bVUmBHkTSn1A.webp" alt="Mrs. Swathi Girimaji" class="img-fluid cover__image" width="800" height="800">
@@ -396,8 +841,191 @@
                     <h3 class="caption" data-scroll-speed="1">Homecoming with the Ruparelias family<span> - Ruparelias family </span></h3>
                 </div>
             </div>
-                    </div>  
+        </div>   -->
     </div>
+
+
+
+
+    <section class="why-choose-us">
+        <div class="section-title">
+            <h2>Why Choose Us?</h2>
+            <div class="underline"></div>
+        </div>
+
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="icon-wrapper">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5zm0 2.18l8 3.68v8.06c0 4.5-3.12 8.73-8 9.93-4.88-1.2-8-5.43-8-9.93V7.86l8-3.68zM10 12l-2 2 4 4 6-6-1.41-1.41L12 15.17 10 12z"/>
+                    </svg>
+                </div>
+                <h3>Proven Track Record</h3>
+                <p>Years of consistent delivery in the competitive Bangalore market.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="icon-wrapper">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.2 3.2.8-1.3-4.5-2.7V7z"/>
+                    </svg>
+                </div>
+                <h3>Commitment to Timelines</h3>
+                <p>We understand the importance of your investment and prioritise timely project completion.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="icon-wrapper">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z"/>
+                    </svg>
+                </div>
+                <h3>Value for Money</h3>
+                <p>Our strategic locations and focus on quality ensure that every investment with us yields excellent potential for appreciation.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="icon-wrapper">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/>
+                    </svg>
+                </div>
+                <h3>Legal Clarity</h3>
+                <p>We guarantee projects with clear titles and necessary regulatory approvals, giving you peace of mind.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="testimonials-section">
+        <div class="section-title">
+            <h2>TESTIMONIALS</h2>
+        </div>
+
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="stars">
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                </div>
+                <p class="testimonial-text">
+                    "From the very first site visit to the final handover, the process with the developer was smooth and transparent. They made sure all legal formalities were clear and that the project stayed on schedule. We felt incredibly secure throughout the entire journey. It's more than just a home; it's an investment we can truly trust."
+                </p>
+                <div class="testimonial-author">
+                    <div class="author-name">Mr. Karthik S.</div>
+                    <div class="author-title">IT Consultant</div>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="stars">
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                </div>
+                <p class="testimonial-text">
+                    "The attention to detail in the design is what truly sets this project apart. The apartment layouts are incredibly functional, maximising natural light and ventilation, which was a huge priority for us. The quality of the fittings and the construction finish is premium—it looks exactly like the renderings promised. It's a beautifully crafted space."
+                </p>
+                <div class="testimonial-author">
+                    <div class="author-name">Mrs. Priya R.</div>
+                    <div class="author-title">Homemaker</div>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="stars">
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                </div>
+                <p class="testimonial-text">
+                    "We were looking for the perfect balance, and this location delivered. We're close enough to the main tech hubs to keep the commute short, yet the neighbourhood feels quiet and serene. Combining that convenience with the excellent amenities and competitive pricing makes this the smartest real estate investment we could have made for our family's future."
+                </p>
+                <div class="testimonial-author">
+                    <div class="author-name">Mr. Sharma</div>
+                    <div class="author-title">Business Owners & Residents</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="blogs-section">
+        <div class="section-title">
+            <h2>BLOGS</h2>
+        </div>
+
+        <div class="blogs-grid">
+            <div class="blog-card">
+                <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&h=500&fit=crop" alt="Apartment Building" class="blog-image">
+                <div class="blog-content">
+                    <div class="blog-date">
+                        <svg class="calendar-icon" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"/>
+                        </svg>
+                        <span>Nov 15, 2025</span>
+                    </div>
+                    <h3 class="blog-title">Why Invest in an Apartment in Horamavu?</h3>
+                    <p class="blog-excerpt">
+                        Horamavu offers excellent connectivity through the Outer Ring Road, easy access to tech hubs like Manyata Tech Park, strong rental demand, and great affordability. With growing infrastructure, schools, malls, and hospitals nearby, it has become one of the most promising investment zones in North-East Bengaluru....
+                    </p>
+                    <a href="./blogs1.html" class="read-more-btn">Read More →</a>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <img src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&h=500&fit=crop" alt="Luxury Interior" class="blog-image">
+                <div class="blog-content">
+                    <div class="blog-date">
+                        <svg class="calendar-icon" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"/>
+                        </svg>
+                        <span>Nov 10, 2025</span>
+                    </div>
+                    <h3 class="blog-title">Why Choose DS & JAKS Developers?</h3>
+                    <p class="blog-excerpt">
+                        DS & JAKS Developers stand out for their trust, legal transparency, superior construction quality, and prime location selection. With a strong focus on timely delivery and premium design, they ensure long-term value and a secure investment for homebuyers...
+                    </p>
+                    <a href="./blogs2.html" class="read-more-btn">Read More →</a>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=500&fit=crop" alt="Villa and Apartment" class="blog-image">
+                <div class="blog-content">
+                    <div class="blog-date">
+                        <svg class="calendar-icon" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"/>
+                        </svg>
+                        <span>Nov 5, 2025</span>
+                    </div>
+                    <h3 class="blog-title">Why Invest in Needs3 Project 168?</h3>
+                    <p class="blog-excerpt">
+                        Needs3 Project 168 offers premium gated living with only 119 exclusive homes, top-tier specifications, and unbeatable connectivity in Horamavu. Located near the 100-ft road and close to Manyata Tech Park, top schools, hospitals, and malls, it promises high rental yield and strong capital appreciation...
+                    </p>
+                    <a href="./blogs3.html" class="read-more-btn">Read More →</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="view-all-container">
+            <button class="view-all-btn">View All Blogs</button>
+        </div> -->
+    </section>
+
+
+
+
+
+
         <div class="container-fluid enquiry" data-scroll-offset="5%" data-scroll-repeat="" data-scroll="" data-scroll-class="inView">
         <div class="row custom-row pr-0">
             <div class="col-12 col-sm-12 col-md-6">
@@ -473,7 +1101,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid ceomessage" data-scroll-offset="5%" data-scroll-repeat="" data-scroll="" data-scroll-class="inView">
+    <!-- <div class="container-fluid ceomessage" data-scroll-offset="5%" data-scroll-repeat="" data-scroll="" data-scroll-class="inView">
         <div class=" row custom-row justify-content-center">
             <div class="col-12 col-md-11 col-lg-10 ceomessage__block text-center">
                 <h3 class="sub-title mb-5">THINKING AHEAD</h3>
@@ -502,7 +1130,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </main>
 
 
@@ -516,7 +1144,9 @@
                     </div>
                     <div class="col-12 col-sm-12 col-md-6">
                         <div class="footer__top__address">
-                            <p class="paragraph">No. 3/1 Fourth Floor, J P Techno Park, Millers Road,<br> Bangalore - 560052, Karnataka, India</p>
+                            <p class="paragraph">Site Address: Survey No. 98/3A, Kenchappa Garden 3rd Main Road, Hoysala Nagar Rd, <br>Horamavu, Bengaluru, Karnataka 560016</p>
+                            <p>Phone - <a href="tel:+919990227494">9990227494</a></p>
+                            <p>Email - <a href="mailto:info@casatrance.com">info@casatrance.com</a></p>
                         </div>
                     </div>
                     <div class="col-12 col-sm-12 col-md-3">
@@ -532,7 +1162,7 @@
                     </div>
                 </div>
                 <div class="row custom-row footer__bottom">
-                    <div class="col-12 col-sm-12 col-md-6">
+                    <!-- <div class="col-12 col-sm-12 col-md-6">
                         <div class="footer__bottom__links">
                             <ul>
                                 <li><a href="https://www.centuryrealestate.in/residential/projects">Residential</a></li>
@@ -544,8 +1174,8 @@
                                 <li><a href="https://www.centuryrealestate.in/privacy">Privacy</a></li>
                             </ul>
                         </div>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-6">
+                    </div> -->
+                    <div class="col-12 col-sm-12 ">
                         <div class="footer__bottom__p">
                             <p class="paragraph">© 2025 by Century Real Estate Holdings Pvt. Ltd. All rights reserved.</p>
                         </div>

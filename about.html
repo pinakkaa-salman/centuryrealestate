@@ -74,6 +74,140 @@
             .error span {display:none;}
             .error {width:100%; text-align:left; height:10px; font-size:13px; color:darkred;}
             .project__enquiry .error {color:black !IMPORTANT;}
+            .heading-primary{
+                font-size: 1.5rem;
+                line-height: 1.5;
+            }
+        </style>
+        <style>
+    
+            .why-choose-section {
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 60px 20px;
+            }
+    
+            .section-header {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+    
+            .section-header h2 {
+                font-size: 2rem;
+                color: #2c3e50;
+                margin-bottom: 25px;
+                font-weight: 600;
+            }
+    
+            .section-intro {
+                font-size: 0.9rem;
+                color: #5a6c7d;
+                line-height: 1.6;
+                max-width: 900px;
+                margin: 0 auto;
+            }
+    
+            .features-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+                gap: 30px;
+                margin-top: 50px;
+            }
+    
+            .feature-card {
+                background: white;
+                padding: 40px 30px;
+                border-radius: 12px;
+                box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+                text-align: center;
+                position: relative;
+            }
+    
+            .feature-card:hover {
+                transform: translateY(-8px);
+                box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+            }
+    
+            .feature-number {
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                width: 60px;
+                height: 60px;
+                background: linear-gradient(135deg, #7cb342 0%, #689f38 100%);
+                color: white;
+                border-radius: 50%;
+                font-weight: 700;
+                font-size: 1.5rem;
+                margin-bottom: 25px;
+            }
+    
+            .feature-title {
+                font-size: 1rem;
+                color: #2c3e50;
+                margin-bottom: 15px;
+                font-weight: 500;
+                line-height: 1.3;
+            }
+    
+            .feature-description {
+                font-size: 0.8rem;
+                color: #5a6c7d;
+                line-height: 1.4;
+                font-weight: 400;
+            }
+    
+            @media (max-width: 768px) {
+                .section-header h2 {
+                    font-size: 2rem;
+                }
+    
+                .section-intro {
+                    font-size: 1rem;
+                }
+    
+                .features-grid {
+                    grid-template-columns: 1fr;
+                    gap: 25px;
+                }
+    
+                .feature-card {
+                    padding: 35px 25px;
+                }
+    
+                .why-choose-section {
+                    padding: 40px 15px;
+                }
+            }
+    
+            @media (max-width: 480px) {
+                .section-header h2 {
+                    font-size: 1.75rem;
+                }
+    
+                .section-intro {
+                    font-size: 0.95rem;
+                }
+    
+                .feature-card {
+                    padding: 30px 20px;
+                }
+    
+                .feature-number {
+                    width: 55px;
+                    height: 55px;
+                    font-size: 1.3rem;
+                }
+    
+                .feature-title {
+                    font-size: 1.2rem;
+                }
+    
+                .feature-description {
+                    font-size: 0.95rem;
+                }
+            }
         </style>
     </head>
     <body __processed_8a1fd0dd-d0b1-4d9a-8429-a5731576c3bd__="true" style="overflow-y: auto;" cz-shortcut-listen="true">
@@ -92,6 +226,9 @@
                 </div>
                 <nav class="col-6 col-md-10 col-lg-10 nav">
                     <ul>
+                        <li class="">
+                            <a href="./index.html">Home</a>
+                        </li>
                         <li class="active">
                             <a href="./about.html">About Us</a>
                         </li>
@@ -99,7 +236,7 @@
                             <a href="./project.html">Residential</a>
                         </li>
                         <li>
-                            <a href="https://commercial.centuryrealestate.in/" target="_blank">Commercial</a>
+                            <!-- <a href="https://commercial.centuryrealestate.in/" target="_blank">Commercial</a> -->
                         </li>
                         
                         <li>
@@ -122,9 +259,10 @@
                     </div>
                     <div class="sidemenu__top">
                         <ul>
+                            <li class="mobile"><a href="./index.html">Home</a></li>
                             <li class="mobile"><a href="./about.html">About Us</a></li>
                             <li class="mobile"><a href="./project.html">Residential</a></li>
-                            <li class="mobile"><a href="https://commercial.centuryrealestate.in/" target="_blank">Commercial</a></li>
+                            <!-- <li class="mobile"><a href="https://commercial.centuryrealestate.in/" target="_blank">Commercial</a></li> -->
                             
                             <li><a href="https://www.centuryrealestate.in/why-us">Why Us</a></li>
                             
@@ -165,8 +303,9 @@
     <div class="container-fluid intro">
         <div class="row custom-row justify-content-center">
             <div class="col-12 col-md-11 col-lg-10 intro__inner text-center">
-                <h1 class="heading-primary mb-5 is-inview" data-scroll="" data-scroll-speed="1" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">Century Real Estate is among the best real estate companies in Bengaluru and one of the leading real estate builders and land owners in the city.</h1>
-                <p class="paragraph mb-5 is-inview" data-scroll="" data-scroll-speed="1.2" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">Century Real Estate Holdings Private Limited, established in 1973, is one of India’s leading professional real estate builders and developers. Based in Bengaluru, the company is one of the pioneers of residential real estate development in the city. The company has over 3,000 acres of land bank and over 20 million sq. ft. of quality residential and commercial assets under construction. With almost 50 years of industry leadership, Century Real Estate has come to be recognized in the industry, as one of the most trusted and reliable real estate companies for partners, investors, and homeowners alike.</p>
+                <h1 class="heading-primary mb-5 is-inview" data-scroll="" data-scroll-speed="1" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">Our Story & Legacy</h1>
+                <p class="paragraph mb-3 is-inview" data-scroll="" data-scroll-speed="1.2" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">At DS & JAKS DEVELOPERS, our foundation is built on a simple yet powerful commitment: Trust, Quality, and Timely Delivery. With a rich legacy in the dynamic Bangalore real estate market, we have consistently focused on transforming vacant land into vibrant, sustainable, and high-quality residential communities.</p>
+                <p class="paragraph mb-5 is-inview" data-scroll="" data-scroll-speed="1.2" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">We recognized the need for spaces that not only meet the functional requirements of modern living but also offer true value and appreciation potential for our residents. This vision drives every project we undertake, from mid-segment apartments to premium residential layouts.</p>
                 <!-- <a data-scroll data-scroll-speed="1.4" class="link" href="#"> <span></span>Read More</a> -->
             </div>
         </div>
@@ -179,7 +318,7 @@
             </div>
         </div>
     </div>-->
-    <div class="container-fluid history">
+    <!-- <div class="container-fluid history">
         <div class="row custom-row pr-0">
             <div class="history__title p-0">
                 <h2 class="sub-title is-inview" data-scroll="" data-scroll-speed="1" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">history</h2>
@@ -748,26 +887,28 @@
                     </div>
                 </div></div></div></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots"><button role="button" class="owl-dot active"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button></div></div>
         </div>
-    </div>
-    <div class="container-fluid vision" style="background: #000 url(https://www.centuryrealestate.in/assets/images/banners/yFjdjC3Nxm8Pqcql0sT5Ei27dWfKw7.jpg)no-repeat center/cover;">
+    </div> -->
+    <!-- <div class="container-fluid vision" style="background: #000 url(https://www.centuryrealestate.in/assets/images/banners/yFjdjC3Nxm8Pqcql0sT5Ei27dWfKw7.jpg)no-repeat center/cover;">
         <div class="row custom-row">
             <h2 class="sub-title mb-5 p-0" data-scroll="" data-scroll-speed="1" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">Vision</h2>
             <h3 class="heading-primary p-0" data-scroll="" data-scroll-speed="1.2" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">To be the most respected and progressive real estate brand that will catalyse the industry and play a significant role in the building of a new and a better India, suited for the evolving life and lifestyle of its people.</h3>
         </div>
-    </div>
+    </div> -->
     <div class="container-fluid missionvalues">
         <div class="row">
-            <div class="col-12 col-md-6 missionvalues__block lazy" style="background: #000 url(https://www.centuryrealestate.in/assets/images/about/mission.jpg)no-repeat center/cover;">
-                <h2 class="sub-title mb-5 p-0" data-scroll="" data-scroll-speed="1" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">Mission</h2>
-                <span data-bs-toggle="modal" data-bs-target="#mission" class="link" data-scroll="" data-scroll-speed="1.2" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"><span></span>Learn More</span>
+            <div class="col-12 col-md-6 missionvalues__block lazy" style="background: #000 url(https://www.centuryrealestate.in/assets/images/banners/yFjdjC3Nxm8Pqcql0sT5Ei27dWfKw7.jpg)no-repeat center/cover;">
+                <h2 class="sub-title mb-5 p-0" data-scroll="" data-scroll-speed="1" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">Mission Statement</h2>
+                <h3 class="heading-primary p-0" data-scroll="" data-scroll-speed="1.2" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">To consistently deliver high-quality, strategically located residential properties in Bangalore, exceeding customer expectations through uncompromising standards of construction, ethical practices, and timely project delivery, thereby securing sustainable value for our stakeholders and transforming land into lasting legacies.</h3>
+                <!-- <span data-bs-toggle="modal" data-bs-target="#mission" class="link" data-scroll="" data-scroll-speed="1.2" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"><span></span>Learn More</span> -->
             </div>
-            <div class="col-12 col-md-6 missionvalues__block lazy" style="background: #000 url(https://www.centuryrealestate.in/assets/images/about/value.jpg)no-repeat center/cover;">
-                <h2 class="sub-title mb-5 p-0" data-scroll="" data-scroll-speed="1" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">Values</h2>
-                <span data-bs-toggle="modal" data-bs-target="#vision" class="link" data-scroll="" data-scroll-speed="1.2" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"><span></span>Learn More</span>
+            <div class="col-12 col-md-6 missionvalues__block lazy" style="background: #000 url(https://www.centuryrealestate.in/assets/images/banners/yFjdjC3Nxm8Pqcql0sT5Ei27dWfKw7.jpg)no-repeat center/cover;">
+                <h2 class="sub-title mb-5 p-0" data-scroll="" data-scroll-speed="1" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">Vision Statement</h2>
+                <h3 class="heading-primary p-0" data-scroll="" data-scroll-speed="1.2" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">To be recognised as a leading and most trusted developer in the Bangalore residential market, synonymous with reliability, architectural excellence, and customer-centricity, driving the future of quality living in high-growth corridors.</h3>
+                <!-- <span data-bs-toggle="modal" data-bs-target="#vision" class="link" data-scroll="" data-scroll-speed="1.2" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"><span></span>Learn More</span> -->
             </div>
         </div>
     </div>
-    <div class="container-fluid management">
+    <!-- <div class="container-fluid management">
         <div class="row custom-row pb-4">
             <h2 class="sub-title mb-5 p-0" data-scroll="" data-scroll-speed="1" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">Key management</h2>
             <h3 class="heading-primary p-0" data-scroll="" data-scroll-speed="1.2" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">Experience is a crucial element of our <br> success.</h3>
@@ -789,16 +930,16 @@
                     <p id="data-profile-linkedin" data-profile-linkedin="https://www.linkedin.com/in/ravindra-pai-16162547/"></p>
                     <p id="data-profile-twitter" data-profile-twitter=""></p>
                     <p id="data-profile-description" data-profile-description="Mr. P Ravindra Pai is the Managing Director of Century Real Estate Holdings Pvt Ltd. Armed with a management degree from the prestigious Indian Institute of Management (IIM) Bangalore and diverse experiences in software programming, business process migration and sales from reputed organisations such as Tata Infotech and GE Capital, Mr. Pai has brought in significant experience in the real estate and construction industry. Mr. Pai oversees all activities of Century Real Estate including sourcing of land, project conceptualization, execution and delivery.&lt;br /&gt;
-&lt;br /&gt;
-More than 6 million worth of construction have been undertaken under the leadership of Mr. Pai. The company currently has residential projects with a built-up area of around 3.9 mn sqft, plotted development with a saleable area of around 1.02 mn sqft and commercial office projects with leasable area of 1.03 mn sqft. The Company currently has 7 residential projects ongoing with a built-up area of around 3 mn sqft, 4 plotted development with a saleable area of around 4.11 mn sqft and 2 commercial office projects with leasable area of 1 mn sqft.&lt;br /&gt;
-&lt;br /&gt;
-Under the leadership of Mr. Ravindra Pai, the company grew from being a 50 member company to a 300 strong integrated holding overseeing all the aspects of development. Different verticals like projects and engineering, design and architecture, construction, marketing and communications, and customer service were established under him.&lt;br /&gt;
-&lt;br /&gt;
-He is instrumental in changing the face of real estate and bringing to life the dream of creating holistic living spaces for various segments of buyers. Even when affordable housing was a distant reality, Mr. Pai envisaged and delivered homes in the sub 30 lakh, sub 50 lakh, sub 70 lakh, sub 1 crore and above 2 crore categories, helping over 25,000 families realise their dream of owning a house. Under his leadership Century Real Estate has become identical with transparency, quality, innovation, superior design and prompt deliveries. The company is also constantly endeavoring to set new benchmarks in the real estate industry and continue using path-breaking technology in projects and setting the standard for real estate development in India.&lt;br /&gt;
-&lt;br /&gt;
-He teamed up with IIM, Bangalore to acquire data and conduct scientific research on the Indian real estate sector. The research initiative creates a bridge between the industry, government and academia. IIM-B contributes by way of administrative and research work. Academic and practitioner journals publish the data collected from the research, to offer policy prescriptions and guidance to the Indian government and industry stakeholders on important issues related to the real estate sector.&lt;br /&gt;
-&lt;br /&gt;
-Mr. Pai was recently awarded the Young Achiever’s Award by the Bangalore Management Association for his contribution to the real estate industry.">
+                &lt;br /&gt;
+                More than 6 million worth of construction have been undertaken under the leadership of Mr. Pai. The company currently has residential projects with a built-up area of around 3.9 mn sqft, plotted development with a saleable area of around 1.02 mn sqft and commercial office projects with leasable area of 1.03 mn sqft. The Company currently has 7 residential projects ongoing with a built-up area of around 3 mn sqft, 4 plotted development with a saleable area of around 4.11 mn sqft and 2 commercial office projects with leasable area of 1 mn sqft.&lt;br /&gt;
+                &lt;br /&gt;
+                Under the leadership of Mr. Ravindra Pai, the company grew from being a 50 member company to a 300 strong integrated holding overseeing all the aspects of development. Different verticals like projects and engineering, design and architecture, construction, marketing and communications, and customer service were established under him.&lt;br /&gt;
+                &lt;br /&gt;
+                He is instrumental in changing the face of real estate and bringing to life the dream of creating holistic living spaces for various segments of buyers. Even when affordable housing was a distant reality, Mr. Pai envisaged and delivered homes in the sub 30 lakh, sub 50 lakh, sub 70 lakh, sub 1 crore and above 2 crore categories, helping over 25,000 families realise their dream of owning a house. Under his leadership Century Real Estate has become identical with transparency, quality, innovation, superior design and prompt deliveries. The company is also constantly endeavoring to set new benchmarks in the real estate industry and continue using path-breaking technology in projects and setting the standard for real estate development in India.&lt;br /&gt;
+                &lt;br /&gt;
+                He teamed up with IIM, Bangalore to acquire data and conduct scientific research on the Indian real estate sector. The research initiative creates a bridge between the industry, government and academia. IIM-B contributes by way of administrative and research work. Academic and practitioner journals publish the data collected from the research, to offer policy prescriptions and guidance to the Indian government and industry stakeholders on important issues related to the real estate sector.&lt;br /&gt;
+                &lt;br /&gt;
+                Mr. Pai was recently awarded the Young Achiever’s Award by the Bangalore Management Association for his contribution to the real estate industry.">
                     </p>
                 </div>
             </div>
@@ -815,8 +956,8 @@ Mr. Pai was recently awarded the Young Achiever’s Award by the Bangalore Manag
                     <p id="data-profile-linkedin" data-profile-linkedin="https://www.linkedin.com/in/ashwin-pai-85715aa0/"></p>
                     <p id="data-profile-twitter" data-profile-twitter=""></p>
                     <p id="data-profile-description" data-profile-description="Mr. Ashwin Pai serves as the Executive Director. He holds a Masters Degree in Business Administration from Ohio-Manipal Institute of Management and brings with him vast experience in the field of sales and marketing. &lt;br /&gt;
-&lt;br /&gt;
-He has a broad range of responsibilities that include business development, sales management, customer relationship management and corporate communications for the Company.">
+            &lt;br /&gt;
+            He has a broad range of responsibilities that include business development, sales management, customer relationship management and corporate communications for the Company.">
                     </p>
                 </div>
             </div>
@@ -833,14 +974,14 @@ He has a broad range of responsibilities that include business development, sale
                     <p id="data-profile-linkedin" data-profile-linkedin=""></p>
                     <p id="data-profile-twitter" data-profile-twitter=""></p>
                     <p id="data-profile-description" data-profile-description="Mr. Dev Patel joined Century Real Estate in the year 2002. As Executive Director, he oversees the engineering and construction activity for the Company and plays a key role in the design review, project management and construction delivery of all projects. &lt;br /&gt;
-&lt;br /&gt;
-Dev has a Bachelor of Engineering degree and a Master of Science degree from Northeastern University U.S.A. He has extensive experience in project management having successfully delivered and completed over 2 million square feet of commercial and residential development.">
+                &lt;br /&gt;
+                Dev has a Bachelor of Engineering degree and a Master of Science degree from Northeastern University U.S.A. He has extensive experience in project management having successfully delivered and completed over 2 million square feet of commercial and residential development.">
                     </p>
                 </div>
             </div>
                     </div>
-    </div>
-    <div class="container-fluid social lazy" style="background: #000 url(https://www.centuryrealestate.in/assets/images/home/social-responsibilities.jpg)no-repeat center/cover;" data-scroll-offset="5%" data-scroll-repeat="" data-scroll="" data-scroll-class="inView">
+    </div> -->
+    <!-- <div class="container-fluid social lazy" style="background: #000 url(https://www.centuryrealestate.in/assets/images/home/social-responsibilities.jpg)no-repeat center/cover;" data-scroll-offset="5%" data-scroll-repeat="" data-scroll="" data-scroll-class="inView">
         <div class="row custom-row social__inner align-items-center">
             <div class="col-12 col-sm-12 col-md-6">
                 <div class="social__inner_left">
@@ -854,8 +995,8 @@ Dev has a Bachelor of Engineering degree and a Master of Science degree from Nor
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container-fluid bottom">
+    </div> -->
+    <!-- <div class="container-fluid bottom">
         <div class="row custom-row">
             <div class="col-12 col-md-5 bottom__links">
                 <a href="https://www.centuryrealestate.in/associated-enterprises" class="link" data-scroll="" data-scroll-speed="1" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"><span></span>Associated enterprises</a>
@@ -864,8 +1005,61 @@ Dev has a Bachelor of Engineering degree and a Master of Science degree from Nor
                 <a href="https://www.centuryrealestate.in/corporate-governance" class="link" data-scroll="" data-scroll-speed="1" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"><span></span>corporate Governance</a>
             </div>
         </div>
-    </div>
+    </div> -->
+
+
+    <section class="why-choose-section">
+        <div class="section-header">
+            <h2>Why Choose DS & JAKS DEVELOPERS?</h2>
+            <p class="section-intro">
+                Choosing a real estate developer is a decision about trust, longevity, and quality. DS & JAKS DEVELOPERS stands out in the dynamic Bangalore market by prioritizing the fundamental values that secure a buyer's investment and future lifestyle.
+            </p>
+        </div>
+
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-number">1</div>
+                <h3 class="feature-title">Commitment to Trust & Transparency</h3>
+                <p class="feature-description">
+                    In an industry often marked by uncertainty, DS & JAKS has made trust its cornerstone.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-number">2</div>
+                <h3 class="feature-title">Uncompromising Quality & Enduring Value</h3>
+                <p class="feature-description">
+                    Our projects are designed to be long-term assets, built with a focus on durability, aesthetics, and structural integrity.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-number">3</div>
+                <h3 class="feature-title">Strategic Location Mastery</h3>
+                <p class="feature-description">
+                    We don't just build homes; we secure prime locations that promise exceptional growth and convenience.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-number">4</div>
+                <h3 class="feature-title">Reliability in Timely Delivery</h3>
+                <p class="feature-description">
+                    We understand that timely handover is crucial for your financial planning and occupancy needs.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+
 </main>
+
+
+
+
+
             <footer class="container-fluid footer" data-scroll-offset="5%" data-scroll-repeat="" data-scroll="" data-scroll-class="inView">
                 <span class="awards-footer"><img src="./about_files/gptw-certification-badge-2025.svg" alt="Great place to work" class="img-fluid" width="96" height="164"></span>
                 <div class=" row custom-row footer__top align-items-center">
@@ -876,7 +1070,9 @@ Dev has a Bachelor of Engineering degree and a Master of Science degree from Nor
                     </div>
                     <div class="col-12 col-sm-12 col-md-6">
                         <div class="footer__top__address">
-                            <p class="paragraph">No. 3/1 Fourth Floor, J P Techno Park, Millers Road,<br> Bangalore - 560052, Karnataka, India</p>
+                            <p class="paragraph">Site Address: Survey No. 98/3A, Kenchappa Garden 3rd Main Road, Hoysala Nagar Rd, <br>Horamavu, Bengaluru, Karnataka 560016</p>
+                            <p>Phone - <a href="tel:+919990227494">9990227494</a></p>
+                            <p>Email - <a href="mailto:info@casatrance.com">info@casatrance.com</a></p>
                         </div>
                     </div>
                     <div class="col-12 col-sm-12 col-md-3">
@@ -892,7 +1088,7 @@ Dev has a Bachelor of Engineering degree and a Master of Science degree from Nor
                     </div>
                 </div>
                 <div class="row custom-row footer__bottom">
-                    <div class="col-12 col-sm-12 col-md-6">
+                    <!-- <div class="col-12 col-sm-12 col-md-6">
                         <div class="footer__bottom__links">
                             <ul>
                                 <li><a href="https://www.centuryrealestate.in/residential/projects">Residential</a></li>
@@ -904,8 +1100,8 @@ Dev has a Bachelor of Engineering degree and a Master of Science degree from Nor
                                 <li><a href="https://www.centuryrealestate.in/privacy">Privacy</a></li>
                             </ul>
                         </div>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-6">
+                    </div> -->
+                    <div class="col-12 col-sm-12 ">
                         <div class="footer__bottom__p">
                             <p class="paragraph">© 2025 by Century Real Estate Holdings Pvt. Ltd. All rights reserved.</p>
                         </div>
