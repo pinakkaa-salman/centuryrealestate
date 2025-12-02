@@ -187,6 +187,251 @@
                     font-size: 0.95rem;
                 }
             }
+        </style>
+        <style>
+            .blogs-header {
+                text-align: center;
+                padding: 60px 20px 40px;
+                background-color: #ffffff;
+                margin-top: 5rem;
+            }
+    
+            .blogs-header h1 {
+                font-size: 2.5rem;
+                color: #2c3e50;
+                font-weight: 700;
+                letter-spacing: 2px;
+                margin-bottom: 10px;
+            }
+    
+            .breadcrumb {
+                font-size: 0.95rem;
+                color: #666;
+                text-align: center;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+    
+            .breadcrumb a {
+                color: #7cb342;
+                text-decoration: none;
+            }
+    
+            .blogs-container {
+                max-width: 1300px;
+                margin: 0 auto;
+                padding: 40px 20px;
+                display: grid;
+                grid-template-columns: 2fr 1fr;
+                gap: 40px;
+                align-items: start;
+            }
+    
+            .blogs-main {
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+            }
+    
+            .blog-card {
+                background: white;
+                border-radius: 10px;
+                overflow: hidden;
+                box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+    
+            .blog-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+            }
+    
+            .blog-image {
+                width: 100%;
+                height: 300px;
+                object-fit: cover;
+                display: block;
+            }
+    
+            .blog-content {
+                padding: 30px;
+            }
+    
+            .blog-title {
+                font-size: 1.2rem;
+                color: #000;
+                margin-bottom: 15px;
+                font-weight: 600;
+                line-height: 1.4;
+            }
+    
+            .blog-excerpt {
+                font-size: 0.85rem;
+                color: #5a6c7d;
+                line-height: 1.5;
+                margin-bottom: 15px;
+            }
+    
+            .know-more-btn {
+                display: inline-block;
+                padding:8px 20px;
+                background: #A82240;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                text-decoration: none;
+                font-weight: 500;
+                font-size: 0.85rem;
+                text-transform: uppercase;
+                transition: all 0.3s ease;
+                cursor: pointer;
+            }
+    
+            .know-more-btn:hover {
+                background: transparent;
+                border: 1px solid #A82240;
+                color: #A82240;
+                transform: translateY(-2px);
+            }
+    
+            .sidebar {
+                position: sticky;
+                top: 20px;
+                background: white;
+                padding: 30px;
+                border-radius: 10px;
+                box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
+            }
+    
+            .sidebar-title {
+                font-size: 1.4rem;
+                color: #2c3e50;
+                margin-bottom: 25px;
+                font-weight: 600;
+                padding-bottom: 15px;
+                border-bottom: 2px solid #7cb342;
+            }
+    
+            .recent-post {
+                display: flex;
+                gap: 15px;
+                margin-bottom: 20px;
+                padding-bottom: 20px;
+                border-bottom: 1px solid #e8e8e8;
+                cursor: pointer;
+                transition: transform 0.2s ease;
+            }
+    
+            .recent-post:last-child {
+                border-bottom: none;
+                padding-bottom: 0;
+            }
+    
+            .recent-post:hover {
+                transform: translateX(5px);
+            }
+    
+            .recent-post-image {
+                width: 80px;
+                height: 80px;
+                object-fit: cover;
+                border-radius: 8px;
+                flex-shrink: 0;
+            }
+    
+            .recent-post-content {
+                flex: 1;
+            }
+    
+            .recent-post-title {
+                font-size: 0.95rem;
+                color: #2c3e50;
+                font-weight: 600;
+                margin-bottom: 8px;
+                line-height: 1.4;
+            }
+    
+            .recent-post-excerpt {
+                font-size: 0.85rem;
+                color: #666;
+                line-height: 1.5;
+            }
+    
+            @media (max-width: 1024px) {
+                .blogs-container {
+                    grid-template-columns: 1fr;
+                }
+    
+                .sidebar {
+                    position: relative;
+                    top: 0;
+                }
+            }
+    
+            @media (max-width: 768px) {
+                .blogs-header h1 {
+                    font-size: 2rem;
+                }
+    
+                .blog-image {
+                    height: 250px;
+                }
+    
+                .blog-content {
+                    padding: 25px;
+                }
+    
+                .blog-title {
+                    font-size: 1.4rem;
+                }
+    
+                .blogs-container {
+                    padding: 30px 15px;
+                    gap: 30px;
+                }
+    
+                .sidebar {
+                    padding: 25px;
+                }
+            }
+    
+            @media (max-width: 480px) {
+                .blogs-header h1 {
+                    font-size: 1.75rem;
+                }
+    
+                .blog-image {
+                    height: 200px;
+                }
+    
+                .blog-content {
+                    padding: 20px;
+                }
+    
+                .blog-title {
+                    font-size: 1.2rem;
+                }
+    
+                .blog-excerpt {
+                    font-size: 0.95rem;
+                }
+    
+                .know-more-btn {
+                    padding: 10px 25px;
+                    font-size: 0.9rem;
+                }
+    
+                .recent-post-image {
+                    width: 70px;
+                    height: 70px;
+                }
+    
+                .recent-post-title {
+                    font-size: 0.9rem;
+                }
+            }
             header .nav__hamburger{
                 display: none !important;
             }
@@ -220,7 +465,7 @@
                         <li class="">
                             <a href="./career.html">Careers</a>
                         </li>
-                        <li class="">
+                        <li class="active">
                             <a href="./blog.html">Blogs</a>
                         </li>
                         <li>
@@ -291,78 +536,75 @@
     
 
 
-
-                <div class="hero-section">
-                    <h1 class="hero-title">Why Choose DS & JAKS DEVELOPERS?</h1>
+                <div class="blogs-header">
+                    <h1>BLOGS</h1>
+                    <p class="breadcrumb"><a href="./index.html">Homepage</a> → Blogs</p>
                 </div>
             
-                <div class="blog-content">
-                    <p class="section-text">
-                        Choosing a real estate developer is a decision about trust, longevity, and quality. DS & JAKS DEVELOPERS stands out in the dynamic Bangalore market by prioritizing the fundamental values that secure a buyer's investment and future lifestyle.
-                    </p>
+                <div class="blogs-container">
+                    <div class="blogs-main">
+                        <div class="blog-card">
+                            <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&h=500&fit=crop" alt="Apartment Building" class="blog-image">
+                            <div class="blog-content">
+                                <h2 class="blog-title">Why Invest in an Apartment in Horamavu?</h2>
+                                <p class="blog-excerpt">
+                                    Horamavu offers excellent connectivity through the Outer Ring Road, easy access to tech hubs like Manyata Tech Park, strong rental demand, and great affordability. With growing infrastructure, schools, malls, and hospitals nearby, it has become one of the most promising investment zones in North-East Bengaluru....
+                                </p>
+                                <a href="./blogs1.html" class="know-more-btn">Know More</a>
+                            </div>
+                        </div>
             
-                    <div class="blog-section">
-                        <h2 class="section-title">1. Commitment to Trust & Transparency</h2>
-                        <p class="section-text">
-                            In an industry often marked by uncertainty, DS & JAKS has made trust its cornerstone.
-                        </p>
-                        <ul class="bullet-list">
-                            <li>
-                                <strong>Clean Legal Titles:</strong> We ensure every project comes with clear legal titles and all necessary regulatory approvals, providing absolute peace of mind to the buyer.
-                            </li>
-                            <li>
-                                <strong>Ethical Dealings:</strong> We maintain transparency throughout the purchase process, from initial site visit to final handover, ensuring a smooth and honest buying experience.
-                            </li>
-                        </ul>
+                        <div class="blog-card">
+                            <img src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&h=500&fit=crop" alt="Luxury Interior" class="blog-image">
+                            <div class="blog-content">
+                                <h2 class="blog-title">Why Choose DS & JAKS Developers?</h2>
+                                <p class="blog-excerpt">
+                                    DS & JAKS Developers stand out for their trust, legal transparency, superior construction quality, and prime location selection. With a strong focus on timely delivery and premium design, they ensure long-term value and a secure investment for homebuyers...
+                                </p>
+                                <a href="./blogs2.html" class="know-more-btn">Know More</a>
+                            </div>
+                        </div>
+            
+                        <div class="blog-card">
+                            <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=500&fit=crop" alt="Villa and Apartment" class="blog-image">
+                            <div class="blog-content">
+                                <h2 class="blog-title">Why Invest in Needs3 Project 168?</h2>
+                                <p class="blog-excerpt">
+                                    Needs3 Project 168 offers premium gated living with only 119 exclusive homes, top-tier specifications, and unbeatable connectivity in Horamavu. Located near the 100-ft road and close to Manyata Tech Park, top schools, hospitals, and malls, it promises high rental yield and strong capital appreciation...
+                                </p>
+                                <a href="./blogs3.html" class="know-more-btn">Know More</a>
+                            </div>
+                        </div>
                     </div>
             
-                    <div class="blog-section">
-                        <h2 class="section-title">2. Uncompromising Quality & Enduring Value</h2>
-                        <p class="section-text">
-                            Our projects are designed to be long-term assets, built with a focus on durability, aesthetics, and structural integrity.
-                        </p>
-                        <ul class="bullet-list">
-                            <li>
-                                <strong>Superior Specifications:</strong> We utilize high-grade construction materials and fixtures, ensuring the final product reflects premium quality that endures the test of time.
-                            </li>
-                            <li>
-                                <strong>Modern Design:</strong> Our architecture focuses on maximizing space, light, and ventilation—key elements of modern, healthy living, as seen in projects like DS-MAX-JAKS Nakshatra.
-                            </li>
-                        </ul>
-                    </div>
+                    <aside class="sidebar">
+                        <h3 class="sidebar-title">Recent Posts</h3>
+                        
+                        <div class="recent-post">
+                            <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=150&h=150&fit=crop" alt="Post 1" class="recent-post-image">
+                            <div class="recent-post-content">
+                                <h4 class="recent-post-title">Why Invest in an Apartment in Horamavu?</h4>
+                                <p class="recent-post-excerpt">Horamavu offers excellent connectivity through the Outer Ring Road...</p>
+                            </div>
+                        </div>
             
-                    <div class="blog-section">
-                        <h2 class="section-title">3. Strategic Location Mastery</h2>
-                        <p class="section-text">
-                            We don't just build homes; we secure prime locations that promise exceptional growth and convenience.
-                        </p>
-                        <ul class="bullet-list">
-                            <li>
-                                <strong>High-Growth Corridors:</strong> We specialize in identifying and developing properties in areas of Bangalore (like North and East) that are poised for exponential growth due to proximity to IT hubs, expressways, and upcoming Metro lines.
-                            </li>
-                            <li>
-                                <strong>Connectivity Advantage:</strong> Our locations ensure minimal commute times to major business parks and easy access to essential social infrastructure (schools, hospitals, retail).
-                            </li>
-                        </ul>
-                    </div>
+                        <div class="recent-post">
+                            <img src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=150&h=150&fit=crop" alt="Post 2" class="recent-post-image">
+                            <div class="recent-post-content">
+                                <h4 class="recent-post-title">Why Choose DS & JAKS Developers?</h4>
+                                <p class="recent-post-excerpt">DS & JAKS Developers stand out for their trust, legal transparency...</p>
+                            </div>
+                        </div>
             
-                    <div class="blog-section">
-                        <h2 class="section-title">4. Reliability in Timely Delivery</h2>
-                        <p class="section-text">
-                            We understand that timely handover is crucial for your financial planning and occupancy needs.
-                        </p>
-                        <ul class="bullet-list">
-                            <li>
-                                <strong>Proven Track Record:</strong> Our operational efficiency and focused project management ensure we consistently deliver on our promised deadlines, allowing you to move into your dream home or begin generating rental income exactly when expected.
-                            </li>
-                        </ul>
-                    </div>
-            
-                    <p class="closing-text">
-                        Choose DS & JAKS DEVELOPERS for an investment that secures your future, provides a superior lifestyle, and is founded on the bedrock of trust and quality construction. We are building more than structures; we are building your legacy.
-                    </p>
+                        <div class="recent-post">
+                            <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=150&h=150&fit=crop" alt="Post 3" class="recent-post-image">
+                            <div class="recent-post-content">
+                                <h4 class="recent-post-title">Why Invest in Needs3 Project 168?</h4>
+                                <p class="recent-post-excerpt">Needs3 Project 168 offers premium gated living with only 119 exclusive homes...</p>
+                            </div>
+                        </div>
+                    </aside>
                 </div>
-
 
 
 

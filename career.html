@@ -187,6 +187,240 @@
                     font-size: 0.95rem;
                 }
             }
+        </style>
+        <style>
+            .hero-section {
+                background: linear-gradient(rgba(0, 30, 60, 0.8), rgba(0, 30, 60, 0.8)), 
+                            url('https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=1600&h=400&fit=crop');
+                background-size: cover;
+                background-position: center;
+                padding: 80px 20px;
+                color: white;
+            }
+    
+            .hero-content {
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+    
+            .hero-subtitle {
+                font-size: 1rem;
+                margin-bottom: 10px;
+                font-weight: 400;
+            }
+    
+            .hero-title {
+                font-size: 3.5rem;
+                font-weight: 700;
+                letter-spacing: 2px;
+            }
+    
+            .careers-container {
+                max-width: 1200px;
+                margin: -50px auto 0;
+                padding: 0 20px 60px;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 40px;
+                position: relative;
+            }
+    
+            .positions-section {
+                background: white;
+                padding: 40px;
+                border-radius: 10px;
+                box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            }
+    
+            .position-item {
+                background: #000;
+                color: white;
+                padding: 10px 15px;
+                margin-bottom: 10px;
+                border-radius: 8px;
+                cursor: pointer;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                transition: all 0.3s ease;
+            }
+    
+            .position-item:hover {
+                background: #000;
+                transform: translateX(5px);
+            }
+    
+            .position-title {
+                font-size: 0.9rem;
+                font-weight: 500;
+            }
+    
+            .position-arrow {
+                font-size: 1rem;
+                transition: transform 0.3s ease;
+            }
+    
+            .position-item.active .position-arrow {
+                transform: rotate(180deg);
+            }
+    
+            .position-content {
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 0.3s ease;
+                background: #f8f9fa;
+                margin-top: -15px;
+                margin-bottom: 15px;
+                border-radius: 0 0 8px 8px;
+            }
+    
+            .position-content.open {
+                max-height: 500px;
+                padding: 20px 25px;
+            }
+    
+            .position-content p {
+                color: #333;
+                line-height: 1.6;
+                font-size: 0.75rem;
+            }
+    
+            .apply-section {
+                background: white;
+                padding: 35px;
+                border-radius: 10px;
+                box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+                height: fit-content;
+            }
+    
+            .apply-title {
+                font-size: 1.1rem;
+                color: #000;
+                margin-bottom: 25px;
+                text-align: center;
+                font-weight: 600;
+            }
+    
+            .form-group {
+                margin-bottom: 18px;
+            }
+    
+            .form-row {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 15px;
+                /* margin-bottom: 18px; */
+            }
+    
+            .form-group label {
+                display: block;
+                margin-bottom: 6px;
+                color: #000;
+                font-size: 0.7rem;
+                font-weight: 500;
+            }
+    
+            .form-group input,
+            .form-group select,
+            .form-group textarea {
+                width: 100%;
+                padding: 7px 10px;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+                font-size: 0.9rem;
+                font-family: inherit;
+                transition: border-color 0.3s ease;
+            }
+    
+            .form-group input:focus,
+            .form-group select:focus,
+            .form-group textarea:focus {
+                outline: none;
+                border-color: #7cb342;
+            }
+    
+            .phone-input {
+                display: grid;
+                grid-template-columns: 100px 1fr;
+                gap: 10px;
+            }
+    
+            .form-group textarea {
+                resize: vertical;
+                min-height: 100px;
+            }
+    
+            .submit-btn {
+                width: 100%;
+                padding: 8px;
+                background: #9e1633;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                font-size: 0.9rem;
+                font-weight: 600;
+                cursor: pointer;
+                transition: background 0.3s ease;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+            }
+    
+            .submit-btn:hover {
+                background: #9e1633;
+            }
+    
+            @media (max-width: 968px) {
+                .careers-container {
+                    grid-template-columns: 1fr;
+                    gap: 30px;
+                }
+    
+                .hero-title {
+                    font-size: 2.5rem;
+                }
+            }
+    
+            @media (max-width: 768px) {
+                .hero-section {
+                    padding: 60px 20px;
+                }
+    
+                .hero-title {
+                    font-size: 2rem;
+                }
+    
+                .positions-section,
+                .apply-section {
+                    padding: 25px;
+                }
+    
+                .form-row {
+                    grid-template-columns: 1fr;
+                }
+    
+                .careers-container {
+                    margin-top: -30px;
+                }
+            }
+    
+            @media (max-width: 480px) {
+                .hero-title {
+                    font-size: 1.8rem;
+                }
+    
+                .position-title {
+                    font-size: 1rem;
+                }
+    
+                .apply-title {
+                    font-size: 1.5rem;
+                }
+    
+                .positions-section,
+                .apply-section {
+                    padding: 20px;
+                }
+            }
             header .nav__hamburger{
                 display: none !important;
             }
@@ -217,7 +451,7 @@
                         <li class="">
                             <a href="./project.html">Residential</a>
                         </li>
-                        <li class="">
+                        <li class="active">
                             <a href="./career.html">Careers</a>
                         </li>
                         <li class="">
@@ -291,77 +525,107 @@
     
 
 
-
                 <div class="hero-section">
-                    <h1 class="hero-title">Why Choose DS & JAKS DEVELOPERS?</h1>
+                    <div class="hero-content">
+                        <p class="hero-subtitle">Explore Job Opportunities at Our Real Estate Company</p>
+                        <h1 class="hero-title">CAREERS</h1>
+                    </div>
                 </div>
             
-                <div class="blog-content">
-                    <p class="section-text">
-                        Choosing a real estate developer is a decision about trust, longevity, and quality. DS & JAKS DEVELOPERS stands out in the dynamic Bangalore market by prioritizing the fundamental values that secure a buyer's investment and future lifestyle.
-                    </p>
+                <div class="careers-container">
+                    <div class="positions-section">
+                        <div class="position-item" onclick="toggleCareerPosition(0)">
+                            <span class="position-title">Real Estate Sales Executive</span>
+                            <span class="position-arrow">▼</span>
+                        </div>
+                        <div class="position-content" id="careerContent0">
+                            <p>Join our dynamic sales team and help clients find their dream homes. We're looking for passionate individuals with excellent communication skills and a drive to succeed in real estate sales.</p>
+                        </div>
             
-                    <div class="blog-section">
-                        <h2 class="section-title">1. Commitment to Trust & Transparency</h2>
-                        <p class="section-text">
-                            In an industry often marked by uncertainty, DS & JAKS has made trust its cornerstone.
-                        </p>
-                        <ul class="bullet-list">
-                            <li>
-                                <strong>Clean Legal Titles:</strong> We ensure every project comes with clear legal titles and all necessary regulatory approvals, providing absolute peace of mind to the buyer.
-                            </li>
-                            <li>
-                                <strong>Ethical Dealings:</strong> We maintain transparency throughout the purchase process, from initial site visit to final handover, ensuring a smooth and honest buying experience.
-                            </li>
-                        </ul>
+                        <div class="position-item" onclick="toggleCareerPosition(1)">
+                            <span class="position-title">Sales Manager</span>
+                            <span class="position-arrow">▼</span>
+                        </div>
+                        <div class="position-content" id="careerContent1">
+                            <p>Lead and mentor our sales team to achieve ambitious targets. We need an experienced professional with strong leadership skills and a proven track record in real estate management.</p>
+                        </div>
+            
+                        <div class="position-item" onclick="toggleCareerPosition(2)">
+                            <span class="position-title">Marketing Executive</span>
+                            <span class="position-arrow">▼</span>
+                        </div>
+                        <div class="position-content" id="careerContent2">
+                            <p>Shape our brand presence and create compelling marketing campaigns. Looking for a creative marketer with digital marketing expertise and a passion for real estate.</p>
+                        </div>
+            
+                        <div class="position-item" onclick="toggleCareerPosition(3)">
+                            <span class="position-title">Customer Relations Executive</span>
+                            <span class="position-arrow">▼</span>
+                        </div>
+                        <div class="position-content" id="careerContent3">
+                            <p>Be the face of our company and ensure exceptional customer satisfaction. We value professionals who can build lasting relationships and provide outstanding service.</p>
+                        </div>
                     </div>
             
-                    <div class="blog-section">
-                        <h2 class="section-title">2. Uncompromising Quality & Enduring Value</h2>
-                        <p class="section-text">
-                            Our projects are designed to be long-term assets, built with a focus on durability, aesthetics, and structural integrity.
-                        </p>
-                        <ul class="bullet-list">
-                            <li>
-                                <strong>Superior Specifications:</strong> We utilize high-grade construction materials and fixtures, ensuring the final product reflects premium quality that endures the test of time.
-                            </li>
-                            <li>
-                                <strong>Modern Design:</strong> Our architecture focuses on maximizing space, light, and ventilation—key elements of modern, healthy living, as seen in projects like DS-MAX-JAKS Nakshatra.
-                            </li>
-                        </ul>
-                    </div>
+                    <div class="apply-section">
+                        <h2 class="apply-title">APPLY NOW</h2>
+                        <form id="careerApplicationForm">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label>Name</label>
+                                    <input type="text" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Email</label>
+                                    <input type="email" required>
+                                </div>
+                            </div>
             
-                    <div class="blog-section">
-                        <h2 class="section-title">3. Strategic Location Mastery</h2>
-                        <p class="section-text">
-                            We don't just build homes; we secure prime locations that promise exceptional growth and convenience.
-                        </p>
-                        <ul class="bullet-list">
-                            <li>
-                                <strong>High-Growth Corridors:</strong> We specialize in identifying and developing properties in areas of Bangalore (like North and East) that are poised for exponential growth due to proximity to IT hubs, expressways, and upcoming Metro lines.
-                            </li>
-                            <li>
-                                <strong>Connectivity Advantage:</strong> Our locations ensure minimal commute times to major business parks and easy access to essential social infrastructure (schools, hospitals, retail).
-                            </li>
-                        </ul>
-                    </div>
+                            <div class="form-group">
+                                <label>Phone</label>
+                                <div class="phone-input">
+                                    <select required>
+                                        <option value="+91">+91</option>
+                                        <option value="+1">+1</option>
+                                        <option value="+44">+44</option>
+                                    </select>
+                                    <input type="tel" required>
+                                </div>
+                            </div>
             
-                    <div class="blog-section">
-                        <h2 class="section-title">4. Reliability in Timely Delivery</h2>
-                        <p class="section-text">
-                            We understand that timely handover is crucial for your financial planning and occupancy needs.
-                        </p>
-                        <ul class="bullet-list">
-                            <li>
-                                <strong>Proven Track Record:</strong> Our operational efficiency and focused project management ensure we consistently deliver on our promised deadlines, allowing you to move into your dream home or begin generating rental income exactly when expected.
-                            </li>
-                        </ul>
-                    </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label>Apply for:</label>
+                                    <select required>
+                                        <option value="">Select Position</option>
+                                        <option value="sales-executive">Real Estate Sales Executive</option>
+                                        <option value="sales-manager">Sales Manager</option>
+                                        <option value="marketing">Marketing Executive</option>
+                                        <option value="customer-relations">Customer Relations Executive</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label>Experience</label>
+                                    <select required>
+                                        <option value="">Select Experience</option>
+                                        <option value="0-1">0-1 Years</option>
+                                        <option value="1-3">1-3 Years</option>
+                                        <option value="3-5">3-5 Years</option>
+                                        <option value="5+">5+ Years</option>
+                                    </select>
+                                </div>
+                            </div>
             
-                    <p class="closing-text">
-                        Choose DS & JAKS DEVELOPERS for an investment that secures your future, provides a superior lifestyle, and is founded on the bedrock of trust and quality construction. We are building more than structures; we are building your legacy.
-                    </p>
+                            <div class="form-group">
+                                <label>Message</label>
+                                <textarea required></textarea>
+                            </div>
+            
+                            <button type="submit" class="submit-btn">Submit Application</button>
+                        </form>
+                    </div>
                 </div>
+            
 
 
 
@@ -943,6 +1207,34 @@
             </div>
         </div>
         <!--  -->
+
+
+        <script>
+            function toggleCareerPosition(index) {
+                const content = document.getElementById(`careerContent${index}`);
+                const allContents = document.querySelectorAll('.position-content');
+                const allItems = document.querySelectorAll('.position-item');
+                
+                // Close all other items
+                allContents.forEach((item, i) => {
+                    if (i !== index) {
+                        item.classList.remove('open');
+                        allItems[i].classList.remove('active');
+                    }
+                });
+                
+                // Toggle current item
+                content.classList.toggle('open');
+                allItems[index].classList.toggle('active');
+            }
+    
+            // Form submission
+            document.getElementById('careerApplicationForm').addEventListener('submit', function(e) {
+                e.preventDefault();
+                alert('Application submitted successfully! We will contact you soon.');
+                this.reset();
+            });
+        </script>
 
                 
         <div class="backdrop"></div>
