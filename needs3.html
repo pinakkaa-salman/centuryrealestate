@@ -801,7 +801,150 @@
             }
         }
 
-    </style></head>
+    </style>
+
+
+<style>
+
+    .floorplan-section {
+        /* max-width: 1200px; */
+        margin: 0 auto;
+        padding: 3rem 8rem;
+    }
+
+    .floorplan-header {
+        text-align: center;
+        margin-bottom: -8rem;
+    }
+
+    .floorplan-header h2 {
+        font-size: 2.5rem;
+        color: #2c3e50;
+        font-weight: 600;
+        letter-spacing: 2px;
+        margin-bottom: 20px;
+    }
+
+    .floorplan-description {
+        font-size: 1.05rem;
+        color: #5a6c7d;
+        line-height: 1.8;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .floorplan-slider-container {
+        position: relative;
+        max-width: 1000px;
+        margin: 50px auto 0;
+        overflow: hidden;
+    }
+
+    .floorplan-arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(44, 62, 80, 0.8);
+        color: white;
+        border: none;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        cursor: pointer;
+        font-size: 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease;
+        z-index: 10;
+    }
+
+    .floorplan-arrow:hover {
+        background-color: rgba(44, 62, 80, 1);
+        transform: translateY(-50%) scale(1.1);
+    }
+
+    .floorplan-arrow-left {
+        left: 20px;
+    }
+
+    .floorplan-arrow-right {
+        right: 20px;
+    }
+
+    .floorplan-slider-wrapper {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .floorplan-slide {
+        min-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .floorplan-slide img {
+        max-width: 100%;
+        height: 60%;
+        border-radius: 10px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .floorplan-dots {
+        text-align: center;
+        margin-top: -7rem;
+    }
+
+    .floorplan-dot {
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background-color: #d1d5db;
+        margin: 0 6px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .floorplan-dot.active-dot {
+        background-color: #2c3e50;
+        width: 30px;
+        border-radius: 6px;
+    }
+
+    @media (max-width: 768px) {
+        .floorplan-header h2 {
+            font-size: 2rem;
+        }
+
+        .floorplan-description {
+            font-size: 1rem;
+        }
+
+        .floorplan-section {
+            padding: 40px 15px;
+        }
+
+        .floorplan-slide {
+            padding: 10px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .floorplan-header h2 {
+            font-size: 1.75rem;
+            letter-spacing: 1px;
+        }
+
+        .floorplan-description {
+            font-size: 0.95rem;
+        }
+    }
+</style>
+
+</head>
 
 <body cz-shortcut-listen="true" __processed_53bc6a89-48dc-41ea-8aae-9ef83bc665ef__="true">
 
@@ -840,6 +983,7 @@
                 <a href="#overview">Overview</a>
                 <a href="#amenities">Amenities</a>
                 <a href="#Master-Plan">Master Plan</a>
+                <a href="#floorplan">Floor Plan</a>
                 <a href="#specifications">Specifications</a>
                 <a href="#location-new">Connectivity</a>
                 <a href="#gallery">Gallery</a>
@@ -1617,6 +1761,39 @@
     </section>
 
 
+    <section class="floorplan-section" id="floorplan">
+        <div class="floorplan-header">
+            <h2>FLOOR PLAN</h2>
+            <p class="floorplan-description">
+                Our floor plans are thoughtfully planned to offer independent access to all levels of the unit, thereby ensuring quick accessibility and privacy, anywhere at home.
+            </p>
+        </div>
+
+        <div class="floorplan-slider-container">
+            <button class="floorplan-arrow floorplan-arrow-left" id="floorplanPrevBtn">‹</button>
+            <button class="floorplan-arrow floorplan-arrow-right" id="floorplanNextBtn">›</button>
+            
+            <div class="floorplan-slider-wrapper" id="floorplanSliderWrapper">
+                <div class="floorplan-slide">
+                    <img src="https://images.unsplash.com/photo-1503174971373-b1f69850bded?w=1000&h=600&fit=crop" alt="Floor Plan 1">
+                </div>
+                <div class="floorplan-slide">
+                    <img src="https://images.unsplash.com/photo-1484154218962-a197022b5858?w=1000&h=600&fit=crop" alt="Floor Plan 2">
+                </div>
+                <div class="floorplan-slide">
+                    <img src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=1000&h=600&fit=crop" alt="Floor Plan 3">
+                </div>
+                <div class="floorplan-slide">
+                    <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1000&h=600&fit=crop" alt="Floor Plan 4">
+                </div>
+            </div>
+
+            <div class="floorplan-dots" id="floorplanDots"></div>
+        </div>
+    </section>
+
+
+
 
     <!-- gallery start -->
 
@@ -2038,24 +2215,22 @@
                                 </div>
                                 <div id="panelBodyOne" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
                                     <div class="panel-body">
-                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp; Rainbow Children's
-                                            Hospital Hebbal - 5 Mins</p>
-                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp; Motherhood
-                                            Hospital Hebbal
-                                            - 8 Mins</p>
-                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;Bangalore Baptist
-                                            Hospital - 18 Mins</p>
-                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp; Manipal Hospital
-                                            Hebbal
-                                            - 12 Mins</p>
-                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp; Aster CMI Hospital
-                                            - 10 Mins</p>
+                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;  500 meters from outer ring road</p>
+                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;  Indiranagar Metro Railway Station is nearby</p>
+                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;  Closer to Manyatha Tech Park</p>
+                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp; 6kms to Gopalan Signature Mall</p>
+                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;  5kms to Elements Mall</p>
+                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;   Big Bazar and D Mart located nearby</p>
+                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;   Restaurants like Adyar Ananda Bhavan,</p>
+                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;   Udipi Sagar available close by</p>
+                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;   KR Puram Railway Station located nearby</p>
+                                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;   Horamavu Lake & Amusement parks nearby</p>
                                     </div>
                                 </div>
                             </div>
 
 
-                            <div class="panel">
+                            <!-- <div class="panel">
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
                                         <a href="https://arista.dnrgroup.in/#panelBodyTwo" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" aria-expanded="false">TECH
@@ -2083,10 +2258,10 @@
 
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
 
 
-                            <div class="panel">
+                            <!-- <div class="panel">
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
                                         <a href="https://arista.dnrgroup.in/#panelBodyThree" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" aria-expanded="false">CONNECTIVITY</a>
@@ -2114,16 +2289,14 @@
                                             Station - 2 Mins
                                         </p>
 
-                                        <!-- <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;Radisson Blu - 12 Mins
-                                        </p> -->
 
                                         <p></p>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
 
 
-                            <div class="panel">
+                            <!-- <div class="panel">
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
                                         <a href="https://arista.dnrgroup.in/#panelBodyfour" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" aria-expanded="false">SCHOOLS
@@ -2159,9 +2332,9 @@
 
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
 
-                            <div class="panel">
+                            <!-- <div class="panel">
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
                                         <a href="https://arista.dnrgroup.in/#panelBodyfive" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" aria-expanded="false">SHOPPING MALLS
@@ -2198,7 +2371,7 @@
 
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
 
                             <!-- <div class="panel">
                                 <div class="panel-heading">
@@ -2812,6 +2985,7 @@
                         <li><a href="#amenities">Amenities</a></li>
                         <li><a href="#overview">Overview</a></li>
                         <li><a href="#Master-Plan">Master Plan</a></li>
+                        <li><a href="#floorplan">Floor Plan</a></li>
                         <li><a href="#specifications">Specifications</a></li>
                         <li><a href="#location-new">Connectivity</a></li>
                         <li><a href="#gallery">Gallery</a></li>
@@ -3840,6 +4014,72 @@
         });
     });
     </script> -->
+
+
+
+
+    <script>
+        // Floor Plan Slider
+        const floorplanSliderWrapper = document.getElementById('floorplanSliderWrapper');
+        const floorplanDotsContainer = document.getElementById('floorplanDots');
+        const floorplanSlides = document.querySelectorAll('.floorplan-slide');
+        let currentFloorplanIndex = 0;
+        let floorplanAutoSlideInterval;
+
+        // Create dots
+        floorplanSlides.forEach((_, index) => {
+            const dot = document.createElement('span');
+            dot.classList.add('floorplan-dot');
+            if (index === 0) dot.classList.add('active-dot');
+            dot.addEventListener('click', () => goToFloorplanSlide(index));
+            floorplanDotsContainer.appendChild(dot);
+        });
+
+        const floorplanDots = document.querySelectorAll('.floorplan-dot');
+
+        function updateFloorplanSlider() {
+            floorplanSliderWrapper.style.transform = `translateX(-${currentFloorplanIndex * 100}%)`;
+            
+            floorplanDots.forEach((dot, index) => {
+                dot.classList.toggle('active-dot', index === currentFloorplanIndex);
+            });
+        }
+
+        function goToFloorplanSlide(index) {
+            currentFloorplanIndex = index;
+            updateFloorplanSlider();
+            resetFloorplanAutoSlide();
+        }
+
+        function nextFloorplanSlide() {
+            currentFloorplanIndex = (currentFloorplanIndex + 1) % floorplanSlides.length;
+            updateFloorplanSlider();
+        }
+
+        function startFloorplanAutoSlide() {
+            floorplanAutoSlideInterval = setInterval(nextFloorplanSlide, 4000);
+        }
+
+        function resetFloorplanAutoSlide() {
+            clearInterval(floorplanAutoSlideInterval);
+            startFloorplanAutoSlide();
+        }
+
+        // Start auto-sliding
+        startFloorplanAutoSlide();
+
+        // Pause on hover
+        floorplanSliderWrapper.addEventListener('mouseenter', () => {
+            clearInterval(floorplanAutoSlideInterval);
+        });
+
+        floorplanSliderWrapper.addEventListener('mouseleave', () => {
+            startFloorplanAutoSlide();
+        });
+    </script>
+
+
+
 
 
 
