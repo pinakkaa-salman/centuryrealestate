@@ -457,12 +457,12 @@ body {
   left: 0;
   width: 0;
   height: 2px;
-  background: #9F1635;
+  background: #bb9765;
   transition: width 0.3s ease;
 }
 
 .quick-links ul li a:hover {
-  color: #9F1635;
+  color: #bb9765;
   transform: translateX(5px);
 }
 
@@ -524,7 +524,7 @@ body {
 
 .form-input:focus {
   outline: none;
-  border-color: #9F1635;
+  border-color: #bb9765;
   background: rgba(255, 255, 255, 0.15);
   box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
 }
@@ -548,7 +548,7 @@ body {
 .submit-btn {
   width: 100%;
   padding: 10px;
-  background: linear-gradient(135deg, #9F1635, #9F1635);
+  background: linear-gradient(135deg, #bb9765, #bb9765);
   color: white;
   border: none;
   border-radius: 8px;
@@ -562,7 +562,7 @@ body {
 }
 
 .submit-btn:hover {
-  background: linear-gradient(135deg, #9F1635, #9F1635);
+  background: linear-gradient(135deg, #bb9765, #bb9765);
   transform: translateY(-2px);
   box-shadow: 0 5px 15px rgba(52, 152, 219, 0.3);
 }
