@@ -5494,7 +5494,7 @@ a:focus, a:hover {
 }
 
 .tab-content {
-    background: #f5ebe1;
+    /* background: #f5ebe1; */
     line-height: 25px;
     /* border: 1px solid #ddd; */
     /* border-top: 5px solid #e74c3c; */
